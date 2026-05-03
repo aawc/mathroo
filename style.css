@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap');
-
 :root {
     --bg-color: #e8f4f8; /* Soft pastel blue */
     --text-color: #2c3e50; /* Dark blue-grey */
@@ -7,8 +5,8 @@
     --accent-color: #ff7f50; /* Bright orange */
     --accent-hover: #ff6347;
     --secondary-color: #9b59b6; /* Amethyst purple */
-    --font-family: 'Comic Neue', cursive, sans-serif;
-    --header-font: 'Fredoka One', cursive, sans-serif;
+    --font-family: Arial, Helvetica, sans-serif;
+    --header-font: Arial, Helvetica, sans-serif;
 }
 
 [data-theme="dark"] {
@@ -190,3 +188,60 @@ select {
 .badge.gold::before { content: "🏆 "; }
 .badge.silver::before { content: "🥈 "; }
 .badge.bronze::before { content: "🥉 "; }
+
+/* Grid Visuals */
+.grid-options-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.grid-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.grid-match-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.grid-target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid var(--accent-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grid-visual {
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #fff; /* Always white for grid bg to see cells clearly */
+}
+
+.grid-row {
+    display: flex;
+}
+
+.grid-cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
+
+.grid-cell.filled {
+    background-color: var(--secondary-color);
+}
+
+.grid-cell.empty {
+    background-color: transparent;
+}

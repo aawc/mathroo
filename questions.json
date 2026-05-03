@@ -672,13 +672,6 @@
     "answer": "35"
   },
   {
-    "id": 97,
-    "grade": "3-4",
-    "question": "If a score is 20, how many items are in 5 scores?",
-    "options": ["80", "90", "100", "110", "120"],
-    "answer": "100"
-  },
-  {
     "id": 98,
     "grade": "3-4",
     "question": "A triangle has sides of 5 cm, 12 cm, and 13 cm. What is its perimeter?",

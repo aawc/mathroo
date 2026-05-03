@@ -70,9 +70,22 @@ function generateQuiz(grade, seed) {
         return;
     }
 
+    const visualQuestions = filteredQuestions.filter(q => q.type === 'grid' || q.type === 'grid-match');
+    const nonVisualQuestions = filteredQuestions.filter(q => !(q.type === 'grid' || q.type === 'grid-match'));
+
     const randomFunc = pseudoRandom(seed);
-    const shuffled = shuffle([...filteredQuestions], randomFunc);
-    currentQuizQuestions = shuffled.slice(0, Math.min(10, shuffled.length));
+    const shuffledVisual = shuffle([...visualQuestions], randomFunc);
+    const shuffledNonVisual = shuffle([...nonVisualQuestions], randomFunc);
+
+    // Pick at least 2 visual questions if available
+    const selectedVisual = shuffledVisual.slice(0, Math.min(2, shuffledVisual.length));
+    const remainingNeeded = 10 - selectedVisual.length;
+    
+    // Combine remaining visual and all non-visual for the rest
+    const restPool = [...shuffledVisual.slice(selectedVisual.length), ...shuffledNonVisual];
+    const shuffledRest = shuffle(restPool, randomFunc);
+    
+    currentQuizQuestions = [...selectedVisual, ...shuffledRest.slice(0, remainingNeeded)];
 
     renderQuiz(currentQuizQuestions);
     updatePermalink(grade, seed);
@@ -92,8 +105,19 @@ function renderQuiz(questions) {
     questions.forEach((q, index) => {
         const qDiv = document.createElement('div');
         qDiv.className = 'question-card';
+        
+        let visualHtml = '';
+        if (q.type === 'grid') {
+            visualHtml = renderGridOptions(q.data);
+        } else if (q.type === 'grid-match') {
+            visualHtml = renderGridMatch(q.data);
+        } else if (q.type === 'image') {
+            visualHtml = `<div class="image-container"><img src="${q.image}" alt="Question image"></div>`;
+        }
+
         qDiv.innerHTML = `
             <p><strong>Q${index + 1}:</strong> ${q.question}</p>
+            ${visualHtml}
             <div class="options">
                 ${q.options.map(opt => `
                     <label>
@@ -110,6 +134,40 @@ function renderQuiz(questions) {
             input.addEventListener('change', checkLiveScore);
         });
     });
+}
+
+function renderGridOptions(data) {
+    let html = '<div class="grid-options-container">';
+    for (const [key, grid] of Object.entries(data)) {
+        html += `<div class="grid-option"><span>${key}:</span>${renderGrid(grid)}</div>`;
+    }
+    html += '</div>';
+    return html;
+}
+
+function renderGridMatch(data) {
+    let html = '<div class="grid-match-container">';
+    html += `<div class="grid-target"><span>Given:</span>${renderGrid(data.target)}</div>`;
+    html += '<div class="grid-options-container">';
+    for (const [key, grid] of Object.entries(data)) {
+        if (key === 'target') continue;
+        html += `<div class="grid-option"><span>${key}:</span>${renderGrid(grid)}</div>`;
+    }
+    html += '</div></div>';
+    return html;
+}
+
+function renderGrid(grid) {
+    let html = '<div class="grid-visual">';
+    grid.forEach(row => {
+        html += '<div class="grid-row">';
+        row.forEach(cell => {
+            html += `<div class="grid-cell ${cell ? 'filled' : 'empty'}"></div>`;
+        });
+        html += '</div>';
+    });
+    html += '</div>';
+    return html;
 }
 
 function checkLiveScore() {
