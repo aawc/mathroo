@@ -1,6 +1,6 @@
 # Math Kangaroo Practice Website
 
-A static website for students to practice Math Kangaroo questions for their grade.
+A static website for students to practice Math Kangaroo questions for their grade. Hosted at https://varun.khaneja.org/mathroo/
 
 ## Features
 - Grade selection (1-2, 3-4, 5-6).
