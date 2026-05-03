@@ -268,10 +268,31 @@ function submitAnswers() {
 
     currentQuizQuestions.forEach(q => {
         const selected = document.querySelector(`input[name="q${q.id}"]:checked`);
+        const qCard = document.querySelector(`input[name="q${q.id}"]`).closest('.card');
+        
         if (selected && selected.value === q.answer) {
             score++;
             if (q.difficulty === 'hard') {
                 hardCorrect++;
+            }
+            qCard.classList.add('border-success');
+        } else {
+            qCard.classList.add('border-danger');
+            
+            if (q.explanation) {
+                const expDiv = document.createElement('div');
+                expDiv.className = 'alert alert-info mt-2 d-none';
+                expDiv.innerText = q.explanation;
+                qCard.querySelector('.card-body').appendChild(expDiv);
+                
+                const expBtn = document.createElement('button');
+                expBtn.className = 'btn btn-sm btn-outline-info mt-2';
+                expBtn.innerText = 'Show Explanation';
+                expBtn.addEventListener('click', () => {
+                    expDiv.classList.toggle('d-none');
+                    expBtn.innerText = expDiv.classList.contains('d-none') ? 'Show Explanation' : 'Hide Explanation';
+                });
+                qCard.querySelector('.card-body').appendChild(expBtn);
             }
         }
     });

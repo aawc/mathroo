@@ -2482,7 +2482,8 @@
     "difficulty": "hard",
     "question": "A train passes a telegraph pole in 15 seconds and a bridge 100 meters long in 25 seconds. What is the length of the train?",
     "options": ["100 m", "120 m", "150 m", "200 m", "250 m"],
-    "answer": "150 m"
+    "answer": "150 m",
+    "explanation": "Let length be L and speed be S. S = L/15 and S = (L+100)/25. So L/15 = (L+100)/25. 25L = 15L + 1500 -> 10L = 1500 -> L = 150."
   },
   {
     "id": 352,
@@ -2490,7 +2491,8 @@
     "difficulty": "hard",
     "question": "A vendor sells apples at 3 for $2 and oranges at 5 for $4. If I buy 15 of each, how much do I spend?",
     "options": ["$20.00", "$21.00", "$22.00", "$23.00", "$24.00"],
-    "answer": "$22.00"
+    "answer": "$22.00",
+    "explanation": "Apples: 15 / 3 * $2 = $10. Oranges: 15 / 5 * $4 = $12. Total = $10 + $12 = $22."
   },
   {
     "id": 353,
@@ -2498,7 +2500,8 @@
     "difficulty": "hard",
     "question": "The sum of two numbers is 45 and their difference is 9. What is the product of the two numbers?",
     "options": ["400", "450", "486", "500", "540"],
-    "answer": "486"
+    "answer": "486",
+    "explanation": "Numbers are A and B. A+B=45, A-B=9. Adding them: 2A=54 -> A=27. B=18. Product = 27 * 18 = 486."
   },
   {
     "id": 354,
@@ -2506,7 +2509,8 @@
     "difficulty": "hard",
     "question": "A tank can be filled by pipe A in 3 hours and by pipe B in 6 hours. How long will it take to fill the tank if both pipes are open together?",
     "options": ["2 hours", "3 hours", "4 hours", "4.5 hours", "5 hours"],
-    "answer": "2 hours"
+    "answer": "2 hours",
+    "explanation": "Rate A = 1/3, Rate B = 1/6. Combined = 1/3 + 1/6 = 1/2. Time = 1 / (1/2) = 2 hours."
   },
   {
     "id": 355,
@@ -2514,7 +2518,8 @@
     "difficulty": "hard",
     "question": "A man walks at 4 km/h for 1.5 hours and then runs at 8 km/h for 0.5 hours. What was his average speed?",
     "options": ["5 km/h", "6 km/h", "5.5 km/h", "4.5 km/h", "6.5 km/h"],
-    "answer": "5 km/h"
+    "answer": "5 km/h",
+    "explanation": "Distance = 4*1.5 + 8*0.5 = 6 + 4 = 10 km. Time = 1.5 + 0.5 = 2 hours. Avg speed = 10/2 = 5 km/h."
   },
   {
     "id": 356,
@@ -2522,7 +2527,8 @@
     "difficulty": "hard",
     "question": "What is the sum of the interior angles of a hexagon?",
     "options": ["540°", "720°", "900°", "1080°", "360°"],
-    "answer": "720°"
+    "answer": "720°",
+    "explanation": "Sum of angles = (n-2)*180 = (6-2)*180 = 4*180 = 720 degrees."
   },
   {
     "id": 357,
@@ -2530,7 +2536,8 @@
     "difficulty": "hard",
     "question": "A bag contains 5 red, 3 blue, and 2 yellow balls. What is the probability of NOT picking a red ball?",
     "options": ["1/2", "1/3", "2/3", "1/5", "3/5"],
-    "answer": "1/2"
+    "answer": "1/2",
+    "explanation": "Total balls = 5+3+2=10. Not red = 3+2=5. Probability = 5/10 = 1/2."
   },
   {
     "id": 358,
@@ -2538,7 +2545,8 @@
     "difficulty": "hard",
     "question": "If x^2 - y^2 = 24 and x + y = 6, what is x - y?",
     "options": ["2", "3", "4", "5", "6"],
-    "answer": "4"
+    "answer": "4",
+    "explanation": "(x-y)(x+y) = 24. Since x+y = 6, (x-y)*6 = 24 -> x-y = 4."
   },
   {
     "id": 359,
@@ -2546,7 +2554,8 @@
     "difficulty": "hard",
     "question": "A sequence goes: 1, 2, 4, 7, 11... What is the 10th number?",
     "options": ["37", "46", "55", "66", "45"],
-    "answer": "46"
+    "answer": "46",
+    "explanation": "Differences increase by 1 each time: 1, 2, 3, 4... 10th number = 1 + (1+2+3+4+5+6+7+8+9) = 1 + 45 = 46."
   },
   {
     "id": 360,
@@ -2554,7 +2563,8 @@
     "difficulty": "hard",
     "question": "How many lines of symmetry does a regular octagon have?",
     "options": ["4", "6", "8", "10", "12"],
-    "answer": "8"
+    "answer": "8",
+    "explanation": "A regular octagon has 8 lines of symmetry."
   },
   {
     "id": 361,
@@ -2562,7 +2572,8 @@
     "difficulty": "hard",
     "question": "A father's age is 3 times his son's age. In 12 years, he will be twice as old as his son. How old is the father now?",
     "options": ["24", "30", "36", "42", "48"],
-    "answer": "36"
+    "answer": "36",
+    "explanation": "F = 3S. F+12 = 2(S+12) -> 3S+12 = 2S+24 -> S=12. Father is 3*12 = 36."
   },
   {
     "id": 362,
@@ -2570,7 +2581,8 @@
     "difficulty": "hard",
     "question": "What is the value of 1/2 + 1/4 + 1/8 + 1/16?",
     "options": ["7/8", "15/16", "31/32", "3/4", "1"],
-    "answer": "15/16"
+    "answer": "15/16",
+    "explanation": "Find common denominator: 8/16 + 4/16 + 2/16 + 1/16 = 15/16."
   },
   {
     "id": 363,
@@ -2578,7 +2590,8 @@
     "difficulty": "hard",
     "question": "A square and an equilateral triangle have the same perimeter. If the side of the triangle is 8 cm, what is the area of the square?",
     "options": ["16 sq cm", "25 sq cm", "36 sq cm", "49 sq cm", "64 sq cm"],
-    "answer": "36 sq cm"
+    "answer": "36 sq cm",
+    "explanation": "Perimeter of triangle = 3 * 8 = 24. Perimeter of square = 24. Side of square = 24 / 4 = 6. Area = 6 * 6 = 36."
   },
   {
     "id": 364,
@@ -2586,7 +2599,8 @@
     "difficulty": "hard",
     "question": "If 3 cats can catch 3 mice in 3 minutes, how many cats are needed to catch 100 mice in 100 minutes?",
     "options": ["3", "10", "30", "100", "1"],
-    "answer": "3"
+    "answer": "3",
+    "explanation": "Rate is constant: 3 cats catch 3 mice in 3 minutes -> 1 cat catches 1 mouse in 3 minutes. 3 cats will catch 100 mice in 100 minutes."
   },
   {
     "id": 365,
@@ -2594,7 +2608,8 @@
     "difficulty": "hard",
     "question": "Which of these numbers is a perfect square?",
     "options": ["125", "144", "150", "180", "200"],
-    "answer": "144"
+    "answer": "144",
+    "explanation": "12 * 12 = 144. So 144 is a perfect square."
   },
   {
     "id": 366,
@@ -2602,7 +2617,8 @@
     "difficulty": "hard",
     "question": "A book has 150 pages. I read 10 pages on day 1, 20 on day 2, 30 on day 3... How many days will it take to finish the book?",
     "options": ["4", "5", "6", "7", "8"],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "10 + 20 + 30 + 40 + 50 = 150. It takes 5 days."
   },
   {
     "id": 367,
@@ -2610,7 +2626,8 @@
     "difficulty": "hard",
     "question": "What is the sum of the first 5 prime numbers?",
     "options": ["26", "28", "30", "32", "34"],
-    "answer": "28"
+    "answer": "28",
+    "explanation": "First 5 primes: 2, 3, 5, 7, 11. Sum = 2+3+5+7+11 = 28."
   },
   {
     "id": 368,
@@ -2618,7 +2635,8 @@
     "difficulty": "hard",
     "question": "A sequence goes: 3, 6, 12, 24, 48... What is the 7th number?",
     "options": ["96", "144", "192", "240", "288"],
-    "answer": "192"
+    "answer": "192",
+    "explanation": "Each number is double the previous. 3, 6, 12, 24, 48, 96, 192. 7th is 192."
   },
   {
     "id": 369,
@@ -2626,7 +2644,8 @@
     "difficulty": "hard",
     "question": "A rectangle is 4 times as long as it is wide. If its perimeter is 50 cm, what is its area?",
     "options": ["50 sq cm", "75 sq cm", "100 sq cm", "125 sq cm", "150 sq cm"],
-    "answer": "100 sq cm"
+    "answer": "100 sq cm",
+    "explanation": "L = 4W. 2(L+W) = 50 -> 2(5W) = 50 -> 10W = 50 -> W=5. L=20. Area = 20 * 5 = 100."
   },
   {
     "id": 370,
@@ -2634,7 +2653,8 @@
     "difficulty": "hard",
     "question": "A bag contains 1 red, 2 blue, and 3 green balls. What is the probability of picking a ball that is NOT blue?",
     "options": ["1/3", "2/3", "1/2", "1/6", "5/6"],
-    "answer": "2/3"
+    "answer": "2/3",
+    "explanation": "Total balls = 1+2+3=6. Not blue = 1+3=4. Probability = 4/6 = 2/3."
   },
   {
     "id": 371,
