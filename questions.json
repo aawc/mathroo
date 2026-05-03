@@ -1811,5 +1811,145 @@
     "question": "How many minutes are in 1 day?",
     "options": ["1200", "1440", "1500", "1600", "1800"],
     "answer": "1440"
+  },
+  {
+    "id": 261,
+    "grade": "3-4",
+    "question": "A standard die has faces numbered 1 to 6. If you see three faces of a die showing 1, 2, and 3, what is the sum of the numbers on the hidden faces?",
+    "options": ["12", "14", "15", "16", "18"],
+    "answer": "15"
+  },
+  {
+    "id": 262,
+    "grade": "3-4",
+    "question": "A pattern of beads goes: Red, Blue, Yellow, Red, Blue, Yellow... What color is the 20th bead?",
+    "options": ["Red", "Blue", "Yellow", "Green", "Black"],
+    "answer": "Blue"
+  },
+  {
+    "id": 263,
+    "grade": "3-4",
+    "question": "An animal has 4 legs. A bird has 2 legs. On a farm, there are 5 animals and some birds. If the total number of legs is 30, how many birds are there?",
+    "options": ["3", "4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "id": 264,
+    "grade": "3-4",
+    "question": "A book has 10 chapters. The first chapter has 5 pages, and each subsequent chapter has 2 pages more than the previous one. How many pages are in the book?",
+    "options": ["120", "130", "140", "150", "160"],
+    "answer": "140"
+  },
+  {
+    "id": 265,
+    "grade": "3-4",
+    "question": "I am thinking of a number. If I double it and then add 10, I get 30. What is the number?",
+    "options": ["5", "10", "15", "20", "25"],
+    "answer": "10"
+  },
+  {
+    "id": 266,
+    "grade": "3-4",
+    "question": "A square has a perimeter of 16 cm. If I cut it into two equal rectangles, what is the perimeter of one of the rectangles?",
+    "options": ["8 cm", "10 cm", "12 cm", "14 cm", "16 cm"],
+    "answer": "12 cm"
+  },
+  {
+    "id": 267,
+    "grade": "3-4",
+    "question": "If 3 apples cost $1.50, how much do 7 apples cost?",
+    "options": ["$3.00", "$3.25", "$3.50", "$3.75", "$4.00"],
+    "answer": "$3.50"
+  },
+  {
+    "id": 268,
+    "grade": "3-4",
+    "question": "A clock shows 10:15. What time was it 45 minutes ago?",
+    "options": ["9:15", "9:30", "9:45", "10:00", "10:30"],
+    "answer": "9:30"
+  },
+  {
+    "id": 269,
+    "grade": "3-4",
+    "question": "Which of these numbers is closest to 100?",
+    "options": ["85", "92", "105", "111", "90"],
+    "answer": "105"
+  },
+  {
+    "id": 270,
+    "grade": "3-4",
+    "question": "How many triangles can you find in a square divided by both diagonals?",
+    "options": ["4", "6", "8", "10", "12"],
+    "answer": "8"
+  },
+  {
+    "id": 271,
+    "grade": "5-6",
+    "question": "A large cube is made of 27 small cubes. How many small cubes are not visible from the outside?",
+    "options": ["1", "2", "3", "4", "5"],
+    "answer": "1"
+  },
+  {
+    "id": 272,
+    "grade": "5-6",
+    "question": "If a * b = a x b + a + b. What is 3 * 4?",
+    "options": ["12", "15", "19", "21", "25"],
+    "answer": "19"
+  },
+  {
+    "id": 273,
+    "grade": "5-6",
+    "question": "A circle is inscribed in a square of side 10 cm. What is the area of the circle? (Use pi ≈ 3.14)",
+    "options": ["31.4", "62.8", "78.5", "100", "314"],
+    "answer": "78.5"
+  },
+  {
+    "id": 274,
+    "grade": "5-6",
+    "question": "A sequence goes: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4... What is the 15th number?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "id": 275,
+    "grade": "5-6",
+    "question": "If 2 typists can type 2 pages in 2 minutes, how many typists are needed to type 20 pages in 20 minutes?",
+    "options": ["2", "10", "20", "40", "5"],
+    "answer": "2"
+  },
+  {
+    "id": 276,
+    "grade": "5-6",
+    "question": "A man is 30 years older than his son. In 5 years, he will be 3 times as old as his son. How old is the son now?",
+    "options": ["5", "10", "15", "20", "25"],
+    "answer": "10"
+  },
+  {
+    "id": 277,
+    "grade": "5-6",
+    "question": "What is the sum of all prime numbers between 10 and 20?",
+    "options": ["50", "60", "70", "80", "90"],
+    "answer": "60"
+  },
+  {
+    "id": 278,
+    "grade": "5-6",
+    "question": "What is the minimum cost to buy at least 30 pencils, if they are sold in packs of 5 for $2 or packs of 12 for $4?",
+    "options": ["$10", "$11", "$12", "$13", "$14"],
+    "answer": "$12"
+  },
+  {
+    "id": 279,
+    "grade": "5-6",
+    "question": "If x + y = 10 and x - y = 4, what is x x y?",
+    "options": ["14", "21", "24", "40", "10"],
+    "answer": "21"
+  },
+  {
+    "id": 280,
+    "grade": "5-6",
+    "question": "A clock loses 5 minutes every hour. If it is set correctly at 12:00 noon, what time will it show when the actual time is 6:00 PM?",
+    "options": ["5:30 PM", "5:35 PM", "5:45 PM", "5:50 PM", "5:55 PM"],
+    "answer": "5:30 PM"
   }
 ]
