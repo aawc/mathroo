@@ -5,6 +5,8 @@ let startTime;
 let timeTaken = 0; // in seconds
 let isPaused = false;
 let pausedTime = 0;
+let currentGrade = '';
+let currentSeed = 0;
 
 // Simple PRNG
 function pseudoRandom(seed) {
@@ -49,6 +51,8 @@ function setupEventListeners() {
     document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
     document.getElementById('copy-link-btn').addEventListener('click', copyPermalink);
     document.getElementById('pause-btn').addEventListener('click', togglePause);
+    document.getElementById('view-history-btn').addEventListener('click', showHistory);
+    document.getElementById('back-to-setup-btn').addEventListener('click', showSetup);
 }
 
 function startQuiz() {
@@ -63,6 +67,9 @@ function startQuiz() {
 }
 
 function generateQuiz(grade, seed) {
+    currentGrade = grade;
+    currentSeed = seed;
+    
     const filteredQuestions = allQuestions.filter(q => q.grade === grade);
     
     if (filteredQuestions.length === 0) {
@@ -270,6 +277,7 @@ function submitAnswers() {
     resultsDiv.classList.remove('d-none');
     
     awardBadges(score, timeTaken, hardCorrect);
+    saveAttempt(score, timeTaken);
 }
 
 function awardBadges(score, time, hardCorrect) {
@@ -356,3 +364,59 @@ function toggleTheme() {
         themeToggleBtn.innerText = '🌙';
     }
 }
+
+// History Feature
+function saveAttempt(score, time) {
+    const history = JSON.parse(localStorage.getItem('mathroo_history')) || [];
+    const attempt = {
+        id: Date.now(),
+        date: new Date().toISOString(),
+        grade: currentGrade,
+        score: score,
+        total: currentQuizQuestions.length,
+        time: time,
+        seed: currentSeed
+    };
+    history.push(attempt);
+    localStorage.setItem('mathroo_history', JSON.stringify(history));
+}
+
+function showHistory() {
+    document.getElementById('setup').classList.add('d-none');
+    document.getElementById('quiz').classList.add('d-none');
+    document.getElementById('history-section').classList.remove('d-none');
+    renderHistory();
+}
+
+function showSetup() {
+    document.getElementById('history-section').classList.add('d-none');
+    document.getElementById('quiz').classList.add('d-none');
+    document.getElementById('setup').classList.remove('d-none');
+}
+
+function renderHistory() {
+    const history = JSON.parse(localStorage.getItem('mathroo_history')) || [];
+    const list = document.getElementById('history-list');
+    list.innerHTML = '';
+
+    history.reverse().forEach(attempt => {
+        const row = document.createElement('tr');
+        const date = new Date(attempt.date).toLocaleString();
+        row.innerHTML = `
+            <td>${date}</td>
+            <td>Grade ${attempt.grade}</td>
+            <td>${attempt.score} / ${attempt.total}</td>
+            <td>${attempt.time}s</td>
+            <td>
+                <button class="btn btn-sm btn-outline-primary" onclick="reloadAttempt(${attempt.seed}, '${attempt.grade}')">Retry</button>
+            </td>
+        `;
+        list.appendChild(row);
+    });
+}
+
+window.reloadAttempt = function(seed, grade) {
+    document.getElementById('grade-select').value = grade;
+    generateQuiz(grade, seed);
+    document.getElementById('history-section').classList.add('d-none');
+};
