@@ -92,7 +92,7 @@ function generateQuiz(grade, seed) {
     
     // Fill the rest
     const restPool = shuffled.filter(q => !selected.includes(q));
-    const remainingNeeded = 10 - selected.length;
+    const remainingNeeded = 20 - selected.length;
     
     selected.push(...restPool.slice(0, remainingNeeded));
     
