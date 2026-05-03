@@ -256,3 +256,43 @@ select {
     margin-left: 10px;
     vertical-align: middle;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #hud {
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+    }
+
+    #timer-container {
+        justify-content: space-between;
+    }
+
+    .options {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-options-container {
+        justify-content: center;
+    }
+
+    .grid-match-container {
+        justify-content: center;
+    }
+}

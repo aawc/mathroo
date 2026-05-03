@@ -10,6 +10,8 @@ A static website for students to practice Math Kangaroo questions for their grad
 - Dark and light modes (Dark mode default).
 - **Hard Question Indicator**: Visual cue (🌟 Hard Question) for challenging problems.
 - **Gamification**: Timer and badges for accuracy and speed, plus a special "Brainiac" badge for hard questions.
+- **PWA Support**: Installable as a Progressive Web App with offline support.
+- **Mobile Friendly**: Responsive design for smaller screens.
 
 ## Data
 - `questions.json`: Contains the pool of questions.

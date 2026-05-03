@@ -45,6 +45,13 @@ Generate a complete, functional static website for students to practice Math Kan
     - **Dark mode must be the default** when loading the page.
     - Provide a toggle button to switch between themes.
 
+7.  **PWA Support**:
+    - Include a `manifest.json` file for installability.
+    - Include a service worker (`sw.js`) for offline caching of essential assets.
+
+8.  **Mobile Friendliness**:
+    - Use responsive design principles (media queries) to ensure the site looks good on mobile devices.
+
 ## Design & Styling
 - Use rounded corners on cards, buttons, and inputs.
 - Add subtle shadows and hover lift effects on question cards.
