@@ -57,7 +57,7 @@ Generate a complete, functional static website for students to practice Math Kan
 
 10. **History**:
     - Store past attempts (date, grade, score, time, seed) in `localStorage`.
-    - Provide a view to list past attempts and reload them.
+    - Provide a view to list past attempts, reload them, delete individual items, and clear all history.
 
 ## Design & Styling
 - Use Bootstrap 5 utility classes and components for styling.

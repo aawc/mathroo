@@ -13,7 +13,7 @@ A static website for students to practice Math Kangaroo questions for their grad
 - **PWA Support**: Installable as a Progressive Web App with offline support.
 - **Mobile Friendly**: Responsive design powered by Bootstrap.
 - **Analytics**: Integrated with Cloudflare Web Analytics.
-- **History**: Keep track of past attempts and scores in local storage.
+- **History**: Keep track of past attempts and scores in local storage, with options to delete individual items or clear all.
 
 ## Data
 - `questions.json`: Contains the pool of over 400 questions.
