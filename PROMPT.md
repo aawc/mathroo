@@ -74,7 +74,8 @@ Provide a JSON file containing a list of objects with this structure:
     "question": "Question text here...",
     "options": ["Opt1", "Opt2", "Opt3", "Opt4", "Opt5"],
     "answer": "CorrectOpt",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "explanation": "Optional explanation text explaining how to get the right answer."
   },
   {
     "id": 2,
