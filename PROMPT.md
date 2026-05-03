@@ -87,7 +87,7 @@ Provide a JSON file containing a list of objects with this structure:
   }
 ]
 ```
-Please generate at least 5 sample questions for each grade level (1-2, 3-4, 5-6) inspired by typical Math Kangaroo word problems and logic puzzles.
+Please generate at least 5 sample questions for each grade level (1-2, 3-4, 5-6) inspired by typical Math Kangaroo word problems and logic puzzles. You can use the PDF files in the `samples/` directory for inspiration, especially the `*_Ecolier.pdf` files for Grade 3-4 and `*_Benjamin.pdf` files for Grade 5-6.
 
 ## Output Files
 Please generate the following files:
