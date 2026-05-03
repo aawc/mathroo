@@ -1,17 +1,17 @@
 # Math Kangaroo Practice Website
 
-A static website for students to practice Math Kangaroo questions for their grade. Hosted at https://varun.khaneja.org/mathroo/
+A static website for students to practice Math Kangaroo questions for their grade, built with Bootstrap 5. Hosted at https://varun.khaneja.org/mathroo/
 
 ## Features
 - Grade selection (1-2, 3-4, 5-6).
 - Random selection of 10 questions per practice set.
 - **Guarantee that at least 2 visual questions and 2 hard questions are included in every set.**
 - Permalinks to share specific practice sets.
-- Dark and light modes (Dark mode default).
+- Dark and light modes (Dark mode default using Bootstrap 5.3 features).
 - **Hard Question Indicator**: Visual cue (🌟 Hard Question) for challenging problems.
 - **Gamification**: Timer and badges for accuracy and speed, plus a special "Brainiac" badge for hard questions.
 - **PWA Support**: Installable as a Progressive Web App with offline support.
-- **Mobile Friendly**: Responsive design for smaller screens.
+- **Mobile Friendly**: Responsive design powered by Bootstrap.
 - **Analytics**: Integrated with Cloudflare Web Analytics.
 
 ## Data

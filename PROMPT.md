@@ -4,8 +4,8 @@ Generate a complete, functional static website for students to practice Math Kan
 
 ## Tech Stack
 - HTML5
-- CSS3 (with CSS variables for theming)
-- Vanilla JavaScript (no external libraries)
+- Bootstrap 5 (via CDN) for layout and styling
+- Vanilla JavaScript (no external JS libraries except Bootstrap bundle)
 
 ## Core Features
 
@@ -56,12 +56,9 @@ Generate a complete, functional static website for students to practice Math Kan
     - Include Cloudflare Web Analytics snippet in the `<head>` for tracking usage.
 
 ## Design & Styling
-- Use rounded corners on cards, buttons, and inputs.
-- Add subtle shadows and hover lift effects on question cards.
-- **Fonts**: Use standard sans-serif fonts (e.g., Arial, Helvetica).
-- **Color Palette**:
-    - **Light Mode**: Soft pastel blue background (`#e8f4f8`), white cards, dark blue-grey text (`#2c3e50`), bright orange accents (`#ff7f50`), amethyst purple for HUD (`#9b59b6`).
-    - **Dark Mode**: Dark blue-grey background (`#2f3640`), dark grey cards (`#353b48`), light text (`#f5f6fa`), bright blue accents (`#00a8ff`), bright green secondary (`#4cd137`).
+- Use Bootstrap 5 utility classes and components for styling.
+- Rely on Bootstrap's grid system for layout.
+- Support dark mode using Bootstrap 5.3's `data-bs-theme="dark"`.
 
 ## Data Structure (`questions.json`)
 Provide a JSON file containing a list of objects with this structure:
