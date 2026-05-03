@@ -344,11 +344,15 @@ function toggleTheme() {
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     document.body.setAttribute('data-bs-theme', newTheme);
     
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    
     if (newTheme === 'dark') {
         document.body.classList.remove('bg-light');
         document.body.classList.add('bg-dark');
+        themeToggleBtn.innerText = '☀️';
     } else {
         document.body.classList.remove('bg-dark');
         document.body.classList.add('bg-light');
+        themeToggleBtn.innerText = '🌙';
     }
 }
