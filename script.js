@@ -102,9 +102,9 @@ function generateQuiz(grade, seed) {
     renderQuiz(currentQuizQuestions);
     updatePermalink(grade, seed);
     
-    document.getElementById('quiz').classList.remove('hidden');
-    document.getElementById('results').classList.add('hidden');
-    document.getElementById('badges-container').classList.add('hidden');
+    document.getElementById('quiz').classList.remove('d-none');
+    document.getElementById('results').classList.add('d-none');
+    document.getElementById('badges-container').classList.add('d-none');
     
     startTimer();
     updateScoreDisplay(0);
