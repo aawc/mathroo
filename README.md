@@ -12,6 +12,7 @@ A static website for students to practice Math Kangaroo questions for their grad
 - **Gamification**: Timer and badges for accuracy and speed, plus a special "Brainiac" badge for hard questions.
 - **PWA Support**: Installable as a Progressive Web App with offline support.
 - **Mobile Friendly**: Responsive design for smaller screens.
+- **Analytics**: Integrated with Cloudflare Web Analytics.
 
 ## Data
 - `questions.json`: Contains the pool of questions.

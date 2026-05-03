@@ -52,6 +52,9 @@ Generate a complete, functional static website for students to practice Math Kan
 8.  **Mobile Friendliness**:
     - Use responsive design principles (media queries) to ensure the site looks good on mobile devices.
 
+9.  **Analytics**:
+    - Include Cloudflare Web Analytics snippet in the `<head>` for tracking usage.
+
 ## Design & Styling
 - Use rounded corners on cards, buttons, and inputs.
 - Add subtle shadows and hover lift effects on question cards.
