@@ -2096,7 +2096,8 @@
       "16",
       "18"
     ],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "To find 40% of 30, we multiply 30 by 0.40. 30 * 0.4 = 12."
   },
   {
     "id": 152,
@@ -2109,7 +2110,8 @@
       "25",
       "35"
     ],
-    "answer": "17"
+    "answer": "17",
+    "explanation": "2^3 = 8 and 3^2 = 9. Adding them gives 8 + 9 = 17."
   },
   {
     "id": 153,
@@ -2122,7 +2124,8 @@
       "4/5",
       "1/2"
     ],
-    "answer": "4/5"
+    "answer": "4/5",
+    "explanation": "There are 10 marbles in total. 8 are not green (5 red + 3 blue). Probability is 8/10, which is 4/5."
   },
   {
     "id": 154,
@@ -2135,7 +2138,8 @@
       "3 hours",
       "3 hours 10 minutes"
     ],
-    "answer": "2 hours 50 minutes"
+    "answer": "2 hours 50 minutes",
+    "explanation": "From 10:15 AM to 1:05 PM is 2 hours and 50 minutes."
   },
   {
     "id": 155,
@@ -2148,7 +2152,8 @@
       "36 sq cm",
       "40 sq cm"
     ],
-    "answer": "36 sq cm"
+    "answer": "36 sq cm",
+    "explanation": "Perimeter is 2*(8+4)=24 cm. Square side is 24/4=6 cm. Area is 6*6=36 sq cm."
   },
   {
     "id": 156,
@@ -2161,7 +2166,8 @@
       "2.1",
       "2.2"
     ],
-    "answer": "2.0"
+    "answer": "2.0",
+    "explanation": "The average of 1.5 and 2.5 is (1.5 + 2.5) / 2 = 2.0."
   },
   {
     "id": 157,
@@ -2174,7 +2180,8 @@
       "90",
       "100"
     ],
-    "answer": "72"
+    "answer": "72",
+    "explanation": "Half of 144 is 72."
   },
   {
     "id": 158,
@@ -2187,7 +2194,8 @@
       "105",
       "120"
     ],
-    "answer": "90"
+    "answer": "90",
+    "explanation": "Total parts 1+2+3=6. Each part is 180/6=30. Largest is 3*30=90."
   },
   {
     "id": 159,
@@ -2200,7 +2208,8 @@
       "4000",
       "4200"
     ],
-    "answer": "3900"
+    "answer": "3900",
+    "explanation": "1 hour (3600s) + 5 minutes (300s) = 3900 seconds."
   },
   {
     "id": 160,
@@ -2213,7 +2222,8 @@
       "70",
       "72"
     ],
-    "answer": "68"
+    "answer": "68",
+    "explanation": "9 * 7 + 5 = 63 + 5 = 68."
   },
   {
     "id": 161,
@@ -2226,7 +2236,8 @@
       "154 cm",
       "176 cm"
     ],
-    "answer": "44 cm"
+    "answer": "44 cm",
+    "explanation": "Circumference = 2 * (22/7) * 7 = 44 cm."
   },
   {
     "id": 162,
@@ -2239,7 +2250,8 @@
       "3.5 hours",
       "4 hours"
     ],
-    "answer": "2.5 hours"
+    "answer": "2.5 hours",
+    "explanation": "200 km / 80 km/h = 2.5 hours."
   },
   {
     "id": 163,
@@ -2252,7 +2264,8 @@
       "7",
       "8"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "30 - 5 = 25. The square root of 25 is 5."
   },
   {
     "id": 164,
@@ -2265,7 +2278,8 @@
       "40",
       "50"
     ],
-    "answer": "30"
+    "answer": "30",
+    "explanation": "Total parts 1+2+3=6. 60/6=10. Most get 3*10=30."
   },
   {
     "id": 165,
@@ -2278,7 +2292,8 @@
       "30",
       "32"
     ],
-    "answer": "30"
+    "answer": "30",
+    "explanation": "The differences are 4, 6, 8... The next is 10. 20 + 10 = 30."
   },
   {
     "id": 166,
@@ -2291,7 +2306,8 @@
       "10 cm",
       "12 cm"
     ],
-    "answer": "8 cm"
+    "answer": "8 cm",
+    "explanation": "Area = (base * height) / 2. 24 = (6 * height) / 2. 24 = 3 * height. Height = 8 cm."
   },
   {
     "id": 167,
@@ -2304,7 +2320,8 @@
       "2500",
       "3000"
     ],
-    "answer": "2000"
+    "answer": "2000",
+    "explanation": "5 machines, 5 hours, 500 items. 10 machines, 10 hours = 2 * 2 * 500 = 2000 items."
   },
   {
     "id": 168,
@@ -2317,7 +2334,8 @@
       "240",
       "250"
     ],
-    "answer": "216"
+    "answer": "216",
+    "explanation": "Day 1: 300 - 60 = 240. Day 2: 240 - 24 = 216."
   },
   {
     "id": 169,
@@ -2330,7 +2348,8 @@
       "27",
       "29"
     ],
-    "answer": "27"
+    "answer": "27",
+    "explanation": "27 has factors 3 and 9, so it is composite. The others are prime."
   },
   {
     "id": 170,
@@ -2343,7 +2362,8 @@
       "0.7",
       "1.0"
     ],
-    "answer": "0.1"
+    "answer": "0.1",
+    "explanation": "0.2 * 0.5 = 0.1."
   },
   {
     "id": 171,
@@ -2356,7 +2376,8 @@
       "16",
       "18"
     ],
-    "answer": "16"
+    "answer": "16",
+    "explanation": "Blue + Red = 60%. Others = 40% of 40 = 16."
   },
   {
     "id": 172,
@@ -2369,7 +2390,8 @@
       "25",
       "30"
     ],
-    "answer": "21"
+    "answer": "21",
+    "explanation": "12 + 9 = 21."
   },
   {
     "id": 173,
@@ -2382,7 +2404,8 @@
       "4/5",
       "1/2"
     ],
-    "answer": "2/3"
+    "answer": "2/3",
+    "explanation": "Total 15. Red + Green = 10. 10/15 = 2/3."
   },
   {
     "id": 174,
@@ -2395,7 +2418,8 @@
       "4.5 hours",
       "2.5 hours"
     ],
-    "answer": "3.5 hours"
+    "answer": "3.5 hours",
+    "explanation": "From 9:45 AM to 1:15 PM is 3 hours and 30 minutes, which is 3.5 hours."
   },
   {
     "id": 175,
@@ -2408,7 +2432,8 @@
       "36 cm",
       "40 cm"
     ],
-    "answer": "32 cm"
+    "answer": "32 cm",
+    "explanation": "Area = 16 * 4 = 64. Side = 8. Perimeter = 4 * 8 = 32."
   },
   {
     "id": 176,
@@ -2421,7 +2446,8 @@
       "2",
       "-2"
     ],
-    "answer": "0"
+    "answer": "0",
+    "explanation": "The average of -5 and 5 is 0."
   },
   {
     "id": 177,
@@ -2434,7 +2460,8 @@
       "180",
       "200"
     ],
-    "answer": "164"
+    "answer": "164",
+    "explanation": "20 + 144 = 164."
   },
   {
     "id": 178,
@@ -2447,7 +2474,8 @@
       "35",
       "40"
     ],
-    "answer": "30"
+    "answer": "30",
+    "explanation": "x + 2x + 3x = 180. 6x = 180. x = 30."
   },
   {
     "id": 179,
@@ -2460,7 +2488,8 @@
       "86400",
       "9000"
     ],
-    "answer": "7200"
+    "answer": "7200",
+    "explanation": "2 * 60 * 60 = 7200 seconds."
   },
   {
     "id": 180,
@@ -2473,7 +2502,8 @@
       "105",
       "110"
     ],
-    "answer": "104"
+    "answer": "104",
+    "explanation": "11 * 9 + 5 = 99 + 5 = 104."
   },
   {
     "id": 181,
@@ -2486,7 +2516,8 @@
       "120 sq cm",
       "150 sq cm"
     ],
-    "answer": "94 sq cm"
+    "answer": "94 sq cm",
+    "explanation": "Surface area = 2*(3*4 + 3*5 + 4*5) = 2*(12+15+20) = 94 sq cm."
   },
   {
     "id": 182,
@@ -2499,7 +2530,8 @@
       "15 km",
       "20 km"
     ],
-    "answer": "10 km"
+    "answer": "10 km",
+    "explanation": "40 minutes is 2/3 of an hour. 15 * 2/3 = 10 km."
   },
   {
     "id": 183,
@@ -2512,7 +2544,8 @@
       "4",
       "5"
     ],
-    "answer": "1"
+    "answer": "1",
+    "explanation": "If x=1, 5*1+4=9, which is 3^2."
   },
   {
     "id": 184,
@@ -2525,7 +2558,8 @@
       "5",
       "6"
     ],
-    "answer": "3"
+    "answer": "3",
+    "explanation": "Each child gets 9. Two children's shares (18) divided by 6 is 3."
   },
   {
     "id": 185,
@@ -2538,7 +2572,8 @@
       "150",
       "200"
     ],
-    "answer": "125"
+    "answer": "125",
+    "explanation": "1^3, 2^3, 3^3, 4^3... The next is 5^3 = 125."
   },
   {
     "id": 186,
@@ -2551,7 +2586,8 @@
       "150 sq cm",
       "200 sq cm"
     ],
-    "answer": "60 sq cm"
+    "answer": "60 sq cm",
+    "explanation": "(10 * 12) / 2 = 60 sq cm."
   },
   {
     "id": 187,
@@ -2564,7 +2600,8 @@
       "200",
       "250"
     ],
-    "answer": "100"
+    "answer": "100",
+    "explanation": "4 bakers, 5h, 100 cakes. 2 bakers, 10h = (2/4) * (10/5) * 100 = 0.5 * 2 * 100 = 100 cakes."
   },
   {
     "id": 188,
@@ -2577,7 +2614,8 @@
       "250",
       "260"
     ],
-    "answer": "240"
+    "answer": "240",
+    "explanation": "Day 1: 400 - 100 = 300 left. Day 2: 300 - 60 = 240 left."
   },
   {
     "id": 189,
@@ -2590,7 +2628,8 @@
       "67",
       "69"
     ],
-    "answer": "67"
+    "answer": "67",
+    "explanation": "67 is prime. The others are divisible by 3."
   },
   {
     "id": 190,
@@ -2603,7 +2642,8 @@
       "5/8",
       "3/4"
     ],
-    "answer": "3/8"
+    "answer": "3/8",
+    "explanation": "Outcomes: HHT, HTH, THH. Total outcomes 8. 3/8."
   },
   {
     "id": 191,
@@ -2616,7 +2656,8 @@
       "30",
       "35"
     ],
-    "answer": "25"
+    "answer": "25",
+    "explanation": "Apple + Banana = 50%. Others = 50% of 50 = 25."
   },
   {
     "id": 192,
@@ -2629,7 +2670,8 @@
       "13",
       "15"
     ],
-    "answer": "11"
+    "answer": "11",
+    "explanation": "3^3=27, 2^4=16. 27-16=11."
   },
   {
     "id": 193,
@@ -2642,7 +2684,8 @@
       "7/12",
       "2/3"
     ],
-    "answer": "7/12"
+    "answer": "7/12",
+    "explanation": "Total 12. Not green = 3+4=7. 7/12."
   },
   {
     "id": 194,
@@ -2655,7 +2698,8 @@
       "6 hours",
       "6 hours 15 minutes"
     ],
-    "answer": "5 hours 45 minutes"
+    "answer": "5 hours 45 minutes",
+    "explanation": "From 8:30 AM to 2:15 PM is 5 hours and 45 minutes."
   },
   {
     "id": 195,
@@ -2668,7 +2712,8 @@
       "40 sq cm",
       "48 sq cm"
     ],
-    "answer": "36 sq cm"
+    "answer": "36 sq cm",
+    "explanation": "Perimeter of triangle = 3 * 8 = 24. Side of square = 24 / 4 = 6. Area = 6 * 6 = 36."
   },
   {
     "id": 196,
@@ -2681,7 +2726,8 @@
       "15.5",
       "16"
     ],
-    "answer": "15"
+    "answer": "15",
+    "explanation": "(12.5 + 17.5) / 2 = 15."
   },
   {
     "id": 197,
@@ -2694,7 +2740,8 @@
       "194",
       "204"
     ],
-    "answer": "184"
+    "answer": "184",
+    "explanation": "2 * 20 + 144 = 40 + 144 = 184."
   },
   {
     "id": 198,
@@ -2707,7 +2754,8 @@
       "100",
       "120"
     ],
-    "answer": "90"
+    "answer": "90",
+    "explanation": "Total parts 10. 180 / 10 = 18. Largest = 5 * 18 = 90."
   },
   {
     "id": 199,
@@ -2720,7 +2768,8 @@
       "1600",
       "1800"
     ],
-    "answer": "1440"
+    "answer": "1440",
+    "explanation": "24 * 60 = 1440 minutes."
   },
   {
     "id": 200,
@@ -2733,7 +2782,8 @@
       "97",
       "99"
     ],
-    "answer": "95"
+    "answer": "95",
+    "explanation": "13 * 7 + 4 = 91 + 4 = 95."
   },
   {
     "id": 201,
