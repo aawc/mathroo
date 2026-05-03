@@ -16,7 +16,7 @@ Generate a complete, functional static website for students to practice Math Kan
 2.  **Question Loading & Selection**:
     - Load questions from a local `questions.json` file (see structure below).
     - For the selected grade, pick 20 questions from the pool.
-    - **Guarantee that at least 2 visual questions (type 'grid' or 'grid-match') and at least 2 hard questions (difficulty: 'hard') are included in the set of 20, if available.**
+    - **Guarantee that at least 2 visual questions (type 'grid' or 'grid-match') and exactly 5 hard questions (difficulty: 'hard') are included in the set of 20, if available.**
     - Implement a custom Pseudo-Random Number Generator (PRNG) in JS (e.g., LCG) that uses a seed to ensure reproducible random selections.
 
 3.  **Permalinks**:

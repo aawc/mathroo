@@ -77,7 +77,7 @@ function generateQuiz(grade, seed) {
     
     // Find hard questions
     const hardOnes = shuffled.filter(q => q.difficulty === 'hard');
-    selected.push(...hardOnes.slice(0, Math.min(2, hardOnes.length)));
+    selected.push(...hardOnes.slice(0, Math.min(5, hardOnes.length)));
     
     // Find visual questions
     const visualOnes = shuffled.filter(q => q.type === 'grid' || q.type === 'grid-match');

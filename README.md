@@ -5,7 +5,7 @@ A static website for students to practice Math Kangaroo questions for their grad
 ## Features
 - Grade selection (1-2, 3-4, 5-6).
 - Random selection of 20 questions per practice set.
-- **Guarantee that at least 2 visual questions and 2 hard questions are included in every set.**
+- **Guarantee that at least 2 visual questions and exactly 5 hard questions are included in every set.**
 - Permalinks to share specific practice sets.
 - Dark and light modes (Dark mode default using Bootstrap 5.3 features).
 - **Hard Question Indicator**: Visual cue (🌟 Hard Question) for challenging problems.
