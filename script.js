@@ -115,8 +115,10 @@ function renderQuiz(questions) {
             visualHtml = `<div class="image-container"><img src="${q.image}" alt="Question image"></div>`;
         }
 
+        const difficultyBadge = q.difficulty === 'hard' ? '<span class="hard-badge">🌟 Hard Question</span>' : '';
+
         qDiv.innerHTML = `
-            <p><strong>Q${index + 1}:</strong> ${q.question}</p>
+            <p><strong>Q${index + 1}:</strong> ${q.question} ${difficultyBadge}</p>
             ${visualHtml}
             <div class="options">
                 ${q.options.map(opt => `
@@ -231,6 +233,7 @@ function submitAnswers() {
     stopTimer();
     
     let score = 0;
+    let hardCorrect = 0;
     const resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = '';
 
@@ -238,16 +241,19 @@ function submitAnswers() {
         const selected = document.querySelector(`input[name="q${q.id}"]:checked`);
         if (selected && selected.value === q.answer) {
             score++;
+            if (q.difficulty === 'hard') {
+                hardCorrect++;
+            }
         }
     });
 
     resultsDiv.innerHTML = `<h3>You scored ${score} out of ${currentQuizQuestions.length} in ${timeTaken} seconds!</h3>`;
     resultsDiv.classList.remove('hidden');
     
-    awardBadges(score, timeTaken);
+    awardBadges(score, timeTaken, hardCorrect);
 }
 
-function awardBadges(score, time) {
+function awardBadges(score, time, hardCorrect) {
     const badgesList = document.getElementById('badges-list');
     badgesList.innerHTML = '';
     let earned = false;
@@ -262,6 +268,11 @@ function awardBadges(score, time) {
 
     if (time < 120 && score >= 5) { // 2 minutes and at least half correct
         addBadge(badgesList, 'Speed Demon', 'bronze');
+        earned = true;
+    }
+
+    if (hardCorrect > 0) {
+        addBadge(badgesList, `Brainiac (${hardCorrect} Hard)`, 'gold');
         earned = true;
     }
 

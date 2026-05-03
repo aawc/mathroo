@@ -245,3 +245,14 @@ select {
 .grid-cell.empty {
     background-color: transparent;
 }
+
+.hard-badge {
+    background-color: #f1c40f;
+    color: #2c3e50;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 10px;
+    vertical-align: middle;
+}
