@@ -54,6 +54,8 @@ function setupEventListeners() {
     document.getElementById('view-history-btn').addEventListener('click', showHistory);
     document.getElementById('back-to-setup-btn').addEventListener('click', showSetup);
     document.getElementById('quit-btn').addEventListener('click', showSetup);
+    document.getElementById('brand-title').addEventListener('click', showSetup);
+    document.getElementById('clear-history-btn').addEventListener('click', clearAllHistory);
 }
 
 function startQuiz() {
@@ -410,6 +412,7 @@ function renderHistory() {
             <td>${attempt.time}s</td>
             <td>
                 <button class="btn btn-sm btn-outline-primary" onclick="reloadAttempt(${attempt.seed}, '${attempt.grade}')">Retry</button>
+                <button class="btn btn-sm btn-outline-danger ms-2" onclick="deleteAttempt(${attempt.id})">Delete</button>
             </td>
         `;
         list.appendChild(row);
@@ -421,3 +424,17 @@ window.reloadAttempt = function(seed, grade) {
     generateQuiz(grade, seed);
     document.getElementById('history-section').classList.add('d-none');
 };
+
+window.deleteAttempt = function(id) {
+    let history = JSON.parse(localStorage.getItem('mathroo_history')) || [];
+    history = history.filter(attempt => attempt.id !== id);
+    localStorage.setItem('mathroo_history', JSON.stringify(history));
+    renderHistory();
+};
+
+function clearAllHistory() {
+    if (confirm('Are you sure you want to clear all history?')) {
+        localStorage.removeItem('mathroo_history');
+        renderHistory();
+    }
+}
