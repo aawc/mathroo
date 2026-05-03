@@ -228,12 +228,14 @@ function stopTimer() {
 function togglePause() {
     const pauseBtn = document.getElementById('pause-btn');
     const container = document.getElementById('questions-container');
+    const submitBtn = document.getElementById('submit-btn');
     if (isPaused) {
         // Resume
         startTime = Date.now();
         timerInterval = setInterval(updateTimer, 1000);
         pauseBtn.innerText = 'Pause';
         container.classList.remove('d-none');
+        submitBtn.classList.remove('d-none');
         isPaused = false;
     } else {
         // Pause
@@ -241,6 +243,7 @@ function togglePause() {
         pausedTime = timeTaken;
         pauseBtn.innerText = 'Resume';
         container.classList.add('d-none');
+        submitBtn.classList.add('d-none');
         isPaused = true;
     }
 }
