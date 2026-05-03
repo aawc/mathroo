@@ -15,7 +15,7 @@ A static website for students to practice Math Kangaroo questions for their grad
 - **Analytics**: Integrated with Cloudflare Web Analytics.
 
 ## Data
-- `questions.json`: Contains the pool of over 350 questions.
+- `questions.json`: Contains the pool of over 400 questions.
 - `samples/`: Contains sample question and solution PDFs downloaded from Math Kangaroo websites.
     - Files named `*_Ecolier.pdf` are for Grade 3-4.
     - Files named `*_Benjamin.pdf` are for Grade 5-6.
