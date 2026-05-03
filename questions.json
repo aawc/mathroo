@@ -2235,5 +2235,245 @@
     "question": "A bag contains 2 red, 3 blue, and 5 green marbles. What is the probability of picking a blue marble?",
     "options": ["2/10", "3/10", "5/10", "1/2", "3/5"],
     "answer": "3/10"
+  },
+  {
+    "id": 321,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A spider has 8 legs. A beetle has 6 legs. In a box, there are 5 spiders and some beetles. If the total number of legs is 76, how many beetles are there?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "id": 322,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A rectangular garden is 12 meters long and 8 meters wide. If I want to put a fence around it, and fence costs $5 per meter, how much will it cost?",
+    "options": ["$100", "$150", "$200", "$250", "$300"],
+    "answer": "$200"
+  },
+  {
+    "id": 323,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "What is the value of 1 + 2 + 3 + ... + 20?",
+    "options": ["190", "200", "210", "220", "230"],
+    "answer": "210"
+  },
+  {
+    "id": 324,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A bus leaves the station with 10 passengers. At the first stop, 3 passengers get off and 5 get on. At the second stop, 2 get off and 4 get on. How many passengers are on the bus now?",
+    "options": ["12", "13", "14", "15", "16"],
+    "answer": "14"
+  },
+  {
+    "id": 325,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "I am thinking of a number. If I divide it by 3 and then add 7, I get 15. What is the number?",
+    "options": ["21", "22", "23", "24", "25"],
+    "answer": "24"
+  },
+  {
+    "id": 326,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A cube has a volume of 64 cubic cm. What is the area of one of its faces?",
+    "options": ["12 sq cm", "16 sq cm", "24 sq cm", "32 sq cm", "64 sq cm"],
+    "answer": "16 sq cm"
+  },
+  {
+    "id": 327,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "If 2 liters of juice cost $3.60, how much do 5 liters cost?",
+    "options": ["$7.20", "$8.00", "$9.00", "$10.00", "$11.00"],
+    "answer": "$9.00"
+  },
+  {
+    "id": 328,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A clock shows 8:45. What time will it be after 90 minutes?",
+    "options": ["9:45", "10:00", "10:15", "10:30", "10:45"],
+    "answer": "10:15"
+  },
+  {
+    "id": 329,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "Which of these numbers is divisible by both 3 and 5?",
+    "options": ["12", "20", "25", "30", "35"],
+    "answer": "30"
+  },
+  {
+    "id": 330,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "How many edges does a cube have?",
+    "options": ["6", "8", "10", "12", "16"],
+    "answer": "12"
+  },
+  {
+    "id": 331,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A pattern of shapes goes: Square, Triangle, Circle, Square, Triangle, Circle... What is the 50th shape?",
+    "options": ["Square", "Triangle", "Circle", "Rectangle", "Star"],
+    "answer": "Triangle"
+  },
+  {
+    "id": 332,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A recipe for 4 people requires 200g of flour. How much flour is needed for 10 people?",
+    "options": ["400g", "450g", "500g", "550g", "600g"],
+    "answer": "500g"
+  },
+  {
+    "id": 333,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A wire of 20 cm is bent to form a square. What is the area of the square?",
+    "options": ["16 sq cm", "20 sq cm", "25 sq cm", "30 sq cm", "36 sq cm"],
+    "answer": "25 sq cm"
+  },
+  {
+    "id": 334,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "In a class of 30 students, 18 like math and 15 like science. If 5 students like neither, how many like both?",
+    "options": ["5", "6", "7", "8", "9"],
+    "answer": "8"
+  },
+  {
+    "id": 335,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "What is the sum of all even numbers between 1 and 11?",
+    "options": ["25", "30", "35", "40", "45"],
+    "answer": "30"
+  },
+  {
+    "id": 336,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A fruit seller has 120 apples. He sells 1/3 on day 1, and 1/4 of the remaining on day 2. How many apples are left?",
+    "options": ["50", "60", "70", "80", "90"],
+    "answer": "60"
+  },
+  {
+    "id": 337,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "If 3x + 5 = 20, what is x?",
+    "options": ["3", "4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "id": 338,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A book has 150 pages. I read 15 pages a day. How many days will it take to finish the book?",
+    "options": ["8", "9", "10", "11", "12"],
+    "answer": "10"
+  },
+  {
+    "id": 339,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "What is the value of 100 - 99 + 98 - 97 + ... + 2 - 1?",
+    "options": ["25", "50", "75", "100", "0"],
+    "answer": "50"
+  },
+  {
+    "id": 340,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A rectangle is 3 times as long as it is wide. If its width is 4 cm, what is its area?",
+    "options": ["36 sq cm", "40 sq cm", "44 sq cm", "48 sq cm", "52 sq cm"],
+    "answer": "48 sq cm"
+  },
+  {
+    "id": 341,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "How many vertices does a pyramid with a square base have?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "id": 342,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A sequence goes: 1, 3, 7, 15, 31... What is the next number?",
+    "options": ["61", "62", "63", "64", "65"],
+    "answer": "63"
+  },
+  {
+    "id": 343,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "If a car travels 60 miles in 1 hour, how far does it travel in 15 minutes?",
+    "options": ["10 miles", "15 miles", "20 miles", "25 miles", "30 miles"],
+    "answer": "15 miles"
+  },
+  {
+    "id": 344,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A bag contains 12 red marbles and some blue marbles. If the probability of picking a red marble is 3/4, how many blue marbles are there?",
+    "options": ["2", "3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "id": 345,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "What is the sum of the angles in a triangle?",
+    "options": ["90°", "180°", "270°", "360°", "450°"],
+    "answer": "180°"
+  },
+  {
+    "id": 346,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A shop gives 1 free candy for every 5 candies you buy. If I want to get 30 candies, how many do I need to buy?",
+    "options": ["20", "24", "25", "26", "30"],
+    "answer": "25"
+  },
+  {
+    "id": 347,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A number is divisible by both 2 and 3. Which of these could it be?",
+    "options": ["14", "16", "18", "20", "22"],
+    "answer": "18"
+  },
+  {
+    "id": 348,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A square has a perimeter of 24 cm. What is its area?",
+    "options": ["24 sq cm", "30 sq cm", "36 sq cm", "40 sq cm", "48 sq cm"],
+    "answer": "36 sq cm"
+  },
+  {
+    "id": 349,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "If 2a + 3b = 12 and a = 3, what is b?",
+    "options": ["1", "2", "3", "4", "5"],
+    "answer": "2"
+  },
+  {
+    "id": 350,
+    "grade": "3-4",
+    "difficulty": "hard",
+    "question": "A clock shows 12:30. What is the angle between the hands?",
+    "options": ["150°", "165°", "180°", "135°", "120°"],
+    "answer": "165°"
   }
 ]

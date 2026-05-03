@@ -70,22 +70,34 @@ function generateQuiz(grade, seed) {
         return;
     }
 
-    const visualQuestions = filteredQuestions.filter(q => q.type === 'grid' || q.type === 'grid-match');
-    const nonVisualQuestions = filteredQuestions.filter(q => !(q.type === 'grid' || q.type === 'grid-match'));
-
     const randomFunc = pseudoRandom(seed);
-    const shuffledVisual = shuffle([...visualQuestions], randomFunc);
-    const shuffledNonVisual = shuffle([...nonVisualQuestions], randomFunc);
-
-    // Pick at least 2 visual questions if available
-    const selectedVisual = shuffledVisual.slice(0, Math.min(2, shuffledVisual.length));
-    const remainingNeeded = 10 - selectedVisual.length;
+    const shuffled = shuffle([...filteredQuestions], randomFunc);
     
-    // Combine remaining visual and all non-visual for the rest
-    const restPool = [...shuffledVisual.slice(selectedVisual.length), ...shuffledNonVisual];
-    const shuffledRest = shuffle(restPool, randomFunc);
+    const selected = [];
     
-    currentQuizQuestions = [...selectedVisual, ...shuffledRest.slice(0, remainingNeeded)];
+    // Find hard questions
+    const hardOnes = shuffled.filter(q => q.difficulty === 'hard');
+    selected.push(...hardOnes.slice(0, Math.min(2, hardOnes.length)));
+    
+    // Find visual questions
+    const visualOnes = shuffled.filter(q => q.type === 'grid' || q.type === 'grid-match');
+    
+    // Count how many visual ones are already in 'selected' (from hard ones)
+    const currentVisualCount = selected.filter(q => q.type === 'grid' || q.type === 'grid-match').length;
+    const neededVisual = Math.max(0, 2 - currentVisualCount);
+    
+    // Add visual questions not already selected
+    const visualToAdd = visualOnes.filter(q => !selected.includes(q));
+    selected.push(...visualToAdd.slice(0, Math.min(neededVisual, visualToAdd.length)));
+    
+    // Fill the rest
+    const restPool = shuffled.filter(q => !selected.includes(q));
+    const remainingNeeded = 10 - selected.length;
+    
+    selected.push(...restPool.slice(0, remainingNeeded));
+    
+    // Final shuffle to randomize order
+    currentQuizQuestions = shuffle(selected, randomFunc);
 
     renderQuiz(currentQuizQuestions);
     updatePermalink(grade, seed);
