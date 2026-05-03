@@ -116,7 +116,7 @@ function renderQuiz(questions) {
 
     questions.forEach((q, index) => {
         const qDiv = document.createElement('div');
-        qDiv.className = 'question-card';
+        qDiv.className = 'card mb-4 shadow-sm';
         
         let visualHtml = '';
         if (q.type === 'grid') {
@@ -124,21 +124,25 @@ function renderQuiz(questions) {
         } else if (q.type === 'grid-match') {
             visualHtml = renderGridMatch(q.data);
         } else if (q.type === 'image') {
-            visualHtml = `<div class="image-container"><img src="${q.image}" alt="Question image"></div>`;
+            visualHtml = `<div class="text-center mb-3"><img src="${q.image}" alt="Question image" class="img-fluid rounded"></div>`;
         }
 
-        const difficultyBadge = q.difficulty === 'hard' ? '<span class="hard-badge">🌟 Hard Question</span>' : '';
+        const difficultyBadge = q.difficulty === 'hard' ? '<span class="badge bg-warning text-dark ms-2">🌟 Hard Question</span>' : '';
 
         qDiv.innerHTML = `
-            <p><strong>Q${index + 1}:</strong> ${q.question} ${difficultyBadge}</p>
-            ${visualHtml}
-            <div class="options">
-                ${q.options.map(opt => `
-                    <label>
-                        <input type="radio" name="q${q.id}" value="${opt}">
-                        ${opt}
-                    </label>
-                `).join('')}
+            <div class="card-body">
+                <h5 class="card-title">Q${index + 1}: ${q.question} ${difficultyBadge}</h5>
+                ${visualHtml}
+                <div class="options mt-3">
+                    ${q.options.map(opt => `
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q${q.id}" id="q${q.id}_${opt}" value="${opt}">
+                            <label class="form-check-label" for="q${q.id}_${opt}">
+                                ${opt}
+                            </label>
+                        </div>
+                    `).join('')}
+                </div>
             </div>
         `;
         container.appendChild(qDiv);
@@ -229,14 +233,14 @@ function togglePause() {
         startTime = Date.now();
         timerInterval = setInterval(updateTimer, 1000);
         pauseBtn.innerText = 'Pause';
-        container.classList.remove('hidden');
+        container.classList.remove('d-none');
         isPaused = false;
     } else {
         // Pause
         clearInterval(timerInterval);
         pausedTime = timeTaken;
         pauseBtn.innerText = 'Resume';
-        container.classList.add('hidden');
+        container.classList.add('d-none');
         isPaused = true;
     }
 }
@@ -260,7 +264,7 @@ function submitAnswers() {
     });
 
     resultsDiv.innerHTML = `<h3>You scored ${score} out of ${currentQuizQuestions.length} in ${timeTaken} seconds!</h3>`;
-    resultsDiv.classList.remove('hidden');
+    resultsDiv.classList.remove('d-none');
     
     awardBadges(score, timeTaken, hardCorrect);
 }
@@ -270,32 +274,39 @@ function awardBadges(score, time, hardCorrect) {
     badgesList.innerHTML = '';
     let earned = false;
 
+    const badgeMap = {
+        'gold': 'warning',
+        'silver': 'secondary',
+        'bronze': 'dark'
+    };
+
     if (score === currentQuizQuestions.length) {
-        addBadge(badgesList, 'Perfect Score', 'gold');
+        addBadge(badgesList, 'Perfect Score', badgeMap['gold']);
         earned = true;
     } else if (score >= 8) {
-        addBadge(badgesList, 'Sharpshooter', 'silver');
+        addBadge(badgesList, 'Sharpshooter', badgeMap['silver']);
         earned = true;
     }
 
     if (time < 120 && score >= 5) { // 2 minutes and at least half correct
-        addBadge(badgesList, 'Speed Demon', 'bronze');
+        addBadge(badgesList, 'Speed Demon', badgeMap['bronze']);
         earned = true;
     }
 
     if (hardCorrect > 0) {
-        addBadge(badgesList, `Brainiac (${hardCorrect} Hard)`, 'gold');
+        addBadge(badgesList, `Brainiac (${hardCorrect} Hard)`, 'success');
         earned = true;
     }
 
     if (earned) {
-        document.getElementById('badges-container').classList.remove('hidden');
+        document.getElementById('badges-container').classList.remove('d-none');
     }
 }
 
 function addBadge(container, name, type) {
     const badge = document.createElement('span');
-    badge.className = `badge ${type}`;
+    badge.className = `badge bg-${type}`;
+    if (type !== 'warning') badge.className += ' text-white';
     badge.innerText = name;
     container.appendChild(badge);
 }
@@ -326,7 +337,15 @@ function checkURLParams() {
 }
 
 function toggleTheme() {
-    const currentTheme = document.body.getAttribute('data-theme');
+    const currentTheme = document.body.getAttribute('data-bs-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.body.setAttribute('data-theme', newTheme);
+    document.body.setAttribute('data-bs-theme', newTheme);
+    
+    if (newTheme === 'dark') {
+        document.body.classList.remove('bg-light');
+        document.body.classList.add('bg-dark');
+    } else {
+        document.body.classList.remove('bg-dark');
+        document.body.classList.add('bg-light');
+    }
 }
