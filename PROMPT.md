@@ -5,7 +5,7 @@ Generate a complete, functional static website for students to practice Math Kan
 ## Tech Stack
 - HTML5
 - CSS3 (with CSS variables for theming)
-- Vanilla JavaScript (no external libraries, except Google Fonts)
+- Vanilla JavaScript (no external libraries)
 
 ## Core Features
 
@@ -15,7 +15,8 @@ Generate a complete, functional static website for students to practice Math Kan
 
 2.  **Question Loading & Selection**:
     - Load questions from a local `questions.json` file (see structure below).
-    - For the selected grade, randomly pick 10 questions from the pool.
+    - For the selected grade, pick 10 questions from the pool.
+    - **Guarantee that at least 2 visual questions (type 'grid' or 'grid-match') are included in the set of 10, if available.**
     - Implement a custom Pseudo-Random Number Generator (PRNG) in JS (e.g., LCG) that uses a seed to ensure reproducible random selections.
 
 3.  **Permalinks**:
@@ -44,12 +45,10 @@ Generate a complete, functional static website for students to practice Math Kan
     - **Dark mode must be the default** when loading the page.
     - Provide a toggle button to switch between themes.
 
-## Design & Styling (Kid-Friendly)
+## Design & Styling
 - Use rounded corners on cards, buttons, and inputs.
 - Add subtle shadows and hover lift effects on question cards.
-- **Fonts**: Import from Google Fonts:
-    - `Fredoka One` for headers and buttons.
-    - `Comic Neue` for body text and questions.
+- **Fonts**: Use standard sans-serif fonts (e.g., Arial, Helvetica).
 - **Color Palette**:
     - **Light Mode**: Soft pastel blue background (`#e8f4f8`), white cards, dark blue-grey text (`#2c3e50`), bright orange accents (`#ff7f50`), amethyst purple for HUD (`#9b59b6`).
     - **Dark Mode**: Dark blue-grey background (`#2f3640`), dark grey cards (`#353b48`), light text (`#f5f6fa`), bright blue accents (`#00a8ff`), bright green secondary (`#4cd137`).
@@ -64,6 +63,27 @@ Provide a JSON file containing a list of objects with this structure:
     "question": "Question text here...",
     "options": ["Opt1", "Opt2", "Opt3", "Opt4", "Opt5"],
     "answer": "CorrectOpt"
+  },
+  {
+    "id": 2,
+    "grade": "3-4",
+    "type": "grid",
+    "question": "Question with grid visual...",
+    "options": ["A", "B", "C", "D", "E"],
+    "data": {
+      "A": [[1,0],[0,1]],
+      "B": [[1,1],[0,0]]
+    },
+    "answer": "A"
+  },
+  {
+    "id": 3,
+    "grade": "3-4",
+    "type": "image",
+    "question": "Question with external image...",
+    "options": ["A", "B", "C", "D", "E"],
+    "image": "images/some_image.png",
+    "answer": "B"
   }
 ]
 ```
