@@ -53,6 +53,7 @@ function setupEventListeners() {
     document.getElementById('pause-btn').addEventListener('click', togglePause);
     document.getElementById('view-history-btn').addEventListener('click', showHistory);
     document.getElementById('back-to-setup-btn').addEventListener('click', showSetup);
+    document.getElementById('quit-btn').addEventListener('click', showSetup);
 }
 
 function startQuiz() {
