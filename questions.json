@@ -5217,7 +5217,8 @@
       "Rectangle",
       "Star"
     ],
-    "answer": "Triangle"
+    "answer": "Triangle",
+    "explanation": "The pattern repeats every 3 shapes (Triangle, Square, Circle). After three full patterns (9 shapes), the 10th shape starts the pattern again with a Triangle."
   },
   {
     "id": 372,
@@ -5231,7 +5232,8 @@
       "Quarter",
       "Half-dollar"
     ],
-    "answer": "Nickel"
+    "answer": "Nickel",
+    "explanation": "Since 3 of the same coins add up to 15 cents, each coin must be 5 cents (5 + 5 + 5 = 15). A 5-cent coin is called a nickel."
   },
   {
     "id": 373,
@@ -5245,7 +5247,8 @@
       "15 cm",
       "18 cm"
     ],
-    "answer": "12 cm"
+    "answer": "12 cm",
+    "explanation": "A square has 4 sides that are all the same length. So, the perimeter is 3 + 3 + 3 + 3 = 12 cm."
   },
   {
     "id": 374,
@@ -5259,7 +5262,8 @@
       "$5",
       "$6"
     ],
-    "answer": "$3"
+    "answer": "$3",
+    "explanation": "Since 6 apples is three times as many as 2 apples, they will cost three times as much. $1 + $1 + $1 = $3."
   },
   {
     "id": 375,
@@ -5273,7 +5277,8 @@
       "2:15",
       "2:45"
     ],
-    "answer": "2:00"
+    "answer": "2:00",
+    "explanation": "If the clock shows 2:30, going back 30 minutes means it was exactly 2:00."
   },
   {
     "id": 376,
@@ -5287,7 +5292,8 @@
       "20",
       "25"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "We can work backwards: half of 20 is 10, and 10 minus 5 is 5. So, the number is 5."
   },
   {
     "id": 377,
@@ -5301,7 +5307,8 @@
       "6",
       "7"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "Half of 10 is 5. So, if 5 balls are red, the other 5 must be blue."
   },
   {
     "id": 378,
@@ -5315,7 +5322,8 @@
       "6",
       "7"
     ],
-    "answer": "4"
+    "answer": "4",
+    "explanation": "To get 5 pieces (10 cm divided by 2 cm), you only need to make 4 cuts in the ribbon."
   },
   {
     "id": 379,
@@ -5329,7 +5337,8 @@
       "42",
       "57"
     ],
-    "answer": "42"
+    "answer": "42",
+    "explanation": "Even numbers always end in 0, 2, 4, 6, or 8. Only 42 ends in one of those numbers."
   },
   {
     "id": 380,
@@ -5343,7 +5352,8 @@
       "20",
       "25"
     ],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "You read 5 + 5 = 10 pages in total. Since there are 20 pages, 20 - 10 = 10 pages are left to read."
   },
   {
     "id": 381,
@@ -5357,7 +5367,8 @@
       "20",
       "25"
     ],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "Each bicycle has 2 wheels. So, for 5 bicycles, we count 2, 4, 6, 8, 10 wheels."
   },
   {
     "id": 382,
@@ -5371,7 +5382,8 @@
       "16",
       "18"
     ],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "The pattern is counting by 2. The 5th number is 10, and the 6th number is 12."
   },
   {
     "id": 383,
@@ -5385,7 +5397,8 @@
       "6 meters",
       "1 meter"
     ],
-    "answer": "3 meters"
+    "answer": "3 meters",
+    "explanation": "First, the 12-meter rope is cut into two 6-meter pieces. Then, one 6-meter piece is cut into two 3-meter pieces. 3 meters is the shortest length."
   },
   {
     "id": 384,
@@ -5399,7 +5412,8 @@
       "Pentagon",
       "Hexagon"
     ],
-    "answer": "Square"
+    "answer": "Square",
+    "explanation": "A square is a special shape where all four sides are exactly the same length."
   },
   {
     "id": 385,
@@ -5413,7 +5427,8 @@
       "Sunday",
       "Monday"
     ],
-    "answer": "Friday"
+    "answer": "Friday",
+    "explanation": "Counting 3 days from Tuesday: 1-Wednesday, 2-Thursday, 3-Friday."
   },
   {
     "id": 386,
@@ -5427,7 +5442,8 @@
       "13",
       "14"
     ],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "To find the total, we add all the marbles together: 3 + 4 + 5 = 12."
   },
   {
     "id": 387,
@@ -5441,7 +5457,8 @@
       "13",
       "14"
     ],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "There are 12 months in a year, starting with January and ending with December."
   },
   {
     "id": 388,
@@ -5455,7 +5472,8 @@
       "13 cm",
       "14 cm"
     ],
-    "answer": "12 cm"
+    "answer": "12 cm",
+    "explanation": "The perimeter is the distance all the way around the triangle, so we add the sides: 3 + 4 + 5 = 12 cm."
   },
   {
     "id": 389,
@@ -5469,7 +5487,8 @@
       "40 cents",
       "45 cents"
     ],
-    "answer": "35 cents"
+    "answer": "35 cents",
+    "explanation": "2 dimes are worth 20 cents, and 3 nickels are worth 15 cents. 20 + 15 = 35 cents."
   },
   {
     "id": 390,
@@ -5483,7 +5502,8 @@
       "75",
       "85"
     ],
-    "answer": "55"
+    "answer": "55",
+    "explanation": "The only number in the list that is bigger than 50 and smaller than 60 is 55."
   },
   {
     "id": 391,
@@ -5497,7 +5517,8 @@
       "128",
       "256"
     ],
-    "answer": "32"
+    "answer": "32",
+    "explanation": "We can rewrite sqrt(2^10) as (2^10)^(1/2), which equals 2^(10/2) or 2^5. 2^5 = 32."
   },
   {
     "id": 392,
@@ -5511,7 +5532,8 @@
       "8",
       "9"
     ],
-    "answer": "7"
+    "answer": "7",
+    "explanation": "If we add the two equations together, we get (x + 2x) + (2y + y) = 10 + 11, which simplifies to 3x + 3y = 21. Dividing everything by 3 gives us x + y = 7."
   },
   {
     "id": 393,
@@ -5525,7 +5547,8 @@
       "14",
       "15"
     ],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "Two sides of the triangle lie on the axes and have lengths 3 and 4. The third side (hypotenuse) has length sqrt(3^2 + 4^2) = 5. The perimeter is 3 + 4 + 5 = 12."
   },
   {
     "id": 394,
@@ -5539,7 +5562,8 @@
       "15",
       "18"
     ],
-    "answer": "9"
+    "answer": "9",
+    "explanation": "The number of diagonals in a polygon with 'n' sides is n(n-3)/2. For a hexagon, n=6, so 6(6-3)/2 = 9."
   },
   {
     "id": 395,
@@ -5553,7 +5577,8 @@
       "6",
       "7"
     ],
-    "answer": "4"
+    "answer": "4",
+    "explanation": "We can write 81 as a power of 3: 3 * 3 * 3 * 3 = 81, which is 3^4. Therefore, x = 4."
   },
   {
     "id": 396,
@@ -5567,7 +5592,8 @@
       "1/3",
       "4/9"
     ],
-    "answer": "2/9"
+    "answer": "2/9",
+    "explanation": "There are 10 balls total. The chance of the first ball being red is 5/10 (or 1/2). After taking one red ball, 9 balls are left, 4 of which are red. So, the chance of the second ball also being red is 4/9. Multiplying these gives 1/2 * 4/9 = 2/9."
   },
   {
     "id": 397,
@@ -5581,7 +5607,8 @@
       "7",
       "11"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "In a quadratic equation x^2 + bx + c = 0, the sum of the solutions is always -b. Here, b = -5, so the sum is -(-5) = 5. (The solutions are 2 and 3)."
   },
   {
     "id": 398,
@@ -5595,7 +5622,8 @@
       "282.6 cc",
       "150 cc"
     ],
-    "answer": "141.3 cc"
+    "answer": "141.3 cc",
+    "explanation": "The volume of a cylinder is pi * r^2 * h. Here, that's 3.14 * (3^2) * 5 = 3.14 * 9 * 5 = 141.3 cc."
   },
   {
     "id": 399,
@@ -5609,7 +5637,8 @@
       "8 days",
       "9 days"
     ],
-    "answer": "6 days"
+    "answer": "6 days",
+    "explanation": "In one day, the first worker finishes 1/10 of the job and the second worker finishes 1/15. Together, they finish 1/10 + 1/15 = 5/30 = 1/6 of the job per day. So, it will take them 6 days to finish the whole job together."
   },
   {
     "id": 400,
@@ -5623,7 +5652,8 @@
       "4",
       "5"
     ],
-    "answer": "3"
+    "answer": "3",
+    "explanation": "The log base 10 of a number is the power you must raise 10 to in order to get that number. Since 10^3 = 1000, log10(1000) = 3."
   },
   {
     "id": 401,
@@ -5637,7 +5667,8 @@
       "314 sq cm",
       "200 sq cm"
     ],
-    "answer": "157 sq cm"
+    "answer": "157 sq cm",
+    "explanation": "The diagonal of the square is the diameter of the circle. The diagonal is 10 * sqrt(2) cm, so the radius is 5 * sqrt(2) cm. The area of the circle is pi * r^2 = 3.14 * (5 * sqrt(2))^2 = 3.14 * 50 = 157 sq cm."
   },
   {
     "id": 402,
@@ -5651,7 +5682,8 @@
       "48",
       "16"
     ],
-    "answer": "24"
+    "answer": "24",
+    "explanation": "The number of ways to arrange 4 different letters is 4! (4 factorial), which is 4 * 3 * 2 * 1 = 24."
   },
   {
     "id": 403,
@@ -5665,7 +5697,8 @@
       "12",
       "15"
     ],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "Plug in 3 for x: f(3) = 2(3^2) - 3(3) + 1 = 2(9) - 9 + 1 = 18 - 9 + 1 = 10."
   },
   {
     "id": 404,
@@ -5679,7 +5712,8 @@
       "230",
       "240"
     ],
-    "answer": "210"
+    "answer": "210",
+    "explanation": "The sum of the first 'n' positive integers is n(n+1)/2. For n=20, that's 20(21)/2 = 210."
   },
   {
     "id": 405,
@@ -5693,7 +5727,8 @@
       "120",
       "66"
     ],
-    "answer": "88"
+    "answer": "88",
+    "explanation": "60 miles per hour is 1 mile per minute. 1 mile (5280 feet) divided by 60 seconds gives 88 feet per second."
   },
   {
     "id": 406,
@@ -5706,7 +5741,8 @@
       "y = 1/2x + 3",
       "y = -1/2x + 3"
     ],
-    "answer": "y = 2x - 5"
+    "answer": "y = 2x - 5",
+    "explanation": "Parallel lines have the same slope. The slope of the given line is 2, so the parallel line must also have a slope of 2."
   },
   {
     "id": 407,
@@ -5720,7 +5756,8 @@
       "48",
       "8"
     ],
-    "answer": "24"
+    "answer": "24",
+    "explanation": "The greatest common divisor (GCD) is the largest number that divides both numbers evenly. 24 is the largest number that goes into both 48 (24 * 2) and 72 (24 * 3)."
   },
   {
     "id": 408,
@@ -5734,7 +5771,8 @@
       "2% decrease",
       "2% increase"
     ],
-    "answer": "1% decrease"
+    "answer": "1% decrease",
+    "explanation": "If the price was $100, a 10% increase makes it $110. A 10% discount on $110 is $11, making the final price $99. This is a 1% decrease from the original $100."
   },
   {
     "id": 409,
@@ -5748,7 +5786,8 @@
       "3",
       "infinite"
     ],
-    "answer": "2"
+    "answer": "2",
+    "explanation": "The expression |x - 3| = 5 means that (x - 3) can be either 5 or -5. This gives two possible values for x: 8 or -2."
   },
   {
     "id": 410,
@@ -5762,6 +5801,7 @@
       "i",
       "-i"
     ],
-    "answer": "-1"
+    "answer": "-1",
+    "explanation": "By definition, the imaginary unit 'i' is the square root of -1. Therefore, its square (i^2) is exactly -1."
   }
 ]
