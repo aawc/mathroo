@@ -4,350 +4,400 @@
     "grade": "1-2",
     "question": "David wrote the word BANANA three times. How many times did he write the letter A?",
     "options": ["3", "6", "9", "12", "15"],
-    "answer": "9"
+    "answer": "9",
+    "explanation": "In one word \"BANANA\", there are 3 \"A\"s. Since he wrote it 3 times, we multiply 3 by 3 to get 9."
   },
   {
     "id": 2,
     "grade": "1-2",
     "question": "On Monday, Alice starts to read a book with 7 chapters. She reads one chapter each day. On what day will she finish the book?",
     "options": ["Friday", "Saturday", "Sunday", "Monday", "Tuesday"],
-    "answer": "Sunday"
+    "answer": "Sunday",
+    "explanation": "Starting from Monday: 1-Mon, 2-Tue, 3-Wed, 4-Thu, 5-Fri, 6-Sat, 7-Sun. She finishes on Sunday."
   },
   {
     "id": 3,
     "grade": "1-2",
     "question": "A hydra has 2 heads. When you cut off 1 head, 2 new ones grow back. If you cut off 2 heads, one after another, how many heads will it have?",
     "options": ["2", "3", "4", "5", "6"],
-    "answer": "4"
+    "answer": "4",
+    "explanation": "Start with 2 heads. Cut 1: 2 - 1 + 2 = 3 heads. Cut another 1: 3 - 1 + 2 = 4 heads."
   },
   {
     "id": 4,
     "grade": "1-2",
     "question": "Twelve friends are playing a game. One is the leader. If 7 friends have finished the game, how many are still playing?",
     "options": ["3", "4", "5", "6", "7"],
-    "answer": "4"
+    "answer": "4",
+    "explanation": "There are 12 friends in total. 1 is the leader, so 11 are players. If 7 finished, then 11 - 7 = 4 are still playing."
   },
   {
     "id": 5,
     "grade": "1-2",
     "question": "Today, Tom added his age and his brother's age and got 8. What will be the sum of their ages in 2 years?",
     "options": ["10", "11", "12", "13", "14"],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "In 2 years, Tom will be 2 years older, and his brother will also be 2 years older. So the sum will increase by 2 + 2 = 4 years. 8 + 4 = 12."
   },
   {
     "id": 6,
     "grade": "3-4",
     "question": "How many common letters do the words ELEPHANT and LEOPARD have?",
     "options": ["2", "3", "4", "5", "6"],
-    "answer": "4"
+    "answer": "4",
+    "explanation": "The common letters are E, L, P, and A. That makes 4 letters."
   },
   {
     "id": 7,
     "grade": "3-4",
     "question": "The numbers 34 and 142 have the same sum of their digits (3+4=7 and 1+4+2=7). What is the first number greater than 2020 such that the sum of its digits is the same as the sum of the digits of 2020?",
     "options": ["2021", "2022", "2011", "2101", "2110"],
-    "answer": "2101"
+    "answer": "2101",
+    "explanation": "Sum of digits of 2020 is 2+0+2+0 = 4. The next number after 2020 with the same sum is 2101 (2+1+0+1 = 4)."
   },
   {
     "id": 8,
     "grade": "3-4",
     "question": "Start with a secret number. Subtract 5, then multiply by 3. The result is 12. What is the secret number?",
     "options": ["7", "8", "9", "10", "11"],
-    "answer": "9"
+    "answer": "9",
+    "explanation": "Work backwards: 12 divided by 3 is 4. Then add 5 to 4 to get 9."
   },
   {
     "id": 9,
     "grade": "3-4",
     "question": "There are 6 trees in a row. The distance between each tree is 5 meters. What is the distance from the first tree to the last tree?",
     "options": ["20", "25", "30", "35", "40"],
-    "answer": "25"
+    "answer": "25",
+    "explanation": "Between 6 trees, there are 5 gaps. Each gap is 5 meters, so 5 gaps times 5 meters is 25 meters."
   },
   {
     "id": 10,
     "grade": "3-4",
     "question": "A digital clock shows 12:21. How many minutes until the next time that reads the same backwards and forwards?",
     "options": ["60", "70", "80", "90", "100"],
-    "answer": "70"
+    "answer": "70",
+    "explanation": "The current time is 12:21. The next palindrome time is 13:31. The difference is 1 hour and 10 minutes, which is 70 minutes."
   },
   {
     "id": 11,
     "grade": "1-2",
     "question": "A train has 5 cars. If 2 cars are removed, how many cars are left?",
     "options": ["2", "3", "4", "5", "7"],
-    "answer": "3"
+    "answer": "3",
+    "explanation": "5 minus 2 equals 3."
   },
   {
     "id": 12,
     "grade": "1-2",
     "question": "There are 3 red apples and 4 green apples in a basket. How many apples are there in total?",
     "options": ["5", "6", "7", "8", "9"],
-    "answer": "7"
+    "answer": "7",
+    "explanation": "3 plus 4 equals 7."
   },
   {
     "id": 13,
     "grade": "1-2",
     "question": "A cat has 4 legs. How many legs do 3 cats have altogether?",
     "options": ["7", "9", "10", "12", "14"],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "3 cats times 4 legs each is 12 legs."
   },
   {
     "id": 14,
     "grade": "1-2",
     "question": "If today is Tuesday, what day was it 2 days ago?",
     "options": ["Sunday", "Monday", "Wednesday", "Thursday", "Friday"],
-    "answer": "Sunday"
+    "answer": "Sunday",
+    "explanation": "1 day ago was Monday, and 2 days ago was Sunday."
   },
   {
     "id": 15,
     "grade": "1-2",
     "question": "I have a square piece of paper. If I fold it in half once, how many rectangles do I get?",
     "options": ["1", "2", "3", "4", "5"],
-    "answer": "2"
+    "answer": "2",
+    "explanation": "Folding a square in half creates 2 smaller rectangles."
   },
   {
     "id": 16,
     "grade": "1-2",
     "question": "Which number is larger than 5 but smaller than 8?",
     "options": ["4", "5", "6", "8", "9"],
-    "answer": "6"
+    "answer": "6",
+    "explanation": "The numbers between 5 and 8 are 6 and 7. Only 6 is in the options."
   },
   {
     "id": 17,
     "grade": "1-2",
     "question": "A pattern goes: Red, Blue, Red, Blue... What color is the 5th item?",
     "options": ["Red", "Blue", "Green", "Yellow", "Black"],
-    "answer": "Red"
+    "answer": "Red",
+    "explanation": "The odd-numbered items (1st, 3rd, 5th) are Red."
   },
   {
     "id": 18,
     "grade": "1-2",
     "question": "If I have 10 candies and share them equally with my friend, how many do we each get?",
     "options": ["2", "4", "5", "6", "10"],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "10 candies divided by 2 people is 5 candies each."
   },
   {
     "id": 19,
     "grade": "1-2",
     "question": "How many corners does a triangle have?",
     "options": ["2", "3", "4", "5", "6"],
-    "answer": "3"
+    "answer": "3",
+    "explanation": "A triangle has 3 sides and 3 corners."
   },
   {
     "id": 20,
     "grade": "1-2",
     "question": "A square has 4 sides. How many sides do 2 squares have altogether?",
     "options": ["4", "6", "8", "10", "12"],
-    "answer": "8"
+    "answer": "8",
+    "explanation": "2 squares times 4 sides each is 8 sides."
   },
   {
     "id": 21,
     "grade": "1-2",
     "question": "I have 3 coins. Each is worth 5 cents. How much money do I have in total?",
     "options": ["10 cents", "12 cents", "15 cents", "20 cents", "25 cents"],
-    "answer": "15 cents"
+    "answer": "15 cents",
+    "explanation": "3 coins times 5 cents each is 15 cents."
   },
   {
     "id": 22,
     "grade": "1-2",
     "question": "A butterfly has 2 wings. How many wings do 5 butterflies have?",
     "options": ["5", "7", "8", "10", "12"],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "5 butterflies times 2 wings each is 10 wings."
   },
   {
     "id": 23,
     "grade": "1-2",
     "question": "Which of these is a shape with 4 equal sides?",
     "options": ["Triangle", "Circle", "Rectangle", "Square", "Pentagon"],
-    "answer": "Square"
+    "answer": "Square",
+    "explanation": "A square is the shape where all 4 sides are the same length."
   },
   {
     "id": 24,
     "grade": "1-2",
     "question": "If you count from 1 to 10, how many numbers are even?",
     "options": ["3", "4", "5", "6", "7"],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "The even numbers are 2, 4, 6, 8, and 10. There are 5 of them."
   },
   {
     "id": 25,
     "grade": "1-2",
     "question": "A clock shows 3 o'clock. How many hours until it shows 5 o'clock?",
     "options": ["1", "2", "3", "4", "5"],
-    "answer": "2"
+    "answer": "2",
+    "explanation": "5 minus 3 is 2 hours."
   },
   {
     "id": 26,
     "grade": "3-4",
     "question": "If a rectangle has a length of 8 cm and a width of 5 cm, what is its perimeter?",
     "options": ["13 cm", "26 cm", "40 cm", "30 cm", "36 cm"],
-    "answer": "26 cm"
+    "answer": "26 cm",
+    "explanation": "Perimeter is the sum of all sides: 8 + 5 + 8 + 5 = 26 cm."
   },
   {
     "id": 27,
     "grade": "3-4",
     "question": "A movie starts at 2:15 PM and lasts for 1 hour and 45 minutes. What time does it end?",
     "options": ["3:45 PM", "4:00 PM", "4:15 PM", "4:30 PM", "3:00 PM"],
-    "answer": "4:00 PM"
+    "answer": "4:00 PM",
+    "explanation": "2:15 plus 1 hour is 3:15. Adding 45 more minutes takes it to 4:00 PM."
   },
   {
     "id": 28,
     "grade": "3-4",
     "question": "I am thinking of a number. If I multiply it by 4 and then add 6, I get 30. What is the number?",
     "options": ["5", "6", "7", "8", "9"],
-    "answer": "6"
+    "answer": "6",
+    "explanation": "Work backwards: 30 minus 6 is 24. Then 24 divided by 4 is 6."
   },
   {
     "id": 29,
     "grade": "3-4",
     "question": "A box contains 24 chocolates. If 4 children share them equally, how many does each child get?",
     "options": ["4", "5", "6", "7", "8"],
-    "answer": "6"
+    "answer": "6",
+    "explanation": "24 divided by 4 is 6."
   },
   {
     "id": 30,
     "grade": "3-4",
     "question": "What is the next number in the sequence: 2, 4, 8, 16, ...?",
     "options": ["20", "24", "28", "32", "36"],
-    "answer": "32"
+    "answer": "32",
+    "explanation": "Each number is double the previous one. 16 times 2 is 32."
   },
   {
     "id": 31,
     "grade": "3-4",
     "question": "A triangle has sides of length 5 cm, 5 cm, and 6 cm. What kind of triangle is it?",
     "options": ["Equilateral", "Isosceles", "Scalene", "Right-angled", "Obtuse"],
-    "answer": "Isosceles"
+    "answer": "Isosceles",
+    "explanation": "A triangle with two equal sides is called an isosceles triangle."
   },
   {
     "id": 32,
     "grade": "3-4",
     "question": "If 3 pencils cost $1.50, how much do 5 pencils cost?",
     "options": ["$2.00", "$2.25", "$2.50", "$2.75", "$3.00"],
-    "answer": "$2.50"
+    "answer": "$2.50",
+    "explanation": "Each pencil costs $1.50 divided by 3, which is $0.50. So 5 pencils cost 5 times $0.50, which is $2.50."
   },
   {
     "id": 33,
     "grade": "3-4",
     "question": "A bag has 5 red marbles and 3 blue marbles. How many more red marbles than blue marbles are there?",
     "options": ["1", "2", "3", "4", "5"],
-    "answer": "2"
+    "answer": "2",
+    "explanation": "5 minus 3 is 2."
   },
   {
     "id": 34,
     "grade": "3-4",
     "question": "A square has an area of 36 sq cm. What is the length of its side?",
     "options": ["4 cm", "5 cm", "6 cm", "7 cm", "8 cm"],
-    "answer": "6 cm"
+    "answer": "6 cm",
+    "explanation": "The side length is the number that, when multiplied by itself, gives 36. That number is 6."
   },
   {
     "id": 35,
     "grade": "3-4",
     "question": "If a year has 365 days, and a week has 7 days, how many full weeks are there in a year?",
     "options": ["50", "51", "52", "53", "54"],
-    "answer": "52"
+    "answer": "52",
+    "explanation": "365 divided by 7 is 52 with a remainder of 1. So there are 52 full weeks."
   },
   {
     "id": 36,
     "grade": "3-4",
     "question": "Which of these numbers is a multiple of 3 and 5?",
     "options": ["10", "12", "15", "20", "25"],
-    "answer": "15"
+    "answer": "15",
+    "explanation": "A multiple of both 3 and 5 must be a multiple of 15. Only 15 is in the options."
   },
   {
     "id": 37,
     "grade": "3-4",
     "question": "A fence is 20 meters long. Posts are placed every 2 meters, including at both ends. How many posts are there?",
     "options": ["9", "10", "11", "12", "13"],
-    "answer": "11"
+    "answer": "11",
+    "explanation": "20 meters divided by 2-meter gaps gives 10 gaps. Since there are posts at both ends, we need 10 + 1 = 11 posts."
   },
   {
     "id": 38,
     "grade": "3-4",
     "question": "A digital clock shows 10:34. What is the sum of the digits?",
     "options": ["6", "7", "8", "9", "10"],
-    "answer": "8"
+    "answer": "8",
+    "explanation": "1 + 0 + 3 + 4 = 8."
   },
   {
     "id": 39,
     "grade": "3-4",
     "question": "If I have 3 different shirts and 2 different pants, how many different outfits can I make?",
     "options": ["4", "5", "6", "7", "8"],
-    "answer": "6"
+    "answer": "6",
+    "explanation": "3 shirts times 2 pants gives 6 different outfits."
   },
   {
     "id": 40,
     "grade": "3-4",
     "question": "What is the remainder when 23 is divided by 5?",
     "options": ["1", "2", "3", "4", "0"],
-    "answer": "3"
+    "answer": "3",
+    "explanation": "23 divided by 5 is 4 with a remainder of 3, because 5 times 4 is 20, and 23 - 20 = 3."
   },
   {
     "id": 41,
     "grade": "3-4",
     "question": "A rectangular garden has an area of 40 sq meters. If the length is 10 meters, what is the width?",
     "options": ["4 meters", "5 meters", "6 meters", "8 meters", "10 meters"],
-    "answer": "4 meters"
+    "answer": "4 meters",
+    "explanation": "Area is length times width. 40 divided by 10 is 4 meters."
   },
   {
     "id": 42,
     "grade": "3-4",
     "question": "If a clock shows 9:45, how many minutes until it shows 10:15?",
     "options": ["15", "20", "30", "45", "60"],
-    "answer": "30"
+    "answer": "30",
+    "explanation": "From 9:45 to 10:00 is 15 minutes. From 10:00 to 10:15 is another 15 minutes. 15 + 15 = 30 minutes."
   },
   {
     "id": 43,
     "grade": "3-4",
     "question": "I have 4 boxes, and each box has 6 balls. How many balls do I have in total?",
     "options": ["10", "12", "18", "24", "30"],
-    "answer": "24"
+    "answer": "24",
+    "explanation": "4 boxes times 6 balls each is 24 balls."
   },
   {
     "id": 44,
     "grade": "3-4",
     "question": "What is the sum of the first 5 odd numbers?",
     "options": ["15", "20", "25", "30", "35"],
-    "answer": "25"
+    "answer": "25",
+    "explanation": "The first 5 odd numbers are 1, 3, 5, 7, and 9. Adding them up: 1 + 3 + 5 + 7 + 9 = 25."
   },
   {
     "id": 45,
     "grade": "3-4",
     "question": "A pattern goes: 1, 3, 5, 7... What is the 10th number?",
     "options": ["17", "19", "21", "23", "25"],
-    "answer": "19"
+    "answer": "19",
+    "explanation": "This is a sequence of odd numbers. The 10th odd number can be found by (2 times 10) - 1 = 19."
   },
   {
     "id": 46,
     "grade": "3-4",
     "question": "How many faces does a cube have?",
     "options": ["4", "6", "8", "10", "12"],
-    "answer": "6"
+    "answer": "6",
+    "explanation": "A cube has 6 square faces, like a die."
   },
   {
     "id": 47,
     "grade": "3-4",
     "question": "If 4 notebooks cost $12, how much do 7 notebooks cost?",
     "options": ["$14", "$18", "$21", "$24", "$28"],
-    "answer": "$21"
+    "answer": "$21",
+    "explanation": "Each notebook costs $12 divided by 4, which is $3. So 7 notebooks cost 7 times $3, which is $21."
   },
   {
     "id": 48,
     "grade": "3-4",
     "question": "A book has 120 pages. If I read 10 pages a day, how many days will it take to finish?",
     "options": ["10", "12", "15", "20", "25"],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "120 pages divided by 10 pages per day is 12 days."
   },
   {
     "id": 49,
     "grade": "3-4",
     "question": "Which of these shapes has the most sides?",
     "options": ["Triangle", "Square", "Pentagon", "Hexagon", "Octagon"],
-    "answer": "Octagon"
+    "answer": "Octagon",
+    "explanation": "A triangle has 3, square 4, pentagon 5, hexagon 6, and octagon has 8 sides. So octagon has the most."
   },
   {
     "id": 50,
     "grade": "3-4",
     "question": "If a full rotation is 360 degrees, how many degrees is a half rotation?",
     "options": ["90", "180", "270", "360", "450"],
-    "answer": "180"
+    "answer": "180",
+    "explanation": "360 degrees divided by 2 is 180 degrees."
   },
   {
     "id": 51,
