@@ -2796,7 +2796,8 @@
       "200 sq cm",
       "250 sq cm"
     ],
-    "answer": "150 sq cm"
+    "answer": "150 sq cm",
+    "explanation": "First, find the width. Half of the perimeter is 25 cm (50 / 2). Subtract the length (15 cm) from 25 to get the width (10 cm). Then multiply length by width: 15 * 10 = 150 sq cm."
   },
   {
     "id": 202,
@@ -2809,7 +2810,8 @@
       "3 hours",
       "3.5 hours"
     ],
-    "answer": "2.5 hours"
+    "answer": "2.5 hours",
+    "explanation": "Divide the distance by the speed: 125 / 50 = 2.5 hours."
   },
   {
     "id": 203,
@@ -2822,7 +2824,8 @@
       "20",
       "25"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "The multiples of 3 and 5 less than 50 are 15, 30, and 45. If the result is 15, then adding 5 gives 20. Dividing 20 by 4 gives 5, which is our starting number."
   },
   {
     "id": 204,
@@ -2835,7 +2838,8 @@
       "32",
       "40"
     ],
-    "answer": "24"
+    "answer": "24",
+    "explanation": "Total parts are 1+2+3+4 = 10. Each part is 80 / 10 = 8 chocolates. The least share is 1 part (8) and the most is 4 parts (32). The difference is 32 - 8 = 24."
   },
   {
     "id": 205,
@@ -2848,7 +2852,8 @@
       "120",
       "150"
     ],
-    "answer": "120"
+    "answer": "120",
+    "explanation": "Each number is multiplied by a growing number: 1*2=2, 2*3=6, 6*4=24. The next is 24*5=120."
   },
   {
     "id": 206,
@@ -2861,7 +2866,8 @@
       "135 sq cm",
       "150 sq cm"
     ],
-    "answer": "54 sq cm"
+    "answer": "54 sq cm",
+    "explanation": "This is a right-angled triangle because 9^2 + 12^2 = 15^2. The area is (base * height) / 2, which is (9 * 12) / 2 = 54 sq cm."
   },
   {
     "id": 207,
@@ -2874,7 +2880,8 @@
       "5",
       "6"
     ],
-    "answer": "4"
+    "answer": "4",
+    "explanation": "6 painters working for 4 hours is 24 painter-hours to do 3 rooms. That means each room takes 8 painter-hours (24 / 3). 4 painters working for 8 hours is 32 painter-hours. 32 / 8 = 4 rooms."
   },
   {
     "id": 208,
@@ -2887,7 +2894,8 @@
       "400",
       "450"
     ],
-    "answer": "300"
+    "answer": "300",
+    "explanation": "On day 1, I read 20% of 500, which is 100 pages, leaving 400. On day 2, I read 25% of 400, which is also 100 pages. So, 500 - 100 - 100 = 300 pages left."
   },
   {
     "id": 209,
@@ -2900,7 +2908,8 @@
       "64",
       "81"
     ],
-    "answer": "64"
+    "answer": "64",
+    "explanation": "A perfect cube is a number you get by multiplying another number by itself three times. 4 * 4 * 4 = 64."
   },
   {
     "id": 210,
@@ -2913,7 +2922,8 @@
       "1/32",
       "1/64"
     ],
-    "answer": "1/16"
+    "answer": "1/16",
+    "explanation": "Each toss has a 1/2 chance of being heads. For 4 tosses, it is 1/2 * 1/2 * 1/2 * 1/2 = 1/16."
   },
   {
     "id": 211,
@@ -2926,7 +2936,8 @@
       "30",
       "33"
     ],
-    "answer": "27"
+    "answer": "27",
+    "explanation": "30% + 25% = 55% chose soccer or basketball. That means 100% - 55% = 45% chose something else. 45% of 60 is 0.45 * 60 = 27 people."
   },
   {
     "id": 212,
@@ -2939,7 +2950,8 @@
       "57",
       "67"
     ],
-    "answer": "37"
+    "answer": "37",
+    "explanation": "4^3 is 4 * 4 * 4 = 64. 3^3 is 3 * 3 * 3 = 27. 64 - 27 = 37."
   },
   {
     "id": 213,
@@ -2952,7 +2964,8 @@
       "4/5",
       "3/5"
     ],
-    "answer": "7/10"
+    "answer": "7/10",
+    "explanation": "Total marbles are 10. The number of marbles that are NOT blue is 2 red + 5 green = 7. So the probability is 7/10."
   },
   {
     "id": 214,
@@ -2965,7 +2978,8 @@
       "4 hours",
       "4 hours 15 minutes"
     ],
-    "answer": "3 hours 35 minutes"
+    "answer": "3 hours 35 minutes",
+    "explanation": "From 11:45 AM to 2:45 PM is 3 hours. From 2:45 PM to 3:20 PM is another 35 minutes. So the total is 3 hours and 35 minutes."
   },
   {
     "id": 215,
@@ -2978,7 +2992,8 @@
       "36 cm",
       "40 cm"
     ],
-    "answer": "32 cm"
+    "answer": "32 cm",
+    "explanation": "Triangle area is (16 * 8) / 2 = 64 sq cm. A square with area 64 has a side of 8 cm (8 * 8 = 64). The perimeter is 4 * 8 = 32 cm."
   },
   {
     "id": 216,
@@ -2991,7 +3006,8 @@
       "18",
       "18.5"
     ],
-    "answer": "17"
+    "answer": "17",
+    "explanation": "Add the two numbers together and divide by 2: (15.2 + 18.8) / 2 = 17."
   },
   {
     "id": 217,
@@ -3004,7 +3020,8 @@
       "182",
       "192"
     ],
-    "answer": "172"
+    "answer": "172",
+    "explanation": "5 scores is 5 * 20 = 100. Half a gross is 144 / 2 = 72. 100 + 72 = 172."
   },
   {
     "id": 218,
@@ -3017,7 +3034,8 @@
       "75",
       "90"
     ],
-    "answer": "45"
+    "answer": "45",
+    "explanation": "Sum of parts is 3+4+5=12. Total degrees in a triangle is 180. Each part is 180 / 12 = 15 degrees. Smallest is 3 parts, so 3 * 15 = 45 degrees."
   },
   {
     "id": 219,
@@ -3030,7 +3048,8 @@
       "10000",
       "10800"
     ],
-    "answer": "9000"
+    "answer": "9000",
+    "explanation": "One hour has 3600 seconds. 2.5 * 3600 = 9000 seconds."
   },
   {
     "id": 220,
@@ -3043,7 +3062,8 @@
       "100",
       "105"
     ],
-    "answer": "97"
+    "answer": "97",
+    "explanation": "Multiply the divisor by the quotient and add the remainder: (15 * 6) + 7 = 90 + 7 = 97."
   },
   {
     "id": 221,
@@ -3056,7 +3076,8 @@
       "240 sq cm",
       "255 sq cm"
     ],
-    "answer": "120 sq cm"
+    "answer": "120 sq cm",
+    "explanation": "Using the Pythagorean theorem, the length is the square root of (17^2 - 8^2) = 15 cm. Area is 15 * 8 = 120 sq cm."
   },
   {
     "id": 222,
@@ -3069,7 +3090,8 @@
       "750 km",
       "800 km"
     ],
-    "answer": "600 km"
+    "answer": "600 km",
+    "explanation": "45 minutes is 3/4 of an hour. 800 * 3/4 = 600 km."
   },
   {
     "id": 223,
@@ -3082,7 +3104,8 @@
       "4",
       "5"
     ],
-    "answer": "3"
+    "answer": "3",
+    "explanation": "Try starting with 1: (1*5)+1=6. With 2: (2*5)+1=11. With 3: (3*5)+1=16, which is a perfect square (4*4)."
   },
   {
     "id": 224,
@@ -3095,7 +3118,8 @@
       "24",
       "30"
     ],
-    "answer": "18"
+    "answer": "18",
+    "explanation": "Total parts are 1+2+3+4+5 = 15. Each part is 90 / 15 = 6 chocolates. The middle (median) share is 3 parts, which is 3 * 6 = 18."
   },
   {
     "id": 225,
@@ -3108,7 +3132,8 @@
       "81",
       "90"
     ],
-    "answer": "81"
+    "answer": "81",
+    "explanation": "Each number is multiplied by 3. 27 * 3 = 81."
   },
   {
     "id": 226,
@@ -3121,7 +3146,8 @@
       "60 sq cm",
       "96 sq cm"
     ],
-    "answer": "48 sq cm"
+    "answer": "48 sq cm",
+    "explanation": "Draw a line from the top to the middle of the 12 cm side. This creates a right-angled triangle with side 10 and base 6. The height is 8 (because 6^2 + 8^2 = 10^2). Area is (12 * 8) / 2 = 48 sq cm."
   },
   {
     "id": 227,
@@ -3134,7 +3160,8 @@
       "8 hours",
       "10 hours"
     ],
-    "answer": "8 hours"
+    "answer": "8 hours",
+    "explanation": "8 workers * 5 hours = 40 worker-hours. So 5 workers will take 40 / 5 = 8 hours."
   },
   {
     "id": 228,
@@ -3147,7 +3174,8 @@
       "420",
       "450"
     ],
-    "answer": "378"
+    "answer": "378",
+    "explanation": "On day 1, I read 30% of 600, which is 180 pages, leaving 420. On day 2, I read 10% of 420, which is 42 pages. So, 420 - 42 = 378 pages left."
   },
   {
     "id": 229,
@@ -3160,7 +3188,8 @@
       "64",
       "81"
     ],
-    "answer": "64"
+    "answer": "64",
+    "explanation": "64 is 8 * 8 (a perfect square) and also 4 * 4 * 4 (a perfect cube)."
   },
   {
     "id": 230,
@@ -3173,7 +3202,8 @@
       "15/16",
       "7/8"
     ],
-    "answer": "31/32"
+    "answer": "31/32",
+    "explanation": "The only way to NOT get at least one head is to get all tails. The chance of all tails is (1/2)^5 = 1/32. So the chance of at least one head is 1 - 1/32 = 31/32."
   },
   {
     "id": 231,
@@ -3186,7 +3216,8 @@
       "32",
       "36"
     ],
-    "answer": "24"
+    "answer": "24",
+    "explanation": "40% + 30% = 70% chose apple or banana. 100% - 70% = 30% chose something else. 30% of 80 is 24 people."
   },
   {
     "id": 232,
@@ -3199,7 +3230,8 @@
       "71",
       "81"
     ],
-    "answer": "61"
+    "answer": "61",
+    "explanation": "5^3 is 125 and 4^3 is 64. 125 - 64 = 61."
   },
   {
     "id": 233,
@@ -3212,7 +3244,8 @@
       "1/2",
       "3/5"
     ],
-    "answer": "7/15"
+    "answer": "7/15",
+    "explanation": "Total marbles are 15. Since there are 7 green marbles, the probability is 7/15."
   },
   {
     "id": 234,
@@ -3225,7 +3258,8 @@
       "4 hours",
       "4 hours 15 minutes"
     ],
-    "answer": "3 hours 35 minutes"
+    "answer": "3 hours 35 minutes",
+    "explanation": "From 1:45 PM to 4:45 PM is 3 hours. From 4:45 PM to 5:20 PM is another 35 minutes. Total is 3 hours and 35 minutes."
   },
   {
     "id": 235,
@@ -3238,7 +3272,8 @@
       "45 cm",
       "50 cm"
     ],
-    "answer": "40 cm"
+    "answer": "40 cm",
+    "explanation": "Triangle area is (20 * 10) / 2 = 100 sq cm. A square with area 100 has a side of 10 cm (10 * 10 = 100). The perimeter is 4 * 10 = 40 cm."
   },
   {
     "id": 236,
@@ -3251,7 +3286,8 @@
       "2.5",
       "1.5"
     ],
-    "answer": "2.0"
+    "answer": "2.0",
+    "explanation": "Add the two numbers and divide by 2: (1.25 + 2.75) / 2 = 2.0."
   },
   {
     "id": 237,
@@ -3264,7 +3300,8 @@
       "368",
       "388"
     ],
-    "answer": "348"
+    "answer": "348",
+    "explanation": "2 grosses is 2 * 144 = 288. 3 scores is 3 * 20 = 60. 288 + 60 = 348."
   },
   {
     "id": 238,
@@ -3277,7 +3314,8 @@
       "Right-angled Isosceles",
       "Obtuse"
     ],
-    "answer": "Right-angled Isosceles"
+    "answer": "Right-angled Isosceles",
+    "explanation": "The sum of parts is 1+1+2=4. Each part is 180 / 4 = 45 degrees. The angles are 45, 45, and 90 degrees. This makes it a right-angled isosceles triangle."
   },
   {
     "id": 239,
@@ -3290,7 +3328,8 @@
       "14400",
       "18000"
     ],
-    "answer": "10800"
+    "answer": "10800",
+    "explanation": "One hour has 3600 seconds. 3 * 3600 = 10800 seconds."
   },
   {
     "id": 240,
@@ -3303,7 +3342,8 @@
       "105",
       "110"
     ],
-    "answer": "101"
+    "answer": "101",
+    "explanation": "Multiply the divisor by the quotient and add the remainder: (12 * 8) + 5 = 101."
   },
   {
     "id": 241,
@@ -3316,7 +3356,8 @@
       "13",
       "14"
     ],
-    "answer": "14"
+    "answer": "14",
+    "explanation": "Every stick has 2 ends. So 7 sticks have 7 * 2 = 14 ends."
   },
   {
     "id": 242,
@@ -3329,7 +3370,8 @@
       "10",
       "12"
     ],
-    "answer": "6"
+    "answer": "6",
+    "explanation": "Karl ate 16 / 2 = 8. Eva ate 2. So Dana ate 16 - 8 - 2 = 6."
   },
   {
     "id": 243,
@@ -3342,7 +3384,8 @@
       "3",
       "4"
     ],
-    "answer": "3"
+    "answer": "3",
+    "explanation": "The highest possible total for 4 rolls is 24 (all sixes). To get 23, she must have rolled three 6s and one 5."
   },
   {
     "id": 244,
@@ -3355,7 +3398,8 @@
       "18:53",
       "19:13"
     ],
-    "answer": "18:53"
+    "answer": "18:53",
+    "explanation": "Add the film length and the breaks: 90 + 8 + 5 = 103 minutes. 103 minutes is 1 hour and 43 minutes. Adding this to 17:10 gives 18:53."
   },
   {
     "id": 245,
@@ -3368,7 +3412,8 @@
       "3",
       "2"
     ],
-    "answer": "6"
+    "answer": "6",
+    "explanation": "There are 6 more boys than girls (25 - 19). Each week, 1 more girl than boy joins (3 - 2 = 1). So it will take 6 weeks for the numbers to be equal."
   },
   {
     "id": 246,
@@ -3381,7 +3426,8 @@
       "180",
       "240"
     ],
-    "answer": "90"
+    "answer": "90",
+    "explanation": "30 cows have 30 * 4 = 120 legs. Since the chickens have the same number of legs, there must be 120 / 2 = 60 chickens. Total animals = 30 + 60 = 90."
   },
   {
     "id": 247,
@@ -3394,7 +3440,8 @@
       "12 cm",
       "24 cm"
     ],
-    "answer": "6 cm"
+    "answer": "6 cm",
+    "explanation": "The rectangle's width is 4 cm (half of 8). Its perimeter is 2 * (8 + 4) = 24 cm. A square with the same perimeter has sides of 24 / 4 = 6 cm."
   },
   {
     "id": 248,
@@ -3407,7 +3454,8 @@
       "4",
       "Not possible to answer"
     ],
-    "answer": "2"
+    "answer": "2",
+    "explanation": "Since they all have different amounts and at least one, the only way to get 7 is if they have 1, 2, and 4 nuts. Anni has 1, Asia has 4, so Elli must have 2."
   },
   {
     "id": 249,
@@ -3420,7 +3468,8 @@
       "176 kg",
       "192 kg"
     ],
-    "answer": "144 kg"
+    "answer": "144 kg",
+    "explanation": "If we subtract the 32 kg extra from the total, we get 320 - 32 = 288 kg. This is twice the weight of the white pig, so the white pig weighs 288 / 2 = 144 kg."
   },
   {
     "id": 250,
@@ -3433,7 +3482,8 @@
       "4",
       "6"
     ],
-    "answer": "4"
+    "answer": "4",
+    "explanation": "Starting with Red, the possible orders are R-B-W-Y, R-Y-B-W, R-W-B-Y, and R-W-Y-B. The others are not allowed because they go from yellow to white."
   },
   {
     "id": 251,
