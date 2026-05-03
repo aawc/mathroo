@@ -4197,7 +4197,8 @@
       "110",
       "120"
     ],
-    "answer": "100"
+    "answer": "100",
+    "explanation": "Carriage 1 has 10. Carriage 2 has 15. Carriage 3 has 20. Carriage 4 has 25. Carriage 5 has 30. 10+15+20+25+30 = 100."
   },
   {
     "id": 302,
@@ -4211,7 +4212,8 @@
       "150\u00b0",
       "180\u00b0"
     ],
-    "answer": "90\u00b0"
+    "answer": "90\u00b0",
+    "explanation": "At 3:00, the minute hand is at 12 and the hour hand is at 3. This forms a right angle, which is 90 degrees."
   },
   {
     "id": 303,
@@ -4225,7 +4227,8 @@
       "11",
       "12"
     ],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "Work backwards: 25 plus 15 is 40. Then 40 divided by 4 is 10."
   },
   {
     "id": 304,
@@ -4239,7 +4242,8 @@
       "8 cm",
       "9 cm"
     ],
-    "answer": "5 cm"
+    "answer": "5 cm",
+    "explanation": "Perimeter is 2 times (length + width). So 30 / 2 = 15. Width is 15 - 10 = 5 cm."
   },
   {
     "id": 305,
@@ -4253,7 +4257,8 @@
       "38",
       "39"
     ],
-    "answer": "37"
+    "answer": "37",
+    "explanation": "The gaps are 3, 5, 7, 9... the next gap is 11. 26 + 11 = 37."
   },
   {
     "id": 306,
@@ -4267,7 +4272,8 @@
       "20",
       "25"
     ],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "Red: 1/4 of 40 = 10. Blue: 1/2 of 40 = 20. Yellow: 40 - 10 - 20 = 10."
   },
   {
     "id": 307,
@@ -4281,7 +4287,8 @@
       "$13.00",
       "$14.00"
     ],
-    "answer": "$12.00"
+    "answer": "$12.00",
+    "explanation": "Each pen costs $7.50 / 5 = $1.50. So 8 pens cost 8 * $1.50 = $12.00."
   },
   {
     "id": 310,
@@ -4295,7 +4302,8 @@
       "9",
       "10"
     ],
-    "answer": "8"
+    "answer": "8",
+    "explanation": "If all 20 were chickens, there would be 40 legs. We have 56 - 40 = 16 extra legs. Each cow has 2 more legs than a chicken, so 16 / 2 = 8 cows."
   },
   {
     "id": 311,
@@ -4309,7 +4317,8 @@
       "100",
       "1"
     ],
-    "answer": "90"
+    "answer": "90",
+    "explanation": "10^10 - 1 is 9,999,999,999 (ten 9s). Sum of digits is 10 * 9 = 90."
   },
   {
     "id": 312,
@@ -4323,7 +4332,8 @@
       "50",
       "60"
     ],
-    "answer": "40"
+    "answer": "40",
+    "explanation": "In every 100 pages, '5' appears 10 times in the ones place and 10 times in the tens place (50-59). So 20 times per 100 pages. 20 * 2 = 40."
   },
   {
     "id": 313,
@@ -4337,7 +4347,8 @@
       "9",
       "10"
     ],
-    "answer": "7"
+    "answer": "7",
+    "explanation": "12 / 1.5 = 8 pieces. To get 8 pieces, you need 8 - 1 = 7 cuts."
   },
   {
     "id": 314,
@@ -4351,7 +4362,8 @@
       "20",
       "25"
     ],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "Let son be S and father be 4S. In 20 years: 4S + 20 = 2 * (S + 20). 4S + 20 = 2S + 40. 2S = 20, so S = 10."
   },
   {
     "id": 315,
@@ -4365,7 +4377,8 @@
       "4/5",
       "5/6"
     ],
-    "answer": "5/6"
+    "answer": "5/6",
+    "explanation": "All fractions are 1 piece away from a whole (1/2 is 1/2 away, 5/6 is 1/6 away). Since 1/6 is the smallest piece, 5/6 is the closest to 1 and thus the largest."
   },
   {
     "id": 316,
@@ -4379,7 +4392,8 @@
       "36 cm",
       "42 cm"
     ],
-    "answer": "24 cm"
+    "answer": "24 cm",
+    "explanation": "Side length is 6 cm (since 6 * 6 = 36). Perimeter is 4 * 6 = 24 cm."
   },
   {
     "id": 317,
@@ -4393,7 +4407,8 @@
       "1",
       "5"
     ],
-    "answer": "3"
+    "answer": "3",
+    "explanation": "If 3 monkeys eat 3 bananas in 3 minutes, it means 3 monkeys can eat 1 banana every minute. So in 10 minutes, those same 3 monkeys can eat 10 bananas."
   },
   {
     "id": 318,
@@ -4407,7 +4422,8 @@
       "200",
       "250"
     ],
-    "answer": "100"
+    "answer": "100",
+    "explanation": "The sum of the first n odd integers is always n^2. So 10 * 10 = 100."
   },
   {
     "id": 319,
@@ -4421,7 +4437,8 @@
       "4096",
       "1000"
     ],
-    "answer": "1024"
+    "answer": "1024",
+    "explanation": "This is 2 to the power of the position. The 10th number is 2^10 = 1024."
   },
   {
     "id": 320,
@@ -4435,7 +4452,8 @@
       "1/2",
       "3/5"
     ],
-    "answer": "3/10"
+    "answer": "3/10",
+    "explanation": "Total marbles = 2 + 3 + 5 = 10. There are 3 blue marbles, so the probability is 3/10."
   },
   {
     "id": 321,
@@ -4449,7 +4467,8 @@
       "7",
       "8"
     ],
-    "answer": "6"
+    "answer": "6",
+    "explanation": "5 spiders have 5 * 8 = 40 legs. Remaining legs: 76 - 40 = 36. Each beetle has 6 legs, so 36 / 6 = 6 beetles."
   },
   {
     "id": 322,
@@ -4463,7 +4482,8 @@
       "$250",
       "$300"
     ],
-    "answer": "$200"
+    "answer": "$200",
+    "explanation": "Perimeter is 2 * (12 + 8) = 40 meters. Cost is 40 * $5 = $200."
   },
   {
     "id": 323,
@@ -4477,7 +4497,8 @@
       "220",
       "230"
     ],
-    "answer": "210"
+    "answer": "210",
+    "explanation": "Using the formula n(n+1)/2: 20 * 21 / 2 = 10 * 21 = 210."
   },
   {
     "id": 324,
@@ -4491,7 +4512,8 @@
       "15",
       "16"
     ],
-    "answer": "14"
+    "answer": "14",
+    "explanation": "Start with 10. First stop: 10 - 3 + 5 = 12. Second stop: 12 - 2 + 4 = 14."
   },
   {
     "id": 325,
@@ -4505,7 +4527,8 @@
       "24",
       "25"
     ],
-    "answer": "24"
+    "answer": "24",
+    "explanation": "Work backwards: 15 minus 7 is 8. Then 8 multiplied by 3 is 24."
   },
   {
     "id": 326,
@@ -4519,7 +4542,8 @@
       "32 sq cm",
       "64 sq cm"
     ],
-    "answer": "16 sq cm"
+    "answer": "16 sq cm",
+    "explanation": "The side length is 4 cm (since 4 * 4 * 4 = 64). The area of one face is 4 * 4 = 16 sq cm."
   },
   {
     "id": 327,
@@ -4533,7 +4557,8 @@
       "$10.00",
       "$11.00"
     ],
-    "answer": "$9.00"
+    "answer": "$9.00",
+    "explanation": "1 liter costs $3.60 / 2 = $1.80. So 5 liters cost 5 * $1.80 = $9.00."
   },
   {
     "id": 328,
@@ -4547,7 +4572,8 @@
       "10:30",
       "10:45"
     ],
-    "answer": "10:15"
+    "answer": "10:15",
+    "explanation": "90 minutes is 1 hour and 30 minutes. 8:45 + 1 hour is 9:45. Adding 30 more minutes takes us to 10:15."
   },
   {
     "id": 329,
@@ -4561,7 +4587,8 @@
       "30",
       "35"
     ],
-    "answer": "30"
+    "answer": "30",
+    "explanation": "A number divisible by 3 and 5 must be a multiple of 15. From the options, 30 is the only multiple of 15."
   },
   {
     "id": 330,
@@ -4575,7 +4602,8 @@
       "12",
       "16"
     ],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "A cube has 4 edges on the top, 4 on the bottom, and 4 connecting the top and bottom. That's 12 edges in total."
   },
   {
     "id": 331,
@@ -4589,7 +4617,8 @@
       "Rectangle",
       "Star"
     ],
-    "answer": "Triangle"
+    "answer": "Triangle",
+    "explanation": "The pattern repeats every 3 shapes. 50 divided by 3 leaves a remainder of 2. So the 50th shape is the same as the 2nd shape, which is a Triangle."
   },
   {
     "id": 332,
@@ -4603,7 +4632,8 @@
       "550g",
       "600g"
     ],
-    "answer": "500g"
+    "answer": "500g",
+    "explanation": "Flour per person is 200g / 4 = 50g. So for 10 people, we need 10 * 50g = 500g."
   },
   {
     "id": 333,
@@ -4617,7 +4647,8 @@
       "30 sq cm",
       "36 sq cm"
     ],
-    "answer": "25 sq cm"
+    "answer": "25 sq cm",
+    "explanation": "Each side of the square is 20 / 4 = 5 cm. The area is 5 * 5 = 25 sq cm."
   },
   {
     "id": 334,
@@ -4631,7 +4662,8 @@
       "8",
       "9"
     ],
-    "answer": "8"
+    "answer": "8",
+    "explanation": "30 - 5 = 25 students like at least one subject. 18 + 15 = 33. The number who like both is 33 - 25 = 8."
   },
   {
     "id": 335,
@@ -4645,7 +4677,8 @@
       "40",
       "45"
     ],
-    "answer": "30"
+    "answer": "30",
+    "explanation": "The even numbers are 2, 4, 6, 8, and 10. 2 + 4 + 6 + 8 + 10 = 30."
   },
   {
     "id": 336,
@@ -4659,7 +4692,8 @@
       "80",
       "90"
     ],
-    "answer": "60"
+    "answer": "60",
+    "explanation": "Day 1: sells 1/3 of 120 = 40, left = 80. Day 2: sells 1/4 of 80 = 20, left = 60."
   },
   {
     "id": 337,
@@ -4673,7 +4707,8 @@
       "6",
       "7"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "3x = 20 - 5 = 15. So x = 15 / 3 = 5."
   },
   {
     "id": 338,
@@ -4687,7 +4722,8 @@
       "11",
       "12"
     ],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "150 divided by 15 is 10."
   },
   {
     "id": 339,
@@ -4701,7 +4737,8 @@
       "100",
       "0"
     ],
-    "answer": "50"
+    "answer": "50",
+    "explanation": "There are 50 pairs: (100-99) + (98-97) + ... + (2-1). Each pair equals 1. So 50 * 1 = 50."
   },
   {
     "id": 340,
@@ -4715,7 +4752,8 @@
       "48 sq cm",
       "52 sq cm"
     ],
-    "answer": "48 sq cm"
+    "answer": "48 sq cm",
+    "explanation": "Length is 3 * 4 = 12 cm. Area is 12 * 4 = 48 sq cm."
   },
   {
     "id": 341,
@@ -4729,7 +4767,8 @@
       "7",
       "8"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "A square base has 4 vertices. There is 1 more vertex at the top where all sides meet. 4 + 1 = 5 vertices."
   },
   {
     "id": 342,
@@ -4743,7 +4782,8 @@
       "64",
       "65"
     ],
-    "answer": "63"
+    "answer": "63",
+    "explanation": "Each number is (2 times the previous number) + 1. (2 * 31) + 1 = 63."
   },
   {
     "id": 343,
@@ -4757,7 +4797,8 @@
       "25 miles",
       "30 miles"
     ],
-    "answer": "15 miles"
+    "answer": "15 miles",
+    "explanation": "15 minutes is 1/4 of an hour. 60 miles / 4 = 15 miles."
   },
   {
     "id": 344,
@@ -4771,7 +4812,8 @@
       "5",
       "6"
     ],
-    "answer": "4"
+    "answer": "4",
+    "explanation": "12 is 3/4 of the total. So 1/4 of the total is 4. The total is 16, and blue marbles are 16 - 12 = 4."
   },
   {
     "id": 345,
@@ -4785,7 +4827,8 @@
       "360\u00b0",
       "450\u00b0"
     ],
-    "answer": "180\u00b0"
+    "answer": "180\u00b0",
+    "explanation": "The sum of the three interior angles of any triangle is always 180 degrees."
   },
   {
     "id": 346,
@@ -4799,7 +4842,8 @@
       "26",
       "30"
     ],
-    "answer": "25"
+    "answer": "25",
+    "explanation": "If you buy 25 candies, you get 25 / 5 = 5 free candies. 25 + 5 = 30 candies total."
   },
   {
     "id": 347,
@@ -4813,7 +4857,8 @@
       "20",
       "22"
     ],
-    "answer": "18"
+    "answer": "18",
+    "explanation": "A number divisible by both 2 and 3 must be a multiple of 6. Only 18 is a multiple of 6."
   },
   {
     "id": 348,
@@ -4827,7 +4872,8 @@
       "40 sq cm",
       "48 sq cm"
     ],
-    "answer": "36 sq cm"
+    "answer": "36 sq cm",
+    "explanation": "Side length is 24 / 4 = 6 cm. Area is 6 * 6 = 36 sq cm."
   },
   {
     "id": 349,
@@ -4841,7 +4887,8 @@
       "4",
       "5"
     ],
-    "answer": "2"
+    "answer": "2",
+    "explanation": "2(3) + 3b = 12 -> 6 + 3b = 12 -> 3b = 6 -> b = 2."
   },
   {
     "id": 350,
@@ -4855,7 +4902,8 @@
       "135\u00b0",
       "120\u00b0"
     ],
-    "answer": "165\u00b0"
+    "answer": "165\u00b0",
+    "explanation": "The minute hand is at 6 (180 degrees). The hour hand is halfway between 12 and 1 (15 degrees). The angle is 180 - 15 = 165 degrees."
   },
   {
     "id": 351,
