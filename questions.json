@@ -1,0 +1,1682 @@
+[
+  {
+    "id": 1,
+    "grade": "1-2",
+    "question": "David wrote the word BANANA three times. How many times did he write the letter A?",
+    "options": ["3", "6", "9", "12", "15"],
+    "answer": "9"
+  },
+  {
+    "id": 2,
+    "grade": "1-2",
+    "question": "On Monday, Alice starts to read a book with 7 chapters. She reads one chapter each day. On what day will she finish the book?",
+    "options": ["Friday", "Saturday", "Sunday", "Monday", "Tuesday"],
+    "answer": "Sunday"
+  },
+  {
+    "id": 3,
+    "grade": "1-2",
+    "question": "A hydra has 2 heads. When you cut off 1 head, 2 new ones grow back. If you cut off 2 heads, one after another, how many heads will it have?",
+    "options": ["2", "3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "id": 4,
+    "grade": "1-2",
+    "question": "Twelve friends are playing a game. One is the leader. If 7 friends have finished the game, how many are still playing?",
+    "options": ["3", "4", "5", "6", "7"],
+    "answer": "4"
+  },
+  {
+    "id": 5,
+    "grade": "1-2",
+    "question": "Today, Tom added his age and his brother's age and got 8. What will be the sum of their ages in 2 years?",
+    "options": ["10", "11", "12", "13", "14"],
+    "answer": "12"
+  },
+  {
+    "id": 6,
+    "grade": "3-4",
+    "question": "How many common letters do the words ELEPHANT and LEOPARD have?",
+    "options": ["2", "3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "id": 7,
+    "grade": "3-4",
+    "question": "The numbers 34 and 142 have the same sum of their digits (3+4=7 and 1+4+2=7). What is the first number greater than 2020 such that the sum of its digits is the same as the sum of the digits of 2020?",
+    "options": ["2021", "2022", "2011", "2101", "2110"],
+    "answer": "2101"
+  },
+  {
+    "id": 8,
+    "grade": "3-4",
+    "question": "Start with a secret number. Subtract 5, then multiply by 3. The result is 12. What is the secret number?",
+    "options": ["7", "8", "9", "10", "11"],
+    "answer": "9"
+  },
+  {
+    "id": 9,
+    "grade": "3-4",
+    "question": "There are 6 trees in a row. The distance between each tree is 5 meters. What is the distance from the first tree to the last tree?",
+    "options": ["20", "25", "30", "35", "40"],
+    "answer": "25"
+  },
+  {
+    "id": 10,
+    "grade": "3-4",
+    "question": "A digital clock shows 12:21. How many minutes until the next time that reads the same backwards and forwards?",
+    "options": ["60", "70", "80", "90", "100"],
+    "answer": "70"
+  },
+  {
+    "id": 11,
+    "grade": "1-2",
+    "question": "A train has 5 cars. If 2 cars are removed, how many cars are left?",
+    "options": ["2", "3", "4", "5", "7"],
+    "answer": "3"
+  },
+  {
+    "id": 12,
+    "grade": "1-2",
+    "question": "There are 3 red apples and 4 green apples in a basket. How many apples are there in total?",
+    "options": ["5", "6", "7", "8", "9"],
+    "answer": "7"
+  },
+  {
+    "id": 13,
+    "grade": "1-2",
+    "question": "A cat has 4 legs. How many legs do 3 cats have altogether?",
+    "options": ["7", "9", "10", "12", "14"],
+    "answer": "12"
+  },
+  {
+    "id": 14,
+    "grade": "1-2",
+    "question": "If today is Tuesday, what day was it 2 days ago?",
+    "options": ["Sunday", "Monday", "Wednesday", "Thursday", "Friday"],
+    "answer": "Sunday"
+  },
+  {
+    "id": 15,
+    "grade": "1-2",
+    "question": "I have a square piece of paper. If I fold it in half once, how many rectangles do I get?",
+    "options": ["1", "2", "3", "4", "5"],
+    "answer": "2"
+  },
+  {
+    "id": 16,
+    "grade": "1-2",
+    "question": "Which number is larger than 5 but smaller than 8?",
+    "options": ["4", "5", "6", "8", "9"],
+    "answer": "6"
+  },
+  {
+    "id": 17,
+    "grade": "1-2",
+    "question": "A pattern goes: Red, Blue, Red, Blue... What color is the 5th item?",
+    "options": ["Red", "Blue", "Green", "Yellow", "Black"],
+    "answer": "Red"
+  },
+  {
+    "id": 18,
+    "grade": "1-2",
+    "question": "If I have 10 candies and share them equally with my friend, how many do we each get?",
+    "options": ["2", "4", "5", "6", "10"],
+    "answer": "5"
+  },
+  {
+    "id": 19,
+    "grade": "1-2",
+    "question": "How many corners does a triangle have?",
+    "options": ["2", "3", "4", "5", "6"],
+    "answer": "3"
+  },
+  {
+    "id": 20,
+    "grade": "1-2",
+    "question": "A square has 4 sides. How many sides do 2 squares have altogether?",
+    "options": ["4", "6", "8", "10", "12"],
+    "answer": "8"
+  },
+  {
+    "id": 21,
+    "grade": "1-2",
+    "question": "I have 3 coins. Each is worth 5 cents. How much money do I have in total?",
+    "options": ["10 cents", "12 cents", "15 cents", "20 cents", "25 cents"],
+    "answer": "15 cents"
+  },
+  {
+    "id": 22,
+    "grade": "1-2",
+    "question": "A butterfly has 2 wings. How many wings do 5 butterflies have?",
+    "options": ["5", "7", "8", "10", "12"],
+    "answer": "10"
+  },
+  {
+    "id": 23,
+    "grade": "1-2",
+    "question": "Which of these is a shape with 4 equal sides?",
+    "options": ["Triangle", "Circle", "Rectangle", "Square", "Pentagon"],
+    "answer": "Square"
+  },
+  {
+    "id": 24,
+    "grade": "1-2",
+    "question": "If you count from 1 to 10, how many numbers are even?",
+    "options": ["3", "4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "id": 25,
+    "grade": "1-2",
+    "question": "A clock shows 3 o'clock. How many hours until it shows 5 o'clock?",
+    "options": ["1", "2", "3", "4", "5"],
+    "answer": "2"
+  },
+  {
+    "id": 26,
+    "grade": "3-4",
+    "question": "If a rectangle has a length of 8 cm and a width of 5 cm, what is its perimeter?",
+    "options": ["13 cm", "26 cm", "40 cm", "30 cm", "36 cm"],
+    "answer": "26 cm"
+  },
+  {
+    "id": 27,
+    "grade": "3-4",
+    "question": "A movie starts at 2:15 PM and lasts for 1 hour and 45 minutes. What time does it end?",
+    "options": ["3:45 PM", "4:00 PM", "4:15 PM", "4:30 PM", "3:00 PM"],
+    "answer": "4:00 PM"
+  },
+  {
+    "id": 28,
+    "grade": "3-4",
+    "question": "I am thinking of a number. If I multiply it by 4 and then add 6, I get 30. What is the number?",
+    "options": ["5", "6", "7", "8", "9"],
+    "answer": "6"
+  },
+  {
+    "id": 29,
+    "grade": "3-4",
+    "question": "A box contains 24 chocolates. If 4 children share them equally, how many does each child get?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "id": 30,
+    "grade": "3-4",
+    "question": "What is the next number in the sequence: 2, 4, 8, 16, ...?",
+    "options": ["20", "24", "28", "32", "36"],
+    "answer": "32"
+  },
+  {
+    "id": 31,
+    "grade": "3-4",
+    "question": "A triangle has sides of length 5 cm, 5 cm, and 6 cm. What kind of triangle is it?",
+    "options": ["Equilateral", "Isosceles", "Scalene", "Right-angled", "Obtuse"],
+    "answer": "Isosceles"
+  },
+  {
+    "id": 32,
+    "grade": "3-4",
+    "question": "If 3 pencils cost $1.50, how much do 5 pencils cost?",
+    "options": ["$2.00", "$2.25", "$2.50", "$2.75", "$3.00"],
+    "answer": "$2.50"
+  },
+  {
+    "id": 33,
+    "grade": "3-4",
+    "question": "A bag has 5 red marbles and 3 blue marbles. How many more red marbles than blue marbles are there?",
+    "options": ["1", "2", "3", "4", "5"],
+    "answer": "2"
+  },
+  {
+    "id": 34,
+    "grade": "3-4",
+    "question": "A square has an area of 36 sq cm. What is the length of its side?",
+    "options": ["4 cm", "5 cm", "6 cm", "7 cm", "8 cm"],
+    "answer": "6 cm"
+  },
+  {
+    "id": 35,
+    "grade": "3-4",
+    "question": "If a year has 365 days, and a week has 7 days, how many full weeks are there in a year?",
+    "options": ["50", "51", "52", "53", "54"],
+    "answer": "52"
+  },
+  {
+    "id": 36,
+    "grade": "3-4",
+    "question": "Which of these numbers is a multiple of 3 and 5?",
+    "options": ["10", "12", "15", "20", "25"],
+    "answer": "15"
+  },
+  {
+    "id": 37,
+    "grade": "3-4",
+    "question": "A fence is 20 meters long. Posts are placed every 2 meters, including at both ends. How many posts are there?",
+    "options": ["9", "10", "11", "12", "13"],
+    "answer": "11"
+  },
+  {
+    "id": 38,
+    "grade": "3-4",
+    "question": "A digital clock shows 10:34. What is the sum of the digits?",
+    "options": ["6", "7", "8", "9", "10"],
+    "answer": "8"
+  },
+  {
+    "id": 39,
+    "grade": "3-4",
+    "question": "If I have 3 different shirts and 2 different pants, how many different outfits can I make?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "id": 40,
+    "grade": "3-4",
+    "question": "What is the remainder when 23 is divided by 5?",
+    "options": ["1", "2", "3", "4", "0"],
+    "answer": "3"
+  },
+  {
+    "id": 41,
+    "grade": "3-4",
+    "question": "A rectangular garden has an area of 40 sq meters. If the length is 10 meters, what is the width?",
+    "options": ["4 meters", "5 meters", "6 meters", "8 meters", "10 meters"],
+    "answer": "4 meters"
+  },
+  {
+    "id": 42,
+    "grade": "3-4",
+    "question": "If a clock shows 9:45, how many minutes until it shows 10:15?",
+    "options": ["15", "20", "30", "45", "60"],
+    "answer": "30"
+  },
+  {
+    "id": 43,
+    "grade": "3-4",
+    "question": "I have 4 boxes, and each box has 6 balls. How many balls do I have in total?",
+    "options": ["10", "12", "18", "24", "30"],
+    "answer": "24"
+  },
+  {
+    "id": 44,
+    "grade": "3-4",
+    "question": "What is the sum of the first 5 odd numbers?",
+    "options": ["15", "20", "25", "30", "35"],
+    "answer": "25"
+  },
+  {
+    "id": 45,
+    "grade": "3-4",
+    "question": "A pattern goes: 1, 3, 5, 7... What is the 10th number?",
+    "options": ["17", "19", "21", "23", "25"],
+    "answer": "19"
+  },
+  {
+    "id": 46,
+    "grade": "3-4",
+    "question": "How many faces does a cube have?",
+    "options": ["4", "6", "8", "10", "12"],
+    "answer": "6"
+  },
+  {
+    "id": 47,
+    "grade": "3-4",
+    "question": "If 4 notebooks cost $12, how much do 7 notebooks cost?",
+    "options": ["$14", "$18", "$21", "$24", "$28"],
+    "answer": "$21"
+  },
+  {
+    "id": 48,
+    "grade": "3-4",
+    "question": "A book has 120 pages. If I read 10 pages a day, how many days will it take to finish?",
+    "options": ["10", "12", "15", "20", "25"],
+    "answer": "12"
+  },
+  {
+    "id": 49,
+    "grade": "3-4",
+    "question": "Which of these shapes has the most sides?",
+    "options": ["Triangle", "Square", "Pentagon", "Hexagon", "Octagon"],
+    "answer": "Octagon"
+  },
+  {
+    "id": 50,
+    "grade": "3-4",
+    "question": "If a full rotation is 360 degrees, how many degrees is a half rotation?",
+    "options": ["90", "180", "270", "360", "450"],
+    "answer": "180"
+  },
+  {
+    "id": 51,
+    "grade": "3-4",
+    "question": "A group of 20 people are divided into teams of 4. How many teams are there?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "id": 52,
+    "grade": "3-4",
+    "question": "What is the value of 5 x (3 + 4)?",
+    "options": ["25", "30", "35", "40", "45"],
+    "answer": "35"
+  },
+  {
+    "id": 53,
+    "grade": "3-4",
+    "question": "A bag contains 3 red, 4 blue, and 5 green marbles. How many marbles are not red?",
+    "options": ["4", "5", "7", "9", "12"],
+    "answer": "9"
+  },
+  {
+    "id": 54,
+    "grade": "3-4",
+    "question": "If I start reading at 3:30 PM and read for 45 minutes, what time is it?",
+    "options": ["4:00 PM", "4:15 PM", "4:30 PM", "4:45 PM", "5:00 PM"],
+    "answer": "4:15 PM"
+  },
+  {
+    "id": 55,
+    "grade": "3-4",
+    "question": "A square has a perimeter of 20 cm. What is its area?",
+    "options": ["16 sq cm", "20 sq cm", "25 sq cm", "30 sq cm", "36 sq cm"],
+    "answer": "25 sq cm"
+  },
+  {
+    "id": 56,
+    "grade": "3-4",
+    "question": "Which number is exactly halfway between 10 and 20?",
+    "options": ["12", "14", "15", "16", "18"],
+    "answer": "15"
+  },
+  {
+    "id": 57,
+    "grade": "3-4",
+    "question": "If a dozen is 12, how many items are there in 3 dozens?",
+    "options": ["24", "30", "36", "42", "48"],
+    "answer": "36"
+  },
+  {
+    "id": 58,
+    "grade": "3-4",
+    "question": "A triangle has sides of 3 cm, 4 cm, and 5 cm. What is its perimeter?",
+    "options": ["9 cm", "10 cm", "12 cm", "14 cm", "15 cm"],
+    "answer": "12 cm"
+  },
+  {
+    "id": 59,
+    "grade": "3-4",
+    "question": "How many minutes are in 2 and a half hours?",
+    "options": ["120", "130", "140", "150", "160"],
+    "answer": "150"
+  },
+  {
+    "id": 60,
+    "grade": "3-4",
+    "question": "If a number is divided by 4, the result is 6 with a remainder of 2. What was the number?",
+    "options": ["22", "24", "26", "28", "30"],
+    "answer": "26"
+  },
+  {
+    "id": 61,
+    "grade": "3-4",
+    "question": "A rectangle has a length of 12 cm and a width of 4 cm. What is its area?",
+    "options": ["16 sq cm", "32 sq cm", "48 sq cm", "56 sq cm", "60 sq cm"],
+    "answer": "48 sq cm"
+  },
+  {
+    "id": 62,
+    "grade": "3-4",
+    "question": "If a train leaves at 10:00 AM and arrives at 1:30 PM, how long did the trip take?",
+    "options": ["2 hours 30 minutes", "3 hours", "3 hours 30 minutes", "4 hours", "4 hours 30 minutes"],
+    "answer": "3 hours 30 minutes"
+  },
+  {
+    "id": 63,
+    "grade": "3-4",
+    "question": "I have a number. If I divide it by 3 and then add 5, I get 12. What is the number?",
+    "options": ["15", "18", "21", "24", "27"],
+    "answer": "21"
+  },
+  {
+    "id": 64,
+    "grade": "3-4",
+    "question": "A box contains 30 candies. If 5 children share them equally, how many does each child get?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "id": 65,
+    "grade": "3-4",
+    "question": "What is the next number in the sequence: 1, 4, 9, 16, ...?",
+    "options": ["20", "25", "30", "35", "40"],
+    "answer": "25"
+  },
+  {
+    "id": 66,
+    "grade": "3-4",
+    "question": "A triangle has sides of length 6 cm, 8 cm, and 10 cm. What kind of triangle is it?",
+    "options": ["Equilateral", "Isosceles", "Scalene", "Right-angled", "Obtuse"],
+    "answer": "Scalene"
+  },
+  {
+    "id": 67,
+    "grade": "3-4",
+    "question": "If 2 kilograms of apples cost $4, how much do 5 kilograms cost?",
+    "options": ["$8", "$10", "$12", "$14", "$16"],
+    "answer": "$10"
+  },
+  {
+    "id": 68,
+    "grade": "3-4",
+    "question": "A book has 150 pages. If I read 15 pages a day, how many days will it take to finish?",
+    "options": ["8", "10", "12", "15", "20"],
+    "answer": "10"
+  },
+  {
+    "id": 69,
+    "grade": "3-4",
+    "question": "Which of these shapes has exactly 5 sides?",
+    "options": ["Triangle", "Square", "Pentagon", "Hexagon", "Octagon"],
+    "answer": "Pentagon"
+  },
+  {
+    "id": 70,
+    "grade": "3-4",
+    "question": "If a full rotation is 360 degrees, how many degrees is a quarter rotation?",
+    "options": ["45", "90", "180", "270", "360"],
+    "answer": "90"
+  },
+  {
+    "id": 71,
+    "grade": "3-4",
+    "question": "A group of 24 people are divided into teams of 6. How many teams are there?",
+    "options": ["3", "4", "5", "6", "7"],
+    "answer": "4"
+  },
+  {
+    "id": 72,
+    "grade": "3-4",
+    "question": "What is the value of 4 x (5 - 2)?",
+    "options": ["8", "10", "12", "14", "16"],
+    "answer": "12"
+  },
+  {
+    "id": 73,
+    "grade": "3-4",
+    "question": "A bag contains 5 red, 5 blue, and 5 green marbles. What fraction of the marbles are red?",
+    "options": ["1/2", "1/3", "1/4", "1/5", "1/6"],
+    "answer": "1/3"
+  },
+  {
+    "id": 74,
+    "grade": "3-4",
+    "question": "If I start reading at 2:45 PM and read for 30 minutes, what time is it?",
+    "options": ["3:00 PM", "3:15 PM", "3:30 PM", "3:45 PM", "4:00 PM"],
+    "answer": "3:15 PM"
+  },
+  {
+    "id": 75,
+    "grade": "3-4",
+    "question": "A square has an area of 49 sq cm. What is its perimeter?",
+    "options": ["24 cm", "28 cm", "32 cm", "36 cm", "40 cm"],
+    "answer": "28 cm"
+  },
+  {
+    "id": 76,
+    "grade": "3-4",
+    "question": "Which number is exactly halfway between 20 and 30?",
+    "options": ["22", "24", "25", "26", "28"],
+    "answer": "25"
+  },
+  {
+    "id": 77,
+    "grade": "3-4",
+    "question": "If a score is 20, how many items are in 3 scores?",
+    "options": ["40", "50", "60", "70", "80"],
+    "answer": "60"
+  },
+  {
+    "id": 78,
+    "grade": "3-4",
+    "question": "A triangle has sides of 4 cm, 5 cm, and 6 cm. What is its perimeter?",
+    "options": ["12 cm", "14 cm", "15 cm", "16 cm", "18 cm"],
+    "answer": "15 cm"
+  },
+  {
+    "id": 79,
+    "grade": "3-4",
+    "question": "How many hours are in 3 days?",
+    "options": ["48", "60", "72", "84", "96"],
+    "answer": "72"
+  },
+  {
+    "id": 80,
+    "grade": "3-4",
+    "question": "If a number is multiplied by 5, the result is 35. What is the number?",
+    "options": ["5", "6", "7", "8", "9"],
+    "answer": "7"
+  },
+  {
+    "id": 81,
+    "grade": "3-4",
+    "question": "A rectangle has a length of 10 cm and a width of 6 cm. What is its area?",
+    "options": ["16 sq cm", "32 sq cm", "60 sq cm", "64 sq cm", "70 sq cm"],
+    "answer": "60 sq cm"
+  },
+  {
+    "id": 82,
+    "grade": "3-4",
+    "question": "If a movie starts at 7:30 PM and ends at 9:15 PM, how long was the movie?",
+    "options": ["1 hour 15 minutes", "1 hour 30 minutes", "1 hour 45 minutes", "2 hours", "2 hours 15 minutes"],
+    "answer": "1 hour 45 minutes"
+  },
+  {
+    "id": 83,
+    "grade": "3-4",
+    "question": "I am thinking of a number. If I subtract 7 and then multiply by 4, I get 20. What is the number?",
+    "options": ["10", "11", "12", "13", "14"],
+    "answer": "12"
+  },
+  {
+    "id": 84,
+    "grade": "3-4",
+    "question": "A box contains 40 candies. If 8 children share them equally, how many does each child get?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "id": 85,
+    "grade": "3-4",
+    "question": "What is the next number in the sequence: 1, 3, 6, 10, ...?",
+    "options": ["12", "14", "15", "16", "18"],
+    "answer": "15"
+  },
+  {
+    "id": 86,
+    "grade": "3-4",
+    "question": "A triangle has sides of length 5 cm, 5 cm, and 5 cm. What kind of triangle is it?",
+    "options": ["Equilateral", "Isosceles", "Scalene", "Right-angled", "Obtuse"],
+    "answer": "Equilateral"
+  },
+  {
+    "id": 87,
+    "grade": "3-4",
+    "question": "If 3 oranges cost $1.20, how much do 6 oranges cost?",
+    "options": ["$1.80", "$2.00", "$2.40", "$2.80", "$3.00"],
+    "answer": "$2.40"
+  },
+  {
+    "id": 88,
+    "grade": "3-4",
+    "question": "A book has 200 pages. If I read 20 pages a day, how many days will it take to finish?",
+    "options": ["8", "9", "10", "11", "12"],
+    "answer": "10"
+  },
+  {
+    "id": 89,
+    "grade": "3-4",
+    "question": "Which of these shapes has exactly 6 sides?",
+    "options": ["Triangle", "Square", "Pentagon", "Hexagon", "Octagon"],
+    "answer": "Hexagon"
+  },
+  {
+    "id": 90,
+    "grade": "3-4",
+    "question": "If a full rotation is 360 degrees, how many degrees is a three-quarter rotation?",
+    "options": ["90", "180", "270", "360", "450"],
+    "answer": "270"
+  },
+  {
+    "id": 91,
+    "grade": "3-4",
+    "question": "A group of 30 people are divided into teams of 5. How many teams are there?",
+    "options": ["5", "6", "7", "8", "9"],
+    "answer": "6"
+  },
+  {
+    "id": 92,
+    "grade": "3-4",
+    "question": "What is the value of 6 x (2 + 3)?",
+    "options": ["25", "30", "35", "40", "45"],
+    "answer": "30"
+  },
+  {
+    "id": 93,
+    "grade": "3-4",
+    "question": "A bag contains 6 red, 4 blue, and 2 green marbles. What fraction of the marbles are blue?",
+    "options": ["1/2", "1/3", "1/4", "1/5", "1/6"],
+    "answer": "1/3"
+  },
+  {
+    "id": 94,
+    "grade": "3-4",
+    "question": "If I start reading at 4:15 PM and read for 45 minutes, what time is it?",
+    "options": ["4:45 PM", "5:00 PM", "5:15 PM", "5:30 PM", "5:45 PM"],
+    "answer": "5:00 PM"
+  },
+  {
+    "id": 95,
+    "grade": "3-4",
+    "question": "A square has an area of 64 sq cm. What is its perimeter?",
+    "options": ["24 cm", "28 cm", "32 cm", "36 cm", "40 cm"],
+    "answer": "32 cm"
+  },
+  {
+    "id": 96,
+    "grade": "3-4",
+    "question": "Which number is exactly halfway between 30 and 40?",
+    "options": ["32", "34", "35", "36", "38"],
+    "answer": "35"
+  },
+  {
+    "id": 97,
+    "grade": "3-4",
+    "question": "If a score is 20, how many items are in 5 scores?",
+    "options": ["80", "90", "100", "110", "120"],
+    "answer": "100"
+  },
+  {
+    "id": 98,
+    "grade": "3-4",
+    "question": "A triangle has sides of 5 cm, 12 cm, and 13 cm. What is its perimeter?",
+    "options": ["25 cm", "28 cm", "30 cm", "32 cm", "35 cm"],
+    "answer": "30 cm"
+  },
+  {
+    "id": 99,
+    "grade": "3-4",
+    "question": "How many hours are in 4 days?",
+    "options": ["72", "84", "96", "108", "120"],
+    "answer": "96"
+  },
+  {
+    "id": 100,
+    "grade": "3-4",
+    "question": "If a number is divided by 6, the result is 5. What is the number?",
+    "options": ["20", "25", "30", "35", "40"],
+    "answer": "30"
+  },
+  {
+    "id": 101,
+    "grade": "3-4",
+    "question": "A rectangle has a length of 9 cm and a width of 7 cm. What is its area?",
+    "options": ["56 sq cm", "63 sq cm", "70 sq cm", "72 sq cm", "81 sq cm"],
+    "answer": "63 sq cm"
+  },
+  {
+    "id": 102,
+    "grade": "3-4",
+    "question": "If a movie starts at 1:45 PM and ends at 3:30 PM, how long was the movie?",
+    "options": ["1 hour 15 minutes", "1 hour 30 minutes", "1 hour 45 minutes", "2 hours", "2 hours 15 minutes"],
+    "answer": "1 hour 45 minutes"
+  },
+  {
+    "id": 103,
+    "grade": "3-4",
+    "question": "I am thinking of a number. If I add 8 and then divide by 2, I get 10. What is the number?",
+    "options": ["10", "12", "14", "16", "18"],
+    "answer": "12"
+  },
+  {
+    "id": 104,
+    "grade": "3-4",
+    "question": "A box contains 50 candies. If 10 children share them equally, how many does each child get?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "id": 105,
+    "grade": "3-4",
+    "question": "What is the next number in the sequence: 1, 2, 4, 7, 11, ...?",
+    "options": ["14", "15", "16", "17", "18"],
+    "answer": "16"
+  },
+  {
+    "id": 106,
+    "grade": "3-4",
+    "question": "A triangle has sides of length 6 cm, 6 cm, and 6 cm. What kind of triangle is it?",
+    "options": ["Equilateral", "Isosceles", "Scalene", "Right-angled", "Obtuse"],
+    "answer": "Equilateral"
+  },
+  {
+    "id": 107,
+    "grade": "3-4",
+    "question": "If 5 pencils cost $2.50, how much do 8 pencils cost?",
+    "options": ["$3.50", "$3.75", "$4.00", "$4.25", "$4.50"],
+    "answer": "$4.00"
+  },
+  {
+    "id": 108,
+    "grade": "3-4",
+    "question": "A book has 250 pages. If I read 25 pages a day, how many days will it take to finish?",
+    "options": ["8", "9", "10", "11", "12"],
+    "answer": "10"
+  },
+  {
+    "id": 109,
+    "grade": "3-4",
+    "question": "Which of these shapes has exactly 8 sides?",
+    "options": ["Triangle", "Square", "Pentagon", "Hexagon", "Octagon"],
+    "answer": "Octagon"
+  },
+  {
+    "id": 110,
+    "grade": "3-4",
+    "question": "If a full rotation is 360 degrees, how many degrees is a full rotation plus a quarter rotation?",
+    "options": ["360", "400", "450", "500", "540"],
+    "answer": "450"
+  },
+  {
+    "id": 111,
+    "grade": "3-4",
+    "question": "A group of 35 people are divided into teams of 7. How many teams are there?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "id": 112,
+    "grade": "3-4",
+    "question": "What is the value of 7 x (3 + 2)?",
+    "options": ["25", "30", "35", "40", "45"],
+    "answer": "35"
+  },
+  {
+    "id": 113,
+    "grade": "3-4",
+    "question": "A bag contains 4 red, 6 blue, and 2 green marbles. What fraction of the marbles are red?",
+    "options": ["1/2", "1/3", "1/4", "1/5", "1/6"],
+    "answer": "1/3"
+  },
+  {
+    "id": 114,
+    "grade": "3-4",
+    "question": "If I start reading at 1:30 PM and read for 1 hour and 15 minutes, what time is it?",
+    "options": ["2:30 PM", "2:45 PM", "3:00 PM", "3:15 PM", "3:30 PM"],
+    "answer": "2:45 PM"
+  },
+  {
+    "id": 115,
+    "grade": "3-4",
+    "question": "A square has an area of 81 sq cm. What is its perimeter?",
+    "options": ["27 cm", "32 cm", "36 cm", "40 cm", "45 cm"],
+    "answer": "36 cm"
+  },
+  {
+    "id": 116,
+    "grade": "3-4",
+    "question": "Which number is exactly halfway between 40 and 50?",
+    "options": ["42", "44", "45", "46", "48"],
+    "answer": "45"
+  },
+  {
+    "id": 117,
+    "grade": "3-4",
+    "question": "If a score is 20, how many items are in 10 scores?",
+    "options": ["150", "180", "200", "220", "250"],
+    "answer": "200"
+  },
+  {
+    "id": 118,
+    "grade": "3-4",
+    "question": "A triangle has sides of 6 cm, 8 cm, and 10 cm. What is its perimeter?",
+    "options": ["20 cm", "22 cm", "24 cm", "26 cm", "28 cm"],
+    "answer": "24 cm"
+  },
+  {
+    "id": 119,
+    "grade": "3-4",
+    "question": "How many hours are in 5 days?",
+    "options": ["100", "110", "120", "130", "140"],
+    "answer": "120"
+  },
+  {
+    "id": 120,
+    "grade": "3-4",
+    "question": "If a number is divided by 7, the result is 4. What is the number?",
+    "options": ["24", "26", "28", "30", "32"],
+    "answer": "28"
+  },
+  {
+    "id": 121,
+    "grade": "3-4",
+    "question": "A rectangle has a length of 11 cm and a width of 5 cm. What is its area?",
+    "options": ["45 sq cm", "50 sq cm", "55 sq cm", "60 sq cm", "65 sq cm"],
+    "answer": "55 sq cm"
+  },
+  {
+    "id": 122,
+    "grade": "3-4",
+    "question": "If a movie starts at 6:15 PM and lasts for 2 hours and 15 minutes, what time does it end?",
+    "options": ["8:15 PM", "8:30 PM", "8:45 PM", "9:00 PM", "9:15 PM"],
+    "answer": "8:30 PM"
+  },
+  {
+    "id": 123,
+    "grade": "3-4",
+    "question": "I am thinking of a number. If I subtract 10 and then divide by 3, I get 5. What is the number?",
+    "options": ["15", "20", "25", "30", "35"],
+    "answer": "25"
+  },
+  {
+    "id": 124,
+    "grade": "3-4",
+    "question": "A box contains 60 chocolates. If 12 children share them equally, how many does each child get?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "id": 125,
+    "grade": "3-4",
+    "question": "What is the next number in the sequence: 1, 2, 4, 8, 16, ...?",
+    "options": ["24", "30", "32", "36", "40"],
+    "answer": "32"
+  },
+  {
+    "id": 126,
+    "grade": "3-4",
+    "question": "A triangle has sides of length 7 cm, 7 cm, and 7 cm. What kind of triangle is it?",
+    "options": ["Equilateral", "Isosceles", "Scalene", "Right-angled", "Obtuse"],
+    "answer": "Equilateral"
+  },
+  {
+    "id": 127,
+    "grade": "3-4",
+    "question": "If 3 pencils cost $0.90, how much do 10 pencils cost?",
+    "options": ["$2.50", "$2.70", "$3.00", "$3.30", "$3.50"],
+    "answer": "$3.00"
+  },
+  {
+    "id": 128,
+    "grade": "3-4",
+    "question": "A book has 300 pages. If I read 30 pages a day, how many days will it take to finish?",
+    "options": ["8", "9", "10", "11", "12"],
+    "answer": "10"
+  },
+  {
+    "id": 129,
+    "grade": "3-4",
+    "question": "Which of these shapes has exactly 7 sides?",
+    "options": ["Triangle", "Square", "Pentagon", "Hexagon", "Heptagon"],
+    "answer": "Heptagon"
+  },
+  {
+    "id": 130,
+    "grade": "3-4",
+    "question": "If a full rotation is 360 degrees, how many degrees is a full rotation plus a half rotation?",
+    "options": ["450", "480", "540", "600", "630"],
+    "answer": "540"
+  },
+  {
+    "id": 131,
+    "grade": "3-4",
+    "question": "A group of 40 people are divided into teams of 8. How many teams are there?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "id": 132,
+    "grade": "3-4",
+    "question": "What is the value of 8 x (4 - 1)?",
+    "options": ["16", "20", "24", "28", "32"],
+    "answer": "24"
+  },
+  {
+    "id": 133,
+    "grade": "3-4",
+    "question": "A bag contains 2 red, 3 blue, and 5 green marbles. What fraction of the marbles are green?",
+    "options": ["1/2", "1/3", "1/4", "1/5", "2/5"],
+    "answer": "1/2"
+  },
+  {
+    "id": 134,
+    "grade": "3-4",
+    "question": "If I start reading at 10:45 AM and read for 1 hour and 30 minutes, what time is it?",
+    "options": ["11:45 AM", "12:00 PM", "12:15 PM", "12:30 PM", "12:45 PM"],
+    "answer": "12:15 PM"
+  },
+  {
+    "id": 135,
+    "grade": "3-4",
+    "question": "A square has an area of 100 sq cm. What is its perimeter?",
+    "options": ["30 cm", "36 cm", "40 cm", "45 cm", "50 cm"],
+    "answer": "40 cm"
+  },
+  {
+    "id": 136,
+    "grade": "3-4",
+    "question": "Which number is exactly halfway between 50 and 60?",
+    "options": ["52", "54", "55", "56", "58"],
+    "answer": "55"
+  },
+  {
+    "id": 137,
+    "grade": "3-4",
+    "question": "If a score is 20, how many items are in 20 scores?",
+    "options": ["200", "300", "400", "500", "600"],
+    "answer": "400"
+  },
+  {
+    "id": 138,
+    "grade": "3-4",
+    "question": "A triangle has sides of 7 cm, 24 cm, and 25 cm. What is its perimeter?",
+    "options": ["50 cm", "54 cm", "56 cm", "58 cm", "60 cm"],
+    "answer": "56 cm"
+  },
+  {
+    "id": 139,
+    "grade": "3-4",
+    "question": "How many hours are in 6 days?",
+    "options": ["120", "132", "144", "156", "168"],
+    "answer": "144"
+  },
+  {
+    "id": 140,
+    "grade": "3-4",
+    "question": "If a number is divided by 8, the result is 5. What is the number?",
+    "options": ["35", "40", "45", "50", "55"],
+    "answer": "40"
+  },
+  {
+    "id": 141,
+    "grade": "5-6",
+    "question": "A cube has a volume of 64 cubic cm. What is the area of one of its faces?",
+    "options": ["16 sq cm", "24 sq cm", "32 sq cm", "48 sq cm", "64 sq cm"],
+    "answer": "16 sq cm"
+  },
+  {
+    "id": 142,
+    "grade": "5-6",
+    "question": "If a train travels at 60 km/h, how far does it travel in 2 hours and 15 minutes?",
+    "options": ["120 km", "130 km", "135 km", "140 km", "150 km"],
+    "answer": "135 km"
+  },
+  {
+    "id": 143,
+    "grade": "5-6",
+    "question": "I am thinking of a number. If I multiply it by 3, then subtract 7, and then divide by 2, I get 10. What is the number?",
+    "options": ["7", "8", "9", "10", "11"],
+    "answer": "9"
+  },
+  {
+    "id": 144,
+    "grade": "5-6",
+    "question": "A box contains 48 chocolates. If 2 children don't want any, and the rest (4 children) share equally, how many does each get?",
+    "options": ["8", "10", "12", "14", "16"],
+    "answer": "12"
+  },
+  {
+    "id": 145,
+    "grade": "5-6",
+    "question": "What is the next number in the sequence: 1, 3, 7, 15, ...?",
+    "options": ["25", "30", "31", "35", "40"],
+    "answer": "31"
+  },
+  {
+    "id": 146,
+    "grade": "5-6",
+    "question": "A triangle has sides of length 5 cm, 12 cm, and 13 cm. What is the area of the triangle?",
+    "options": ["25 sq cm", "30 sq cm", "60 sq cm", "65 sq cm", "70 sq cm"],
+    "answer": "30 sq cm"
+  },
+  {
+    "id": 147,
+    "grade": "5-6",
+    "question": "If 3 workers can build a wall in 6 hours, how long would it take 2 workers?",
+    "options": ["4 hours", "6 hours", "8 hours", "9 hours", "12 hours"],
+    "answer": "9 hours"
+  },
+  {
+    "id": 148,
+    "grade": "5-6",
+    "question": "A book has 200 pages. If I read 10% of it on the first day, how many pages are left?",
+    "options": ["160", "170", "180", "190", "195"],
+    "answer": "180"
+  },
+  {
+    "id": 149,
+    "grade": "5-6",
+    "question": "Which of these numbers is a prime number?",
+    "options": ["9", "15", "21", "23", "27"],
+    "answer": "23"
+  },
+  {
+    "id": 150,
+    "grade": "5-6",
+    "question": "If the probability of rain is 30%, what is the probability of no rain?",
+    "options": ["30%", "50%", "70%", "80%", "90%"],
+    "answer": "70%"
+  },
+  {
+    "id": 151,
+    "grade": "5-6",
+    "question": "A group of 30 people are asked their favorite color. 40% say blue. How many people is that?",
+    "options": ["10", "12", "14", "16", "18"],
+    "answer": "12"
+  },
+  {
+    "id": 152,
+    "grade": "5-6",
+    "question": "What is the value of 2^3 + 3^2?",
+    "options": ["12", "15", "17", "25", "35"],
+    "answer": "17"
+  },
+  {
+    "id": 153,
+    "grade": "5-6",
+    "question": "A bag contains 5 red, 3 blue, and 2 green marbles. If I pick one marble at random, what is the probability it is NOT green?",
+    "options": ["1/5", "2/5", "3/5", "4/5", "1/2"],
+    "answer": "4/5"
+  },
+  {
+    "id": 154,
+    "grade": "5-6",
+    "question": "If I start a task at 10:15 AM and finish it at 1:05 PM, how long did it take?",
+    "options": ["2 hours 10 minutes", "2 hours 30 minutes", "2 hours 50 minutes", "3 hours", "3 hours 10 minutes"],
+    "answer": "2 hours 50 minutes"
+  },
+  {
+    "id": 155,
+    "grade": "5-6",
+    "question": "A square has the same perimeter as a rectangle with length 8 cm and width 4 cm. What is the area of the square?",
+    "options": ["16 sq cm", "24 sq cm", "32 sq cm", "36 sq cm", "40 sq cm"],
+    "answer": "36 sq cm"
+  },
+  {
+    "id": 156,
+    "grade": "5-6",
+    "question": "Which number is exactly halfway between 1.5 and 2.5?",
+    "options": ["1.8", "1.9", "2.0", "2.1", "2.2"],
+    "answer": "2.0"
+  },
+  {
+    "id": 157,
+    "grade": "5-6",
+    "question": "If a gross is 144, how many items are in half a gross?",
+    "options": ["60", "72", "80", "90", "100"],
+    "answer": "72"
+  },
+  {
+    "id": 158,
+    "grade": "5-6",
+    "question": "A triangle has angles in the ratio 1:2:3. What is the measure of the largest angle?",
+    "options": ["60", "75", "90", "105", "120"],
+    "answer": "90"
+  },
+  {
+    "id": 159,
+    "grade": "5-6",
+    "question": "How many seconds are in 1 hour and 5 minutes?",
+    "options": ["3600", "3800", "3900", "4000", "4200"],
+    "answer": "3900"
+  },
+  {
+    "id": 160,
+    "grade": "5-6",
+    "question": "If a number is divided by 9, the result is 7 with a remainder of 5. What was the number?",
+    "options": ["63", "65", "68", "70", "72"],
+    "answer": "68"
+  },
+  {
+    "id": 161,
+    "grade": "5-6",
+    "question": "A circle has a radius of 7 cm. What is its circumference? (Use pi ≈ 22/7)",
+    "options": ["22 cm", "44 cm", "88 cm", "154 cm", "176 cm"],
+    "answer": "44 cm"
+  },
+  {
+    "id": 162,
+    "grade": "5-6",
+    "question": "If a car travels at 80 km/h, how long does it take to travel 200 km?",
+    "options": ["2 hours", "2.5 hours", "3 hours", "3.5 hours", "4 hours"],
+    "answer": "2.5 hours"
+  },
+  {
+    "id": 163,
+    "grade": "5-6",
+    "question": "I am thinking of a number. If I square it and then add 5, I get 30. What is the number?",
+    "options": ["4", "5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "id": 164,
+    "grade": "5-6",
+    "question": "A box contains 60 chocolates. If 3 children share them in the ratio 1:2:3, how many does the one with the most get?",
+    "options": ["10", "20", "30", "40", "50"],
+    "answer": "30"
+  },
+  {
+    "id": 165,
+    "grade": "5-6",
+    "question": "What is the next number in the sequence: 2, 6, 12, 20, ...?",
+    "options": ["24", "26", "28", "30", "32"],
+    "answer": "30"
+  },
+  {
+    "id": 166,
+    "grade": "5-6",
+    "question": "If the area of a triangle is 24 sq cm and its base is 6 cm, what is its height?",
+    "options": ["4 cm", "6 cm", "8 cm", "10 cm", "12 cm"],
+    "answer": "8 cm"
+  },
+  {
+    "id": 167,
+    "grade": "5-6",
+    "question": "If 5 machines can produce 500 items in 5 hours, how many items can 10 machines produce in 10 hours?",
+    "options": ["1000", "1500", "2000", "2500", "3000"],
+    "answer": "2000"
+  },
+  {
+    "id": 168,
+    "grade": "5-6",
+    "question": "A book has 300 pages. If I read 20% of it on the first day, and 10% of the remaining pages on the second day, how many pages are left?",
+    "options": ["210", "216", "220", "240", "250"],
+    "answer": "216"
+  },
+  {
+    "id": 169,
+    "grade": "5-6",
+    "question": "Which of these numbers is a composite number?",
+    "options": ["17", "19", "23", "27", "29"],
+    "answer": "27"
+  },
+  {
+    "id": 170,
+    "grade": "5-6",
+    "question": "If the probability of event A is 0.2 and event B is 0.5, and they are independent, what is the probability of both happening?",
+    "options": ["0.1", "0.2", "0.5", "0.7", "1.0"],
+    "answer": "0.1"
+  },
+  {
+    "id": 171,
+    "grade": "5-6",
+    "question": "A group of 40 people are asked their favorite color. 25% say blue, 35% say red. How many people preferred something else?",
+    "options": ["10", "12", "14", "16", "18"],
+    "answer": "16"
+  },
+  {
+    "id": 172,
+    "grade": "5-6",
+    "question": "What is the value of sqrt(144) + sqrt(81)?",
+    "options": ["15", "20", "21", "25", "30"],
+    "answer": "21"
+  },
+  {
+    "id": 173,
+    "grade": "5-6",
+    "question": "A bag contains 4 red, 5 blue, and 6 green marbles. If I pick one marble at random, what is the probability it is red OR green?",
+    "options": ["1/3", "2/3", "3/5", "4/5", "1/2"],
+    "answer": "2/3"
+  },
+  {
+    "id": 174,
+    "grade": "5-6",
+    "question": "If I start a task at 9:45 AM and finish it at 1:15 PM, how long did it take?",
+    "options": ["3 hours", "3.5 hours", "4 hours", "4.5 hours", "2.5 hours"],
+    "answer": "3.5 hours"
+  },
+  {
+    "id": 175,
+    "grade": "5-6",
+    "question": "A square has the same area as a rectangle with length 16 cm and width 4 cm. What is the perimeter of the square?",
+    "options": ["24 cm", "28 cm", "32 cm", "36 cm", "40 cm"],
+    "answer": "32 cm"
+  },
+  {
+    "id": 176,
+    "grade": "5-6",
+    "question": "Which number is exactly halfway between -5 and 5?",
+    "options": ["-1", "0", "1", "2", "-2"],
+    "answer": "0"
+  },
+  {
+    "id": 177,
+    "grade": "5-6",
+    "question": "If a score is 20, and a gross is 144, what is the sum of a score and a gross?",
+    "options": ["160", "164", "170", "180", "200"],
+    "answer": "164"
+  },
+  {
+    "id": 178,
+    "grade": "5-6",
+    "question": "A triangle has angles x, 2x, and 3x. What is the value of x in degrees?",
+    "options": ["20", "25", "30", "35", "40"],
+    "answer": "30"
+  },
+  {
+    "id": 179,
+    "grade": "5-6",
+    "question": "How many seconds are in 2 hours?",
+    "options": ["3600", "5400", "7200", "86400", "9000"],
+    "answer": "7200"
+  },
+  {
+    "id": 180,
+    "grade": "5-6",
+    "question": "If a number is divided by 11, the result is 9 with a remainder of 5. What was the number?",
+    "options": ["99", "100", "104", "105", "110"],
+    "answer": "104"
+  },
+  {
+    "id": 181,
+    "grade": "5-6",
+    "question": "A rectangular prism has dimensions 3 cm by 4 cm by 5 cm. What is its surface area?",
+    "options": ["47 sq cm", "60 sq cm", "94 sq cm", "120 sq cm", "150 sq cm"],
+    "answer": "94 sq cm"
+  },
+  {
+    "id": 182,
+    "grade": "5-6",
+    "question": "If a cyclist travels at 15 km/h, how far does he travel in 40 minutes?",
+    "options": ["8 km", "10 km", "12 km", "15 km", "20 km"],
+    "answer": "10 km"
+  },
+  {
+    "id": 183,
+    "grade": "5-6",
+    "question": "Start with a number. Multiply by 5 and add 4. The result is a perfect square. What is the smallest positive integer you could have started with?",
+    "options": ["1", "2", "3", "4", "5"],
+    "answer": "1"
+  },
+  {
+    "id": 184,
+    "grade": "5-6",
+    "question": "A box contains 72 chocolates shared equally among 8 children. If 2 children give their share to the remaining 6 children, how many more does each of the 6 children get?",
+    "options": ["2", "3", "4", "5", "6"],
+    "answer": "3"
+  },
+  {
+    "id": 185,
+    "grade": "5-6",
+    "question": "What is the next number in the sequence: 1, 8, 27, 64, ...?",
+    "options": ["81", "100", "125", "150", "200"],
+    "answer": "125"
+  },
+  {
+    "id": 186,
+    "grade": "5-6",
+    "question": "What is the area of a triangle with base 10 cm and height 12 cm?",
+    "options": ["30 sq cm", "60 sq cm", "120 sq cm", "150 sq cm", "200 sq cm"],
+    "answer": "60 sq cm"
+  },
+  {
+    "id": 187,
+    "grade": "5-6",
+    "question": "If 4 bakers can bake 100 cakes in 5 hours, how many cakes can 2 bakers bake in 10 hours?",
+    "options": ["50", "100", "150", "200", "250"],
+    "answer": "100"
+  },
+  {
+    "id": 188,
+    "grade": "5-6",
+    "question": "A book has 400 pages. If I read 25% on day 1, and 20% of the remaining pages on day 2, how many pages are left?",
+    "options": ["200", "220", "240", "250", "260"],
+    "answer": "240"
+  },
+  {
+    "id": 189,
+    "grade": "5-6",
+    "question": "Which of these numbers is a prime number?",
+    "options": ["51", "57", "63", "67", "69"],
+    "answer": "67"
+  },
+  {
+    "id": 190,
+    "grade": "5-6",
+    "question": "If I toss a fair coin 3 times, what is the probability of getting exactly 2 heads?",
+    "options": ["1/4", "3/8", "1/2", "5/8", "3/4"],
+    "answer": "3/8"
+  },
+  {
+    "id": 191,
+    "grade": "5-6",
+    "question": "A group of 50 people are asked their favorite fruit. 30% say apple, 20% say banana. How many people preferred something else?",
+    "options": ["15", "20", "25", "30", "35"],
+    "answer": "25"
+  },
+  {
+    "id": 192,
+    "grade": "5-6",
+    "question": "What is the value of 3^3 - 2^4?",
+    "options": ["5", "7", "11", "13", "15"],
+    "answer": "11"
+  },
+  {
+    "id": 193,
+    "grade": "5-6",
+    "question": "A bag contains 3 red, 4 blue, and 5 green marbles. If I pick one marble at random, what is the probability it is NOT green?",
+    "options": ["1/4", "1/3", "5/12", "7/12", "2/3"],
+    "answer": "7/12"
+  },
+  {
+    "id": 194,
+    "grade": "5-6",
+    "question": "If I start a task at 8:30 AM and finish it at 2:15 PM, how long did it take?",
+    "options": ["5 hours 15 minutes", "5 hours 30 minutes", "5 hours 45 minutes", "6 hours", "6 hours 15 minutes"],
+    "answer": "5 hours 45 minutes"
+  },
+  {
+    "id": 195,
+    "grade": "5-6",
+    "question": "A square has the same perimeter as an equilateral triangle with side length 8 cm. What is the area of the square?",
+    "options": ["24 sq cm", "32 sq cm", "36 sq cm", "40 sq cm", "48 sq cm"],
+    "answer": "36 sq cm"
+  },
+  {
+    "id": 196,
+    "grade": "5-6",
+    "question": "Which number is exactly halfway between 12.5 and 17.5?",
+    "options": ["14", "14.5", "15", "15.5", "16"],
+    "answer": "15"
+  },
+  {
+    "id": 197,
+    "grade": "5-6",
+    "question": "If a score is 20, and a gross is 144, how many items are in 2 scores and 1 gross?",
+    "options": ["164", "174", "184", "194", "204"],
+    "answer": "184"
+  },
+  {
+    "id": 198,
+    "grade": "5-6",
+    "question": "A triangle has angles in the ratio 2:3:5. What is the measure of the largest angle in degrees?",
+    "options": ["60", "75", "90", "100", "120"],
+    "answer": "90"
+  },
+  {
+    "id": 199,
+    "grade": "5-6",
+    "question": "How many minutes are in 1 day?",
+    "options": ["1200", "1440", "1500", "1600", "1800"],
+    "answer": "1440"
+  },
+  {
+    "id": 200,
+    "grade": "5-6",
+    "question": "If a number is divided by 13, the result is 7 with a remainder of 4. What was the number?",
+    "options": ["91", "93", "95", "97", "99"],
+    "answer": "95"
+  },
+  {
+    "id": 201,
+    "grade": "5-6",
+    "question": "A rectangle has a length of 15 cm and a perimeter of 50 cm. What is its area?",
+    "options": ["100 sq cm", "125 sq cm", "150 sq cm", "200 sq cm", "250 sq cm"],
+    "answer": "150 sq cm"
+  },
+  {
+    "id": 202,
+    "grade": "5-6",
+    "question": "If a bus travels at 50 km/h, how long does it take to travel 125 km?",
+    "options": ["2 hours", "2.25 hours", "2.5 hours", "3 hours", "3.5 hours"],
+    "answer": "2.5 hours"
+  },
+  {
+    "id": 203,
+    "grade": "5-6",
+    "question": "I am thinking of a number. If I multiply it by 4, then subtract 5, I get a number that is both a multiple of 3 and 5, and is less than 50. What is the number?",
+    "options": ["5", "10", "15", "20", "25"],
+    "answer": "5"
+  },
+  {
+    "id": 204,
+    "grade": "5-6",
+    "question": "A box contains 80 chocolates shared among 4 children in the ratio 1:2:3:4. How many more does the child with the most get compared to the child with the least?",
+    "options": ["8", "16", "24", "32", "40"],
+    "answer": "24"
+  },
+  {
+    "id": 205,
+    "grade": "5-6",
+    "question": "What is the next number in the sequence: 1, 2, 6, 24, ...?",
+    "options": ["48", "60", "100", "120", "150"],
+    "answer": "120"
+  },
+  {
+    "id": 206,
+    "grade": "5-6",
+    "question": "A triangle has sides of length 9 cm, 12 cm, and 15 cm. What is the area?",
+    "options": ["54 sq cm", "90 sq cm", "108 sq cm", "135 sq cm", "150 sq cm"],
+    "answer": "54 sq cm"
+  },
+  {
+    "id": 207,
+    "grade": "5-6",
+    "question": "If 6 painters can paint 3 rooms in 4 hours, how many rooms can 4 painters paint in 8 hours?",
+    "options": ["2", "3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "id": 208,
+    "grade": "5-6",
+    "question": "A book has 500 pages. If I read 20% on day 1, and 25% of the remaining pages on day 2, how many pages are left?",
+    "options": ["250", "300", "350", "400", "450"],
+    "answer": "300"
+  },
+  {
+    "id": 209,
+    "grade": "5-6",
+    "question": "Which of these numbers is a perfect cube?",
+    "options": ["16", "25", "36", "64", "81"],
+    "answer": "64"
+  },
+  {
+    "id": 210,
+    "grade": "5-6",
+    "question": "If I toss a fair coin 4 times, what is the probability of getting all heads?",
+    "options": ["1/4", "1/8", "1/16", "1/32", "1/64"],
+    "answer": "1/16"
+  },
+  {
+    "id": 211,
+    "grade": "5-6",
+    "question": "A group of 60 people are asked their favorite sport. 30% say soccer, 25% say basketball. How many people preferred something else?",
+    "options": ["20", "25", "27", "30", "33"],
+    "answer": "27"
+  },
+  {
+    "id": 212,
+    "grade": "5-6",
+    "question": "What is the value of 4^3 - 3^3?",
+    "options": ["27", "37", "47", "57", "67"],
+    "answer": "37"
+  },
+  {
+    "id": 213,
+    "grade": "5-6",
+    "question": "A bag contains 2 red, 3 blue, and 5 green marbles. If I pick one marble at random, what is the probability it is NOT blue?",
+    "options": ["3/10", "1/2", "7/10", "4/5", "3/5"],
+    "answer": "7/10"
+  },
+  {
+    "id": 214,
+    "grade": "5-6",
+    "question": "If I start a task at 11:45 AM and finish it at 3:20 PM, how long did it take?",
+    "options": ["3 hours 15 minutes", "3 hours 35 minutes", "3 hours 45 minutes", "4 hours", "4 hours 15 minutes"],
+    "answer": "3 hours 35 minutes"
+  },
+  {
+    "id": 215,
+    "grade": "5-6",
+    "question": "A square has the same area as a triangle with base 16 cm and height 8 cm. What is the perimeter of the square?",
+    "options": ["24 cm", "28 cm", "32 cm", "36 cm", "40 cm"],
+    "answer": "32 cm"
+  },
+  {
+    "id": 216,
+    "grade": "5-6",
+    "question": "Which number is exactly halfway between 15.2 and 18.8?",
+    "options": ["16.5", "17", "17.5", "18", "18.5"],
+    "answer": "17"
+  },
+  {
+    "id": 217,
+    "grade": "5-6",
+    "question": "If a score is 20, and a gross is 144, how many items are in 5 scores and half a gross?",
+    "options": ["150", "162", "172", "182", "192"],
+    "answer": "172"
+  },
+  {
+    "id": 218,
+    "grade": "5-6",
+    "question": "A triangle has angles in the ratio 3:4:5. What is the measure of the smallest angle in degrees?",
+    "options": ["30", "45", "60", "75", "90"],
+    "answer": "45"
+  },
+  {
+    "id": 219,
+    "grade": "5-6",
+    "question": "How many seconds are in 2 and a half hours?",
+    "options": ["7200", "8000", "9000", "10000", "10800"],
+    "answer": "9000"
+  },
+  {
+    "id": 220,
+    "grade": "5-6",
+    "question": "If a number is divided by 15, the result is 6 with a remainder of 7. What was the number?",
+    "options": ["90", "95", "97", "100", "105"],
+    "answer": "97"
+  },
+  {
+    "id": 221,
+    "grade": "5-6",
+    "question": "A rectangle has a width of 8 cm and a diagonal of 17 cm. What is its area?",
+    "options": ["60 sq cm", "120 sq cm", "136 sq cm", "240 sq cm", "255 sq cm"],
+    "answer": "120 sq cm"
+  },
+  {
+    "id": 222,
+    "grade": "5-6",
+    "question": "If a plane flies at 800 km/h, how far does it fly in 45 minutes?",
+    "options": ["400 km", "600 km", "700 km", "750 km", "800 km"],
+    "answer": "600 km"
+  },
+  {
+    "id": 223,
+    "grade": "5-6",
+    "question": "Start with a number. Multiply by 5 and add 1. The result is a perfect square. What is the smallest positive integer you could have started with?",
+    "options": ["1", "2", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "id": 224,
+    "grade": "5-6",
+    "question": "A box contains 90 chocolates shared among 5 children in the ratio 1:2:3:4:5. How many chocolates does the child with the median share get?",
+    "options": ["6", "12", "18", "24", "30"],
+    "answer": "18"
+  },
+  {
+    "id": 225,
+    "grade": "5-6",
+    "question": "What is the next number in the sequence: 1, 3, 9, 27, ...?",
+    "options": ["54", "60", "72", "81", "90"],
+    "answer": "81"
+  },
+  {
+    "id": 226,
+    "grade": "5-6",
+    "question": "A triangle has sides of length 10 cm, 10 cm, and 12 cm. What is the area?",
+    "options": ["30 sq cm", "40 sq cm", "48 sq cm", "60 sq cm", "96 sq cm"],
+    "answer": "48 sq cm"
+  },
+  {
+    "id": 227,
+    "grade": "5-6",
+    "question": "If 8 workers can build a wall in 5 hours, how long would it take 5 workers?",
+    "options": ["5 hours", "6 hours", "7 hours", "8 hours", "10 hours"],
+    "answer": "8 hours"
+  },
+  {
+    "id": 228,
+    "grade": "5-6",
+    "question": "A book has 600 pages. If I read 30% on day 1, and 10% of the remaining pages on day 2, how many pages are left?",
+    "options": ["360", "378", "400", "420", "450"],
+    "answer": "378"
+  },
+  {
+    "id": 229,
+    "grade": "5-6",
+    "question": "Which of these numbers is a perfect square and a perfect cube?",
+    "options": ["16", "25", "36", "64", "81"],
+    "answer": "64"
+  },
+  {
+    "id": 230,
+    "grade": "5-6",
+    "question": "If I toss a fair coin 5 times, what is the probability of getting at least one head?",
+    "options": ["1/32", "31/32", "1/2", "15/16", "7/8"],
+    "answer": "31/32"
+  },
+  {
+    "id": 231,
+    "grade": "5-6",
+    "question": "A group of 80 people are asked their favorite fruit. 40% say apple, 30% say banana. How many people preferred something else?",
+    "options": ["20", "24", "28", "32", "36"],
+    "answer": "24"
+  },
+  {
+    "id": 232,
+    "grade": "5-6",
+    "question": "What is the value of 5^3 - 4^3?",
+    "options": ["41", "51", "61", "71", "81"],
+    "answer": "61"
+  },
+  {
+    "id": 233,
+    "grade": "5-6",
+    "question": "A bag contains 3 red, 5 blue, and 7 green marbles. If I pick one marble at random, what is the probability it is green?",
+    "options": ["1/5", "1/3", "7/15", "1/2", "3/5"],
+    "answer": "7/15"
+  },
+  {
+    "id": 234,
+    "grade": "5-6",
+    "question": "If I start a task at 1:45 PM and finish it at 5:20 PM, how long did it take?",
+    "options": ["3 hours 15 minutes", "3 hours 35 minutes", "3 hours 45 minutes", "4 hours", "4 hours 15 minutes"],
+    "answer": "3 hours 35 minutes"
+  },
+  {
+    "id": 235,
+    "grade": "5-6",
+    "question": "A square has the same area as a triangle with base 20 cm and height 10 cm. What is the perimeter of the square?",
+    "options": ["30 cm", "36 cm", "40 cm", "45 cm", "50 cm"],
+    "answer": "40 cm"
+  },
+  {
+    "id": 236,
+    "grade": "5-6",
+    "question": "Which number is exactly halfway between 1.25 and 2.75?",
+    "options": ["1.75", "2.0", "2.25", "2.5", "1.5"],
+    "answer": "2.0"
+  },
+  {
+    "id": 237,
+    "grade": "5-6",
+    "question": "If a score is 20, and a gross is 144, how many items are in 2 grosses and 3 scores?",
+    "options": ["300", "328", "348", "368", "388"],
+    "answer": "348"
+  },
+  {
+    "id": 238,
+    "grade": "5-6",
+    "question": "A triangle has angles in the ratio 1:1:2. What kind of triangle is it?",
+    "options": ["Equilateral", "Isosceles", "Scalene", "Right-angled Isosceles", "Obtuse"],
+    "answer": "Right-angled Isosceles"
+  },
+  {
+    "id": 239,
+    "grade": "5-6",
+    "question": "How many seconds are in 3 hours?",
+    "options": ["3600", "7200", "10800", "14400", "18000"],
+    "answer": "10800"
+  },
+  {
+    "id": 240,
+    "grade": "5-6",
+    "question": "If a number is divided by 12, the result is 8 with a remainder of 5. What was the number?",
+    "options": ["96", "99", "101", "105", "110"],
+    "answer": "101"
+  }
+]
