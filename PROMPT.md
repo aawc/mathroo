@@ -55,6 +55,10 @@ Generate a complete, functional static website for students to practice Math Kan
 9.  **Analytics**:
     - Include Cloudflare Web Analytics snippet in the `<head>` for tracking usage.
 
+10. **History**:
+    - Store past attempts (date, grade, score, time, seed) in `localStorage`.
+    - Provide a view to list past attempts and reload them.
+
 ## Design & Styling
 - Use Bootstrap 5 utility classes and components for styling.
 - Rely on Bootstrap's grid system for layout.
