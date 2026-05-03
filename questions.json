@@ -1396,7 +1396,8 @@
       "72 sq cm",
       "81 sq cm"
     ],
-    "answer": "63 sq cm"
+    "answer": "63 sq cm",
+    "explanation": "Area of a rectangle is length times width. So, 9 times 7 is 63."
   },
   {
     "id": 102,
@@ -1409,7 +1410,8 @@
       "2 hours",
       "2 hours 15 minutes"
     ],
-    "answer": "1 hour 45 minutes"
+    "answer": "1 hour 45 minutes",
+    "explanation": "From 1:45 PM to 2:45 PM is 1 hour. From 2:45 PM to 3:30 PM is 45 minutes. Total is 1 hour 45 minutes."
   },
   {
     "id": 103,
@@ -1422,7 +1424,8 @@
       "16",
       "18"
     ],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "Work backwards: 10 times 2 is 20. Then subtract 8 from 20 to get 12."
   },
   {
     "id": 104,
@@ -1435,7 +1438,8 @@
       "7",
       "8"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "50 divided by 10 is 5."
   },
   {
     "id": 105,
@@ -1448,7 +1452,8 @@
       "17",
       "18"
     ],
-    "answer": "16"
+    "answer": "16",
+    "explanation": "The difference between numbers increases by 1 each time: +1, +2, +3, +4. The next difference is +5, so 11 + 5 = 16."
   },
   {
     "id": 106,
@@ -1461,7 +1466,8 @@
       "Right-angled",
       "Obtuse"
     ],
-    "answer": "Equilateral"
+    "answer": "Equilateral",
+    "explanation": "A triangle with all sides the same length is called an equilateral triangle."
   },
   {
     "id": 107,
@@ -1474,7 +1480,8 @@
       "$4.25",
       "$4.50"
     ],
-    "answer": "$4.00"
+    "answer": "$4.00",
+    "explanation": "One pencil costs $2.50 divided by 5, which is $0.50. So 8 pencils cost 8 times $0.50, which is $4.00."
   },
   {
     "id": 108,
@@ -1487,7 +1494,8 @@
       "11",
       "12"
     ],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "250 divided by 25 is 10."
   },
   {
     "id": 109,
@@ -1500,7 +1508,8 @@
       "Hexagon",
       "Octagon"
     ],
-    "answer": "Octagon"
+    "answer": "Octagon",
+    "explanation": "An octagon is a shape with 8 sides."
   },
   {
     "id": 110,
@@ -1513,7 +1522,8 @@
       "500",
       "540"
     ],
-    "answer": "450"
+    "answer": "450",
+    "explanation": "A full rotation is 360 degrees. A quarter rotation is 360 / 4 = 90 degrees. 360 + 90 = 450."
   },
   {
     "id": 111,
@@ -1526,7 +1536,8 @@
       "7",
       "8"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "35 divided by 7 is 5."
   },
   {
     "id": 112,
@@ -1539,7 +1550,8 @@
       "40",
       "45"
     ],
-    "answer": "35"
+    "answer": "35",
+    "explanation": "First, add the numbers in the brackets: 3 + 2 = 5. Then multiply 7 by 5 to get 35."
   },
   {
     "id": 113,
@@ -1552,7 +1564,8 @@
       "1/5",
       "1/6"
     ],
-    "answer": "1/3"
+    "answer": "1/3",
+    "explanation": "Total marbles is 4 + 6 + 2 = 12. Red marbles are 4. 4 out of 12 is 1/3."
   },
   {
     "id": 114,
@@ -1565,7 +1578,8 @@
       "3:15 PM",
       "3:30 PM"
     ],
-    "answer": "2:45 PM"
+    "answer": "2:45 PM",
+    "explanation": "1 hour after 1:30 PM is 2:30 PM. 15 more minutes makes it 2:45 PM."
   },
   {
     "id": 115,
@@ -1578,7 +1592,8 @@
       "40 cm",
       "45 cm"
     ],
-    "answer": "36 cm"
+    "answer": "36 cm",
+    "explanation": "A square has 4 sides. 4 times 9 is 36."
   },
   {
     "id": 116,
@@ -1591,7 +1606,8 @@
       "46",
       "48"
     ],
-    "answer": "45"
+    "answer": "45",
+    "explanation": "The number in the middle of 40 and 50 is 45."
   },
   {
     "id": 117,
@@ -1604,7 +1620,8 @@
       "220",
       "250"
     ],
-    "answer": "200"
+    "answer": "200",
+    "explanation": "One score is 20, so 10 scores is 10 times 20, which is 200."
   },
   {
     "id": 118,
@@ -1617,7 +1634,8 @@
       "26 cm",
       "28 cm"
     ],
-    "answer": "24 cm"
+    "answer": "24 cm",
+    "explanation": "Perimeter is the sum of all sides: 6 + 8 + 10 = 24 cm."
   },
   {
     "id": 119,
@@ -1630,7 +1648,8 @@
       "130",
       "140"
     ],
-    "answer": "120"
+    "answer": "120",
+    "explanation": "There are 24 hours in one day. 5 days times 24 hours per day is 120 hours."
   },
   {
     "id": 120,
@@ -1643,7 +1662,8 @@
       "30",
       "32"
     ],
-    "answer": "28"
+    "answer": "28",
+    "explanation": "4 times 7 is 28."
   },
   {
     "id": 121,
@@ -1656,7 +1676,8 @@
       "60 sq cm",
       "65 sq cm"
     ],
-    "answer": "55 sq cm"
+    "answer": "55 sq cm",
+    "explanation": "Area is length times width: 11 times 5 is 55."
   },
   {
     "id": 122,
@@ -1669,7 +1690,8 @@
       "9:00 PM",
       "9:15 PM"
     ],
-    "answer": "8:30 PM"
+    "answer": "8:30 PM",
+    "explanation": "2 hours after 6:15 PM is 8:15 PM. 15 more minutes makes it 8:30 PM."
   },
   {
     "id": 123,
@@ -1682,7 +1704,8 @@
       "30",
       "35"
     ],
-    "answer": "25"
+    "answer": "25",
+    "explanation": "Work backwards: 5 times 3 is 15. Then add 10 to 15 to get 25."
   },
   {
     "id": 124,
@@ -1695,7 +1718,8 @@
       "7",
       "8"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "60 divided by 12 is 5."
   },
   {
     "id": 125,
@@ -1708,7 +1732,8 @@
       "36",
       "40"
     ],
-    "answer": "32"
+    "answer": "32",
+    "explanation": "Each number is double the one before it. 16 times 2 is 32."
   },
   {
     "id": 126,
@@ -1721,7 +1746,8 @@
       "Right-angled",
       "Obtuse"
     ],
-    "answer": "Equilateral"
+    "answer": "Equilateral",
+    "explanation": "A triangle with all sides equal is called an equilateral triangle."
   },
   {
     "id": 127,
@@ -1734,7 +1760,8 @@
       "$3.30",
       "$3.50"
     ],
-    "answer": "$3.00"
+    "answer": "$3.00",
+    "explanation": "One pencil costs $0.90 divided by 3, which is $0.30. So 10 pencils cost 10 times $0.30, which is $3.00."
   },
   {
     "id": 128,
@@ -1747,7 +1774,8 @@
       "11",
       "12"
     ],
-    "answer": "10"
+    "answer": "10",
+    "explanation": "300 divided by 30 is 10."
   },
   {
     "id": 129,
@@ -1760,7 +1788,8 @@
       "Hexagon",
       "Heptagon"
     ],
-    "answer": "Heptagon"
+    "answer": "Heptagon",
+    "explanation": "A heptagon is a shape with 7 sides."
   },
   {
     "id": 130,
@@ -1773,7 +1802,8 @@
       "600",
       "630"
     ],
-    "answer": "540"
+    "answer": "540",
+    "explanation": "A full rotation is 360 degrees. A half rotation is 180 degrees. 360 + 180 = 540."
   },
   {
     "id": 131,
@@ -1786,7 +1816,8 @@
       "7",
       "8"
     ],
-    "answer": "5"
+    "answer": "5",
+    "explanation": "40 divided by 8 is 5."
   },
   {
     "id": 132,
@@ -1799,7 +1830,8 @@
       "28",
       "32"
     ],
-    "answer": "24"
+    "answer": "24",
+    "explanation": "First, 4 minus 1 is 3. Then multiply 8 by 3 to get 24."
   },
   {
     "id": 133,
@@ -1812,7 +1844,8 @@
       "1/5",
       "2/5"
     ],
-    "answer": "1/2"
+    "answer": "1/2",
+    "explanation": "Total marbles is 2 + 3 + 5 = 10. Green marbles are 5. 5 out of 10 is 1/2."
   },
   {
     "id": 134,
@@ -1825,7 +1858,8 @@
       "12:30 PM",
       "12:45 PM"
     ],
-    "answer": "12:15 PM"
+    "answer": "12:15 PM",
+    "explanation": "1 hour after 10:45 AM is 11:45 AM. 15 minutes more takes us to 12:00 PM, and another 15 minutes makes it 12:15 PM."
   },
   {
     "id": 135,
@@ -1838,7 +1872,8 @@
       "45 cm",
       "50 cm"
     ],
-    "answer": "40 cm"
+    "answer": "40 cm",
+    "explanation": "A square with an area of 100 has sides of 10 cm (since 10x10=100). The perimeter is 4 times the side length: 4 x 10 = 40 cm."
   },
   {
     "id": 136,
@@ -1851,7 +1886,8 @@
       "56",
       "58"
     ],
-    "answer": "55"
+    "answer": "55",
+    "explanation": "The middle of 50 and 60 is 55."
   },
   {
     "id": 137,
@@ -1864,7 +1900,8 @@
       "500",
       "600"
     ],
-    "answer": "400"
+    "answer": "400",
+    "explanation": "One score is 20, so 20 scores is 20 times 20, which is 400."
   },
   {
     "id": 138,
@@ -1877,7 +1914,8 @@
       "58 cm",
       "60 cm"
     ],
-    "answer": "56 cm"
+    "answer": "56 cm",
+    "explanation": "Perimeter is the sum of all sides: 7 + 24 + 25 = 56 cm."
   },
   {
     "id": 139,
@@ -1890,7 +1928,8 @@
       "156",
       "168"
     ],
-    "answer": "144"
+    "answer": "144",
+    "explanation": "One day has 24 hours. 6 days times 24 hours per day is 144 hours."
   },
   {
     "id": 140,
@@ -1903,7 +1942,8 @@
       "50",
       "55"
     ],
-    "answer": "40"
+    "answer": "40",
+    "explanation": "5 times 8 is 40."
   },
   {
     "id": 141,
@@ -1916,7 +1956,8 @@
       "48 sq cm",
       "64 sq cm"
     ],
-    "answer": "16 sq cm"
+    "answer": "16 sq cm",
+    "explanation": "A cube with volume 64 has sides of 4 cm (since 4x4x4=64). Each face is a square with side 4 cm, so the area of one face is 4x4=16 sq cm."
   },
   {
     "id": 142,
@@ -1929,7 +1970,8 @@
       "140 km",
       "150 km"
     ],
-    "answer": "135 km"
+    "answer": "135 km",
+    "explanation": "In 2 hours it travels 2 x 60 = 120 km. In 15 minutes (which is a quarter of an hour), it travels 60 / 4 = 15 km. Total is 120 + 15 = 135 km."
   },
   {
     "id": 143,
@@ -1942,7 +1984,8 @@
       "10",
       "11"
     ],
-    "answer": "9"
+    "answer": "9",
+    "explanation": "Work backwards: 10 times 2 is 20. Add 7 to get 27. Divide 27 by 3 to get 9."
   },
   {
     "id": 144,
@@ -1955,7 +1998,8 @@
       "14",
       "16"
     ],
-    "answer": "12"
+    "answer": "12",
+    "explanation": "48 chocolates divided by 4 children is 12 chocolates each."
   },
   {
     "id": 145,
@@ -1968,7 +2012,8 @@
       "35",
       "40"
     ],
-    "answer": "31"
+    "answer": "31",
+    "explanation": "The difference between numbers doubles each time: +2, +4, +8. The next difference is +16, so 15 + 16 = 31."
   },
   {
     "id": 146,
@@ -1981,7 +2026,8 @@
       "65 sq cm",
       "70 sq cm"
     ],
-    "answer": "30 sq cm"
+    "answer": "30 sq cm",
+    "explanation": "This is a right-angled triangle where the sides 5 and 12 are the base and height. Area is (5 x 12) divided by 2, which is 30."
   },
   {
     "id": 147,
@@ -1994,7 +2040,8 @@
       "9 hours",
       "12 hours"
     ],
-    "answer": "9 hours"
+    "answer": "9 hours",
+    "explanation": "3 workers take 6 hours, so it takes a total of 18 worker-hours (3x6). 2 workers will take 18 / 2 = 9 hours."
   },
   {
     "id": 148,
@@ -2007,7 +2054,8 @@
       "190",
       "195"
     ],
-    "answer": "180"
+    "answer": "180",
+    "explanation": "10% of 200 is 20. So, 200 - 20 = 180 pages are left."
   },
   {
     "id": 149,
@@ -2020,7 +2068,8 @@
       "23",
       "27"
     ],
-    "answer": "23"
+    "answer": "23",
+    "explanation": "A prime number can only be divided by 1 and itself. 23 is the only such number in the list."
   },
   {
     "id": 150,
@@ -2033,7 +2082,8 @@
       "80%",
       "90%"
     ],
-    "answer": "70%"
+    "answer": "70%",
+    "explanation": "The total probability is 100%. So, 100% - 30% = 70%."
   },
   {
     "id": 151,
